@@ -1,0 +1,11 @@
+/*Background
+body
+{
+    background:
+    url('../Img/background/filigrane.jpg')  no-repeat;
+    color:whitesmoke;
+    margin: 0;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
