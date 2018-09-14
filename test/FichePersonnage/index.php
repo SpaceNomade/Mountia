@@ -1,3 +1,8 @@
+<?php
+  session_start();
+  $_SESSION['nomPersonnage'] = $_POST['nomPersonnage'];
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -8,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Mountia</title>
+    <title>Perso Mountia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -74,11 +79,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <form action="perso.php">
+                        <form  method="post" action="perso.php">
                             liste deroulante avec choix des Personnage
                             (Quand l'user choisi son personnage une page ce crée avec les stats du perso sur une seul
                             page grace a une boucle en php et grace a un echo qui integre les donné dans la page
                             nouvelle page)
+                            <div class="form-group">
+                                <label for="FormControlSelectPlayer">Choisisez votre ame</label>
+                                <select class="form-control" id="FormControlSelectPlayer" name="nomPersonnage">
+                                    <option value="orochi">Orochi / l'Exilé</option>
+                                    <option value="rackham">Rackham / Pourfendeur de vent</option>
+                                    <option value="barfero">Barfero / Astronome Erudit</option>
+                                    <option value="xanther">Xanther / Eventreur de l'ombre</option>
+                                    <option value="exyu">Exyu / le lutin de l'echec</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Possédé</button>
                         </form>
                     </div>
                 </div>
@@ -97,12 +113,12 @@
     <!-- Custom scripts for this template -->
     <script src="../js/creative.min.js"></script>
     <script>
-   document.querySelector('main').style.display = 'none';
-   document.getElementById('load').classList.add('spinner')
+        document.querySelector('main').style.display = 'none';
+        document.getElementById('load').classList.add('spinner')
 
-   setTimeout(() => {
-     document.getElementById('load').classList.remove('spinner')
-     document.querySelector('main').style.display = 'block';
-   }, 2000);
- </script>
+        setTimeout(() => {
+            document.getElementById('load').classList.remove('spinner')
+            document.querySelector('main').style.display = 'block';
+        }, 2000);
+    </script>
 </body>
