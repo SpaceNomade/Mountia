@@ -409,6 +409,37 @@
         document.querySelector('main').style.display = 'block';
       }, 2000);
     </script> -->
+
+  <script src="https://rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js"></script>
+  <script>
+    // Création d'un HTMLScriptElement.
+    var script = document.createElement("script"),
+      // Référence sur le HTMLBodyElement.
+      body = document.getElementsByTagName("body")[0],
+      // Création d'un interrupteur activé/désactivé.
+      toggle = false;
+    // Notre script sera de type JavaScript
+    script.type = "text/javascript";
+    // Ce code s'exécutera quand la `src`
+    // de notre HTMLScriptElement sera rempli
+    // et quand le HTMLScriptElement sera injecté dans le DOM.
+    script.addEventListener("load", function () {
+      // Création d'un écouteur de Konami Code.
+      new KonamiCode(function () {
+        // Surprise ou retour à la normal.
+        if (toggle) {
+          toggle = false;
+          body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(0deg)";
+        } else {
+          toggle = true;
+          body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(180deg)";
+        }
+      });
+    });
+    // Attribution d'un fichier et injection de HTMLScriptElement dans le DOM.
+    script.src = "https://cdn.rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js";
+    body.appendChild(script);
+  </script>
 </body>
 
 </html>
