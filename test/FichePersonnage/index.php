@@ -1,6 +1,6 @@
 <?php
-  session_start();
-  $_SESSION['nomPersonnage'] = $_POST['nomPersonnage'];
+    session_start();
+    $_SESSION['nomPersonnage'] = $_POST['nomPersonnage']; 
 ?>
 
 <!DOCTYPE html>
