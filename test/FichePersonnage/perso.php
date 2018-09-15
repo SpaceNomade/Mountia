@@ -36,17 +36,17 @@
         odio explicabo et, magni nobis magnam nisi ad impedit quis odit consequatur quidem repudiandae ut? Asperiores.
     </p>
     <?php
-    $nomPersonnage = $_POST['nomPersonnage'];
+    $nomPersonnage = $_SESSION['nomPersonnage'];
      if ($nomPersonnage == orochi) {
-    $verdict = "<script type=\"text/javascript\"> alert('Votre perso est ' + nomPersonnage);</script>";
+    $verdict = "<script> console.log('Perso Orochi');</script>";
 } elseif ($nomPersonnage == rackham){
-    $verdict =  "<script type=\"text/javascript\"> alert('Votre perso est ' + nomPersonnage);</script>";
+    $verdict = "<script> console.log('Perso Rackham');</script>";
 } elseif ($nomPersonnage == barfero) {
-    $verdict =  "<script type=\"text/javascript\"> alert('Votre perso est ' + nomPersonnage);</script>";
+    $verdict = "<script> console.log('Perso Barfero');</script>";
 } elseif ($nomPersonnage == xanther) {
-    $verdict =  "<script type=\"text/javascript\"> alert('Votre perso est ' + nomPersonnage);</script>";
+    $verdict = "<script> console.log('Perso Xanther');</script>";
 } elseif ($nomPersonnage == exyu) {
-    $verdict =  "<script type=\"text/javascript\"> alert('Votre perso est ' + nomPersonnage);</script>";
+    $verdict = "<script> console.log('Perso Exyu');</script>";
 }
     // } else {
 //     $verdict =  "Votre personnage est introuvable";
