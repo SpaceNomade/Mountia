@@ -1,8 +1,3 @@
-<?php
-    session_start();
-    $_SESSION['nomPersonnage'] = $_POST['nomPersonnage']; 
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -79,7 +74,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <form  method="post" action="perso.php">
+                        <form method="POST" action="perso.php">
                             liste deroulante avec choix des Personnage
                             (Quand l'user choisi son personnage une page ce crée avec les stats du perso sur une seul
                             page grace a une boucle en php et grace a un echo qui integre les donné dans la page
@@ -94,7 +89,7 @@
                                     <option value="exyu">Exyu / le lutin de l'echec</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Possédé</button>
+                            <button type="submit" class="btn btn-primary">Invoquer l'ame</button>
                         </form>
                     </div>
                 </div>
@@ -122,3 +117,5 @@
         }, 2000);
     </script>
 </body>
+
+</html>

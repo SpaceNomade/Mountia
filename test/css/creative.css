@@ -32,7 +32,8 @@ html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  color: grey;
+  color: black;
+  cursor: url("../img/curseur/sword.png"),default;
 }
 
 hr {
