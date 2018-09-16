@@ -41,8 +41,8 @@
        $douleur = ""; 
 
        $pdv = "";
-       $pdm = "";
        $pds = "";
+       $pdm = "";
 
    } elseif ($nomPersonnage == "orochiDragon"){
        $nomInvocateur = "Orochi";
@@ -87,8 +87,8 @@
        $douleur = ""; 
 
        $pdv = "";
-       $pdm = "";
        $pds = "";
+       $pdm = "";
    
    } elseif ($nomPersonnage == "rackham"){
        $nomInvocateur = "Rackham";
@@ -115,7 +115,7 @@
        $charisme = 7;
        $force = 12+1;
        $endurance = 9;
-       $dextérité = 9+5;
+       $dexterité = 9+5;
        $agilité = 8+1;
        $intelligence = 7+4;
        $sagesse = 4;
@@ -132,8 +132,8 @@
        $douleur = 7;
 
        $pdv = "";
-       $pdm = "";
        $pds = "";
+       $pdm = "";
 
    } elseif ($nomPersonnage == "barfero") {
        $nomInvocateur = "Barfero";
@@ -178,8 +178,8 @@
        $douleur = 7;
 
        $pdv = 6;
-       $pdm = 0;
-       $pds = 55;
+       $pds = 0;
+       $pdm = 55;
 
    } elseif ($nomPersonnage == "barferoPossedé") {
        $nomInvocateur = "Barfero";
@@ -224,13 +224,16 @@
        $douleur = 7;
 
        $pdv = 6;
-       $pdm = 0;
-       $pds = 55;
+       $pds = 0;
+       $pdm = 55;
+       
 
    } elseif ($nomPersonnage == "xanther") {
+       $nomInvocateur = "Xanther";
        $verdict = "<script> console.log('Perso Xanther');
            confirm('Xanther est invoquer');</script>";
        $messageAme = "L'âme de votre guerrier est invoquée";
+       $statutMental = "Normal";
 
        $florinOr = 61;
        $florinArgent = 8;
@@ -248,7 +251,7 @@
        $poids = "";
        $taille = "";
 
-       $chance = 8+4;
+       $charisme = 8+4;
        $force = 8+2;
        $endurance = 6+2;
        $dexterité = 8+4;
@@ -268,8 +271,8 @@
        $douleur = 7;
 
        $pdv = 18+2;
-       $pdm = 20;
        $pds = 13+4;
+       $pdm = 20;
 
    } elseif ($nomPersonnage == "exyu") {
        $nomInvocateur = "Exyu";
@@ -294,7 +297,7 @@
        $poids = "";
        $taille = "";
 
-       $chance = 9+2;
+       $charisme = 9+2;
        $force = 7;
        $endurance = 7+4;
        $dexterité = 7;
@@ -314,8 +317,8 @@
        $douleur = 7+4;
 
        $pdv = 18;
-       $pdm = 33+3;
        $pds = 16+2;
+       $pdm = 33+3;
 
    } elseif ($nomPersonnage == "exyuGargouille") {
        $nomInvocateur = "Exyu";
@@ -340,7 +343,7 @@
        $poids = "";
        $taille = "";
 
-       $chance = 11;
+       $charisme = 11;
        $force = 7;
        $endurance = 11+6;
        $dexterité = 7;
@@ -360,8 +363,8 @@
        $douleur = 20;
 
        $pdv = 18;
-       $pdm = 36-12;
        $pds = 18;
+       $pdm = 36-12;
 
    } else {
    $verdict = "<script> console.log('Perso inconnu');

@@ -94,10 +94,11 @@
                                 <p>
                                     Point de vie :
                                     <?php echo $pdv;?><i class="em em-heart"></i><br>
-                                    Point de mana :
-                                    <?php echo $pdm;?><i class="em em-blue_heart"></i><br>
                                     Point Special :
-                                    <?php echo $pds;?><i class="em em-green_heart"></i>
+                                    <?php echo $pds;?><i class="em em-green_heart"></i><br>
+                                    Point de mana :
+                                    <?php echo $pdm;?><i class="em em-blue_heart"></i>
+                                    
                                 </p>
                             </div>
                             <div class="col-md-6">
