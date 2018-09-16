@@ -4,12 +4,48 @@
      if ($nomPersonnage == "orochi") {
     $verdict = "<script> console.log('Perso Orochi');
     confirm('Orochi est invoquer');</script>";
-} elseif ($nomPersonnage == "rackham"){
+    } elseif ($nomPersonnage == "rackham"){
     $verdict = "<script> console.log('Perso Rackham');
         confirm('Rackham est invoquer');</script>";
-} elseif ($nomPersonnage == "barfero") {
+    } elseif ($nomPersonnage == "barfero") {
     $verdict = "<script> console.log('Perso Barfero');
         confirm('Barfero est invoquer');</script>";
+
+    $florinOr = 19+46;
+    $florinArgent = 8+8;
+    $florinCuivre = "0";
+
+    $race = "Lunaréen";
+    $metier1 = "Alchimiste";
+    $metier2 = "NC";
+    $alignement = "Chaotique / Bon";
+    $couleur = "Bleu / Gris";
+    $niveau = "2";
+    $experience = "4 Xp";
+    $age = "810";
+    $sexe = "M";
+    $poids = "28 KG";
+    $taille = "1,95 M";
+
+    $charisme = "9";
+    $force = "5";
+    $endurance = "5";
+    $dexterité = "7 (Irregularité)";
+    $agilité = "5";
+    $intelligence = "8";
+    $sagesse = "10";
+    $potentiel = "15";
+    $initiative = "8";
+    $chance = "5";
+    $froid = "7";
+    $chaleur = "7";
+    $maladie = "11";
+    $boisson = "7";
+    $charme = "7";
+    $peur = "7";
+    $sommeil = "7";
+    $douleur = "7";
+
 } elseif ($nomPersonnage == "xanther") {
     $verdict = "<script> console.log('Perso Xanther');
         confirm('Xanther est invoquer');</script>";
@@ -95,7 +131,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        
+                        <p>
+                            Florin d'or :
+                            <?php echo $florinOr;?><br>
+                            Florin d'argent :
+                            <?php echo $florinArgent?><br>
+                            Florin de cuivre :
+                            <?php echo $florinCuivre;?>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <p>
+                                    Charisme :<?php echo $charisme;?><br>
+                                    Force :<?php echo $force;?><br>
+                                    Endurance :<?php echo $endurance;?><br>
+                                    Dexterité :<?php echo $dexterité;?><br>
+                                    Agilité :<?php echo $agilité;?><br>
+                                    Intelligence :<?php echo $agilité;?>
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <p>
+                                    Sagesse :<?php echo $sagesse;?> <br>
+                                    Potentiel :<?php echo $potentiel;?><br>
+                                    Initiative : <?php echo $initiative;?><br>
+                                    Chance : <?php echo $chance;?><br>
+                                    Froid : <?php echo $froid;?><br>
+                                    Chaleur : <?php echo $chaleur;?><br>
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <p>
+                                    Maladie : <?php echo $maladie;?> <br>
+                                    Boisson : <?php echo $boisson;?><br>
+                                    Charme : <?php echo $charme;?><br>
+                                    Peur : <?php echo $peur;?><br>
+                                    Sommeil : <?php echo $sommeil?><br>
+                                    Douleur : <?php echo $douleur;?>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,4 +200,5 @@
         }, 2000);
     </script>
 </body>
+
 </html>
