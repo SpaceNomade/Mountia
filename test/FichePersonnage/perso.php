@@ -1,107 +1,12 @@
 <?php
+
+    // Recuperation du choix de personnage avec methode $_POST
     $nomPersonnage = isset($_POST['nomPersonnage']) ? $_POST['nomPersonnage'] : NULL;
-
-     if ($nomPersonnage == "orochi") {
-    $verdict = "<script> console.log('Perso Orochi');
-    confirm('Orochi est invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier est invoquée";
-
-    } elseif ($nomPersonnage == "rackham"){
-    $verdict = "<script> console.log('Perso Rackham');
-    confirm('Rackham est invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier est invoquée";
     
-    $florinOr = "74";
-    $florinArgent = "7";
-    $florinCuivre = "2";
-
-    $race = "Rédioras";
-    $metier1 = "Mercenaire";
-    $metier2 = "NC";
-    $alignement = "Neutre";
-    $couleur = "Violette";
-    $niveau = "2";
-    $experience = "4 Xp";
-    $age = "24";
-    $sexe = "M";
-    $poids = "220 KG";
-    $taille = "2,40 M";
-
-    $Charisme = "7";
-    $Force = 12+1;
-    $Endurance = "9";
-    $Dextérité = 9+5;
-    $Agilité = 8+1;
-    $Intelligence = 7+4;
-    $Sagesse = "4";
-    $Potentiel = "5";
-    $Initiative = 7+2;
-    $Chance = "5";
-    $Froid = "7";
-    $Chaleur = "7";
-    $Maladie = "7";
-    $Boisson = "7";
-    $Charme = "7";
-    $Peur = "7";
-    $Sommeil = "7";
-    $Douleur = "7";
-
-    } elseif ($nomPersonnage == "barfero") {
-    $verdict = "<script> console.log('Perso Barfero');
-    confirm('Barfero est invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier est invoquée";
-
-    $florinOr = 19+46;
-    $florinArgent = 8+8;
-    $florinCuivre = "0";
-
-    $race = "Lunaréen";
-    $metier1 = "Alchimiste";
-    $metier2 = "NC";
-    $alignement = "Chaotique / Bon";
-    $couleur = "Bleu / Gris";
-    $niveau = "2";
-    $experience = "4 Xp";
-    $age = "810";
-    $sexe = "M";
-    $poids = "28 KG";
-    $taille = "1,95 M";
-
-    $charisme = "9";
-    $force = "5";
-    $endurance = "5";
-    $dexterité = "7 (Irregularité)";
-    $agilité = "5";
-    $intelligence = "8";
-    $sagesse = "10";
-    $potentiel = "15";
-    $initiative = "8";
-    $chance = "5";
-    $froid = "7";
-    $chaleur = "7";
-    $maladie = "11";
-    $boisson = "7";
-    $charme = "7";
-    $peur = "7";
-    $sommeil = "7";
-    $douleur = "7";
-
-    } elseif ($nomPersonnage == "xanther") {
-    $verdict = "<script> console.log('Perso Xanther');
-    confirm('Xanther est invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier est invoquée";
-
-    } elseif ($nomPersonnage == "exyu") {
-    $verdict = "<script> console.log('Perso Exyu');
-    confirm('Exyu est invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier est invoquée";
-
-    } else {
-    $verdict = "<script> console.log('Perso inconnu');
-    confirm('Vous etes inconnu personne ne peux vous invoquer');</script>";
-    $messageAme = "L'âme de votre guerrier ne peux pas etre invoquée";
-
-    }
+    // Importation du fichier qui contient les stats des personnage
+    include('statistiquePersonnageAll.php');
+    
+    // Affichage d'une pop up alert pour confirmer la selection du perso
     echo $verdict;
 
 ?>
@@ -118,6 +23,9 @@
     <!-- Custom fonts by FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+
+    <!-- Custom foonts for emoji -->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
     <!-- Custom fonts by Google -->
     <link href="https://fonts.googleapis.com/css?family=Cookie|Courgette|Dancing+Script|Great+Vibes|Kalam|Kaushan+Script|Marck+Script|Merienda|Merriweather|Pacifico|Satisfy"
@@ -164,12 +72,13 @@
                     <div class="col-lg-10 mx-auto">
                         <h1 class="text-uppercase">
                             <strong>
-                                <?php echo $nomPersonnage; ?></strong>
+                                <?php echo $nomInvocateur; ?></strong>
                         </h1>
                         <hr>
                     </div>
                     <div class="col-lg-8 mx-auto">
-                        <p class="text-faded mb-5" id="st"><?php echo $messageAme;?>.</p>
+                        <p class="text-faded mb-5" id="st">
+                            <?php echo $messageAme;?>.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Statistique">Suite</a>
                     </div>
                 </div>
@@ -180,46 +89,82 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <p>
-                            Florin d'or :
-                            <?php echo $florinOr;?><br>
-                            Florin d'argent :
-                            <?php echo $florinArgent?><br>
-                            Florin de cuivre :
-                            <?php echo $florinCuivre;?>
-                        </p>
                         <div class="row">
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-6">
                                 <p>
-                                    Charisme :<?php echo $charisme;?><br>
-                                    Force :<?php echo $force;?><br>
-                                    Endurance :<?php echo $endurance;?><br>
-                                    Dexterité :<?php echo $dexterité;?><br>
-                                    Agilité :<?php echo $agilité;?><br>
-                                    Intelligence :<?php echo $agilité;?>
+                                    Point de vie :
+                                    <?php echo $pdv;?><i class="em em-heart"></i><br>
+                                    Point de mana :
+                                    <?php echo $pdm;?><i class="em em-blue_heart"></i><br>
+                                    Point Special :
+                                    <?php echo $pds;?><i class="em em-green_heart"></i>
                                 </p>
                             </div>
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-6">
                                 <p>
-                                    Sagesse :<?php echo $sagesse;?> <br>
-                                    Potentiel :<?php echo $potentiel;?><br>
-                                    Initiative : <?php echo $initiative;?><br>
-                                    Chance : <?php echo $chance;?><br>
-                                    Froid : <?php echo $froid;?><br>
-                                    Chaleur : <?php echo $chaleur;?><br>
+                                    Florin d'or :
+                                    <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
+                                    Florin d'argent :
+                                    <?php echo $florinArgent?> <i class="fas fa-coins" style="color:#CECECE"></i><br>
+                                    Florin de cuivre :
+                                    <?php echo $florinCuivre;?> <i class="fas fa-coins" style="color:#B36700"></i>
                                 </p>
                             </div>
-                            <div class="col-md-4 text-center">
+                            <hr class="my-4">
+
+                        </div>
+                        <br>
+                        <div class="row text-center">
+                            <div class="col-md-4">
                                 <p>
-                                    Maladie : <?php echo $maladie;?> <br>
-                                    Boisson : <?php echo $boisson;?><br>
-                                    Charme : <?php echo $charme;?><br>
-                                    Peur : <?php echo $peur;?><br>
-                                    Sommeil : <?php echo $sommeil?><br>
-                                    Douleur : <?php echo $douleur;?>
+                                    Charisme :
+                                    <?php echo $charisme;?><br>
+                                    Force :
+                                    <?php echo $force;?> <i class="em em-muscle"></i><br>
+                                    Endurance :
+                                    <?php echo $endurance;?><br>
+                                    Dexterité :
+                                    <?php echo $dexterité;?> <i class="em em-open_hands"></i><br>
+                                    Agilité :
+                                    <?php echo $agilité;?><br>
+                                    Intelligence :
+                                    <?php echo $agilité;?>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    Sagesse :
+                                    <?php echo $sagesse;?> <br>
+                                    Potentiel :
+                                    <?php echo $potentiel;?><br>
+                                    Initiative :
+                                    <?php echo $initiative;?><br>
+                                    Chance :
+                                    <?php echo $chance;?> <i class="em em-four_leaf_clover"></i><br>
+                                    Froid :
+                                    <?php echo $froid;?> <i class="em em-snowflake"></i><br>
+                                    Chaleur :
+                                    <?php echo $chaleur;?> <i class="em em-fire"></i><br>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <p>
+                                    Maladie :
+                                    <?php echo $maladie;?> <i class="em em-nauseated_face"></i></i><br>
+                                    Boisson :
+                                    <?php echo $boisson;?> <i class="em em-beer"></i><br>
+                                    Charme :
+                                    <?php echo $charme;?> <i class="em em-kissing_heart"></i><br>
+                                    Peur :
+                                    <?php echo $peur;?> <i class="em em-scream"></i><br>
+                                    Sommeil :
+                                    <?php echo $sommeil?> <i class="em em-sleeping"></i><br>
+                                    Douleur :
+                                    <?php echo $douleur;?> <i class="em em-face_with_head_bandage"></i>
                                 </p>
                             </div>
                         </div>
+                        <p>(*) = Irrégularité</p>
                     </div>
                 </div>
             </div>
