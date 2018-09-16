@@ -4,12 +4,52 @@
      if ($nomPersonnage == "orochi") {
     $verdict = "<script> console.log('Perso Orochi');
     confirm('Orochi est invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier est invoquée";
+
     } elseif ($nomPersonnage == "rackham"){
     $verdict = "<script> console.log('Perso Rackham');
-        confirm('Rackham est invoquer');</script>";
+    confirm('Rackham est invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier est invoquée";
+    
+    $florinOr = "74";
+    $florinArgent = "7";
+    $florinCuivre = "2";
+
+    $race = "Rédioras";
+    $metier1 = "Mercenaire";
+    $metier2 = "NC";
+    $alignement = "Neutre";
+    $couleur = "Violette";
+    $niveau = "2";
+    $experience = "4 Xp";
+    $age = "24";
+    $sexe = "M";
+    $poids = "220 KG";
+    $taille = "2,40 M";
+
+    $Charisme = "7";
+    $Force = 12+1;
+    $Endurance = "9";
+    $Dextérité = 9+5;
+    $Agilité = 8+1;
+    $Intelligence = 7+4;
+    $Sagesse = "4";
+    $Potentiel = "5";
+    $Initiative = 7+2;
+    $Chance = "5";
+    $Froid = "7";
+    $Chaleur = "7";
+    $Maladie = "7";
+    $Boisson = "7";
+    $Charme = "7";
+    $Peur = "7";
+    $Sommeil = "7";
+    $Douleur = "7";
+
     } elseif ($nomPersonnage == "barfero") {
     $verdict = "<script> console.log('Perso Barfero');
-        confirm('Barfero est invoquer');</script>";
+    confirm('Barfero est invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier est invoquée";
 
     $florinOr = 19+46;
     $florinArgent = 8+8;
@@ -46,16 +86,22 @@
     $sommeil = "7";
     $douleur = "7";
 
-} elseif ($nomPersonnage == "xanther") {
+    } elseif ($nomPersonnage == "xanther") {
     $verdict = "<script> console.log('Perso Xanther');
-        confirm('Xanther est invoquer');</script>";
-} elseif ($nomPersonnage == "exyu") {
+    confirm('Xanther est invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier est invoquée";
+
+    } elseif ($nomPersonnage == "exyu") {
     $verdict = "<script> console.log('Perso Exyu');
-        confirm('Exyu est invoquer');</script>";
-}
-    // } else {
-//     $verdict =  "Votre personnage est introuvable";
-// }
+    confirm('Exyu est invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier est invoquée";
+
+    } else {
+    $verdict = "<script> console.log('Perso inconnu');
+    confirm('Vous etes inconnu personne ne peux vous invoquer');</script>";
+    $messageAme = "L'âme de votre guerrier ne peux pas etre invoquée";
+
+    }
     echo $verdict;
 
 ?>
@@ -105,6 +151,9 @@
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:history.go(-1)">Retour</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -120,7 +169,7 @@
                         <hr>
                     </div>
                     <div class="col-lg-8 mx-auto">
-                        <p class="text-faded mb-5" id="st">L'âme de votre guerrier est invoquée.</p>
+                        <p class="text-faded mb-5" id="st"><?php echo $messageAme;?>.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Statistique">Suite</a>
                     </div>
                 </div>

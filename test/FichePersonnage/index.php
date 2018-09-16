@@ -87,6 +87,7 @@
                                     <option value="barfero">Barfero / Astronome Erudit</option>
                                     <option value="xanther">Xanther / Eventreur de l'ombre</option>
                                     <option value="exyu">Exyu / le lutin de l'echec</option>
+                                    <option value="erreur">???</option>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-primary">Invoquer l'ame</button>
