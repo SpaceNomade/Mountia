@@ -10,7 +10,7 @@
     // Importation du fichier qui contient les competences des Personnages
     include('competence.php');
     // Importation du fichier qui contient les equipements des Personnages
-    include('equipement');
+    include('equipement.php');
     // Affichage d'une pop up alert pour confirmer la selection du Personnages
     echo $verdict;
 
@@ -59,13 +59,13 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Statistique">Statistique</a>
+                            <a class="nav-link js-scroll-trigger" href="#Statistique">Statistiques</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#competence">Competence</a>
+                            <a class="nav-link js-scroll-trigger" href="#competence">Compétences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#equipement">Equipement</a>
+                            <a class="nav-link js-scroll-trigger" href="#equipement">Équipements</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#inventairePersonnel">Inventaire</a>
@@ -106,12 +106,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">Statistique</h2>
-                        <p class="mb-5">
-                            Statistique du personnage
-                            <?php echo $nomInvocateur?> !
-                        </p>
-                        <hr class="my-4">
+                        <h2 class="section-heading">Statistiques</h2>
+                        <p class="mb-5">Statistiques du personnage <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
                 <div class="row">
@@ -137,7 +133,6 @@
                         </p>
                     </div>
                 </div>
-                <hr class="my-4">
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <p>
@@ -199,10 +194,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">Competente</h2>
+                        <h2 class="section-heading">Compétences</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Competence du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Compétences du personnage <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
@@ -213,10 +207,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">Equipement</h2>
+                        <h2 class="section-heading">Équipements</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Equipement du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Équipements du personnage <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
@@ -229,8 +222,7 @@
                     <div class="col-lg-8 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Inventaire du personnage <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
@@ -241,9 +233,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">Inventair Collectif</h2>
+                        <h2 class="section-heading">Inventaire Collectif</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire Collectif des aventurier de Utopia !</p>
+                        <p class="mb-5">Inventaire Collectif des aventuriers d'Utopia !</p>
                     </div>
                 </div>
             </div>
