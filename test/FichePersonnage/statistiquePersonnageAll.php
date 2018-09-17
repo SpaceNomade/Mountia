@@ -5,44 +5,50 @@
         confirm('Orochi est invoquer');</script>";
         $messageAme = "L'âme de votre guerrier est invoquée";
         
-        $florinOr = "";
-       $florinArgent = "";
-       $florinCuivre = "";
+       $florinOr = 71;
+       $florinArgent = 8;
+       $florinCuivre = 0;
 
-       $race = "";
-       $metier1 = "";
+       $race = "Drakens";
+       $metier1 = "Forgeron";
        $metier2 = "";
-       $alignement = "";
-       $couleur = "";
-       $niveau = "";
-       $experience = "";
-       $age = "";
-       $sexe = "";
-       $poids = "";
-       $taille = "";
+       $alignement = "Neutre";
+       $couleur = "Gris";
+       $niveau = 2;
+       $experience = 4;
+       $age = 21;
+       $sexe = "M";
+       $poids = 140;
+       $taille = "2,00";
 
-       $charisme = "";
-       $force = "";
-       $endurance = "";
-       $dexterité = "";
-       $agilité = "";
-       $intelligence = "";
-       $sagesse = "";
-       $potentiel = "";
-       $initiative = "";
-       $chance = "";
-       $froid = "";
-       $chaleur = "";
-       $maladie = "";
-       $boisson = "";
-       $charme = "";
-       $peur = "";
-       $sommeil = "";
-       $douleur = ""; 
+       $charisme = 7+2;
+       $force = 9+3;
+       $endurance = 10+2;
+       $dexterité = 8+3;
+       $agilité = 13;
+       $intelligence = 7;
+       $sagesse = 6;
+       $potentiel = 4;
+       $initiative = 7+2;
+       $chance = 7;
+       $froid = 7;
+       $chaleur = 7+4;
+       $maladie = 7;
+       $boisson = 7;
+       $charme = 7;
+       $peur = 7;
+       $sommeil = 7;
+       $douleur = 7+4; 
 
-       $pdv = "";
-       $pds = "";
-       $pdm = "";
+       $pdvBonus = 13;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = -11;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 0;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité est d'une valeur de $agilité";
+
 
    } elseif ($nomPersonnage == "orochiDragon"){
        $nomInvocateur = "Orochi";
@@ -51,49 +57,55 @@
        $messageAme = "L'âme de votre guerrier est invoquée";
        $statutMental = "Transformer";
 
-       $florinOr = "";
-       $florinArgent = "";
-       $florinCuivre = "";
+       $florinOr = 71;
+       $florinArgent = 8;
+       $florinCuivre = 0;
 
-       $race = "";
-       $metier1 = "";
+       $race = "Drakans";
+       $metier1 = "Forgeron";
        $metier2 = "";
-       $alignement = "";
-       $couleur = "";
-       $niveau = "";
-       $experience = "";
-       $age = "";
-       $sexe = "";
-       $poids = "";
-       $taille = "";
+       $alignement = "Neutre";
+       $couleur = "Gris";
+       $niveau = 2;
+       $experience = 4;
+       $age = 21;
+       $sexe = "M";
+       $poids = 210;
+       $taille = "3,00";
 
-       $charisme = "";
-       $force = "";
-       $endurance = "";
-       $dexterité = "";
-       $agilité = "";
-       $intelligence = "";
-       $sagesse = "";
-       $potentiel = "";
-       $initiative = "";
-       $chance = "";
-       $froid = "";
-       $chaleur = "";
-       $maladie = "";
-       $boisson = "";
-       $charme = "";
-       $peur = "";
-       $sommeil = "";
-       $douleur = ""; 
+       $charisme = 9;
+       $force = 12+6;
+       $endurance = 12+6;
+       $dexterité = 11;
+       $agilité = 13;
+       $intelligence = 7;
+       $sagesse = 6;
+       $potentiel = 4;
+       $initiative = 9;
+       $chance = 7;
+       $froid = 7;
+       $chaleur = 11;
+       $maladie = 7;
+       $boisson = 7;
+       $charme = 7;
+       $peur = 7;
+       $sommeil = 7;
+       $douleur = 11; 
 
-       $pdv = "";
-       $pds = "";
-       $pdm = "";
+       $pdvBonus = 13;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = -11;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 0;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité est d'une valeur de $agilité";
+
    
    } elseif ($nomPersonnage == "rackham"){
        $nomInvocateur = "Rackham";
        $verdict = "<script> console.log('Perso Rackham');
-           confirm('Rackham est invoquer');</script>";
+       confirm('Rackham est invoquer');</script>";
        $messageAme = "L'âme de votre guerrier est invoquée";
    
        $florinOr = 74;
@@ -106,11 +118,11 @@
        $alignement = "Neutre";
        $couleur = "Violette";
        $niveau = 2;
-       $experience = "4 Xp";
-       $age = "24";
+       $experience = 4;
+       $age = 24;
        $sexe = "M";
-       $poids = "220 KG";
-       $taille = "2,40 M";
+       $poids = 220;
+       $taille = "2,40";
 
        $charisme = 7;
        $force = 12+1;
@@ -131,9 +143,15 @@
        $sommeil = 7;
        $douleur = 7;
 
-       $pdv = "";
-       $pds = "";
-       $pdm = "";
+       $pdvBonus = 13;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 13;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 0;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et la dexterité.<br>Cette irrégularité est d'une valeur de $dexterité";
+
 
    } elseif ($nomPersonnage == "barfero") {
        $nomInvocateur = "Barfero";
@@ -152,16 +170,16 @@
        $alignement = "Chaotique / Bon";
        $couleur = "Bleu / Gris";
        $niveau = 2;
-       $experience = "4 Xp";
-       $age = "810";
+       $experience = 4;
+       $age = 810;
        $sexe = "M";
-       $poids = "28 KG";
-       $taille = "1,95 M";
+       $poids = 28;
+       $taille = "1,95";
 
        $charisme = 9;
        $force = 5;
        $endurance = 5;
-       $dexterité = "7 (*)";
+       $dexterité = 7;
        $agilité = 5;
        $intelligence = 8;
        $sagesse = 10;
@@ -177,9 +195,14 @@
        $sommeil = 7;
        $douleur = 7;
 
-       $pdv = 6;
-       $pds = 0;
-       $pdm = 55;
+       $pdvBonus = -4;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 0;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 24;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et la dexterité.<br>Cette irrégularité est d'une valeur de $dexterité";
 
    } elseif ($nomPersonnage == "barferoPossedé") {
        $nomInvocateur = "Barfero";
@@ -198,16 +221,16 @@
        $alignement = "Chaotique / Bon";
        $couleur = "Bleu / Gris";
        $niveau = 2;
-       $experience = "4 Xp";
-       $age = "810";
+       $experience = 4;
+       $age = 810;
        $sexe = "M";
-       $poids = "28 KG";
-       $taille = "1,95 M";
+       $poids = 28;
+       $taille = "1,95";
 
        $charisme = 9;
        $force = 5;
        $endurance = 5;
-       $dexterité = "7 (*)";
+       $dexterité = 7;
        $agilité = 5;
        $intelligence = 8;
        $sagesse = 10;
@@ -223,9 +246,15 @@
        $sommeil = 7;
        $douleur = 7;
 
-       $pdv = 6;
-       $pds = 0;
-       $pdm = 55;
+       $pdvBonus = -2;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 0;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 24;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et la dexterité.<br>Cette irrégularité est d'une valeur de $dexterité";
+
        
 
    } elseif ($nomPersonnage == "xanther") {
@@ -240,16 +269,16 @@
        $florinCuivre = 0;
 
        $race = "";
-       $metier1 = "";
-       $metier2 = "";
-       $alignement = "";
+       $metier1 = "Assassin";
+       $metier2 = "Arbalétrier";
+       $alignement = "Chaotique / Neutre";
        $couleur = "";
-       $niveau = "";
-       $experience = "";
-       $age = "";
-       $sexe = "";
-       $poids = "";
-       $taille = "";
+       $niveau = 2;
+       $experience = 4;
+       $age = 20;
+       $sexe = "M";
+       $poids = 75;
+       $taille = "1,70";
 
        $charisme = 8+4;
        $force = 8+2;
@@ -270,9 +299,14 @@
        $sommeil = 7;
        $douleur = 7;
 
-       $pdv = 18+2;
-       $pds = 13+4;
-       $pdm = 20;
+       $pdvBonus = 2;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 4;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 0;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et la dexterité.<br>Cette irrégularité est d'une valeur de $dexterité";
 
    } elseif ($nomPersonnage == "exyu") {
        $nomInvocateur = "Exyu";
@@ -316,9 +350,15 @@
        $sommeil = 7;
        $douleur = 7+4;
 
-       $pdv = 18;
-       $pds = 16+2;
-       $pdm = 33+3;
+       $pdvBonus = 0;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 2;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = 3;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et le potentiel.<br>Cette irrégularité est d'une valeur de $potentiel ";
+
 
    } elseif ($nomPersonnage == "exyuGargouille") {
        $nomInvocateur = "Exyu";
@@ -362,9 +402,15 @@
        $sommeil = 7;
        $douleur = 20;
 
-       $pdv = 18;
-       $pds = 18;
-       $pdm = 36-12;
+       $pdvBonus = 0;
+       $pdv = $force + $endurance + $pdvBonus;
+       $pdsBonus = 0;
+       $pds = $intelligence + $sagesse + $pdsBonus;
+       $pdmBonus = -12;
+       $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+       $irrégularité = "L'irrégularité de $nomInvocateur et le potentiel.<br>Cette irrégularité est d'une valeur de $potentiel ";
+
 
    } else {
    $verdict = "<script> console.log('Perso inconnu');
@@ -406,9 +452,12 @@
    $sommeil = "0";
    $douleur = "0";
 
-   $pdv = "0";
-   $pdm = "0";
-   $pds = "0";
+   $pdvBonus = 0;
+   $pdv = $force + $endurance + $pdvBonus;
+   $pdsBonus = 0;
+   $pds = $intelligence + $sagesse + $pdsBonus;
+   $pdmBonus = -12;
+   $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
    }
 ?>

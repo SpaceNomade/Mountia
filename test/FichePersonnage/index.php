@@ -74,24 +74,28 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Veuillez choisir votre âme !</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send
+                            us an email and we will get back to you as soon as possible!</p>
                         <form method="POST" action="perso.php">
-                            liste deroulante avec choix des Personnage
-                            (Quand l'user choisi son personnage une page ce crée avec les stats du perso sur une seul
-                            page grace a une boucle en php et grace a un echo qui integre les donné dans la page
-                            nouvelle page)
                             <div class="form-group">
                                 <label for="FormControlSelectPlayer">Choisisez votre ame</label>
                                 <select class="form-control" id="FormControlSelectPlayer" name="nomPersonnage">
                                     <option value="orochi">Orochi / l'Exilé</option>
-                                    <option value="rackham">Rackham / Pourfendeur de vent</option>
+                                    <option value="orochiDragon">Orochi / l'Exilé (Dragon)</option>
+                                    <option value="rackham">Rackham / Basarab Pourfendeur de vent</option>
                                     <option value="barfero">Barfero / Astronome Erudit</option>
+                                    <option value="barferoPossedé">Barfero / Astronome Erudit (Possedé)</option>
                                     <option value="xanther">Xanther / Eventreur de l'ombre</option>
                                     <option value="exyu">Exyu / le lutin de l'echec</option>
+                                    <option value="exyuGargouille">Exyu (Gargouille)</option>
                                     <option value="erreur">???</option>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-primary">Invoquer l'ame</button>
                         </form>
+                        
                     </div>
                 </div>
             </div>
@@ -105,6 +109,38 @@
     <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="../vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scipts for konami Code -->
+    <script src="https://rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js"></script>
+    <script>
+        // Création d'un HTMLScriptElement.
+        var script = document.createElement("script"),
+            // Référence sur le HTMLBodyElement.
+            body = document.getElementsByTagName("body")[0],
+            // Création d'un interrupteur activé/désactivé.
+            toggle = false;
+        // Notre script sera de type JavaScript
+        script.type = "text/javascript";
+        // Ce code s'exécutera quand la `src`
+        // de notre HTMLScriptElement sera rempli
+        // et quand le HTMLScriptElement sera injecté dans le DOM.
+        script.addEventListener("load", function () {
+            // Création d'un écouteur de Konami Code.
+            new KonamiCode(function () {
+                // Surprise ou retour à la normal.
+                if (toggle) {
+                    toggle = false;
+                    body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(0deg)";
+                } else {
+                    toggle = true;
+                    body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(180deg)";
+                }
+            });
+        });
+        // Attribution d'un fichier et injection de HTMLScriptElement dans le DOM.
+        script.src = "https://cdn.rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js";
+        body.appendChild(script);
+    </script>
 
     <!-- Custom scripts for this template -->
     <script src="../js/creative.min.js"></script>

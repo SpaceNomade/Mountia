@@ -3,10 +3,15 @@
     // Recuperation du choix de personnage avec methode $_POST
     $nomPersonnage = isset($_POST['nomPersonnage']) ? $_POST['nomPersonnage'] : NULL;
     
-    // Importation du fichier qui contient les stats des personnage
+    // Importation du fichier qui contient les stats des Personnages
     include('statistiquePersonnageAll.php');
-    
-    // Affichage d'une pop up alert pour confirmer la selection du perso
+    // Importation du fichier qui contient l'inventaire des Personnages
+    include('inventaire.php');
+    // Importation du fichier qui contient les competences des Personnages
+    include('competence.php');
+    // Importation du fichier qui contient les equipements des Personnages
+    include('equipement');
+    // Affichage d'une pop up alert pour confirmer la selection du Personnages
     echo $verdict;
 
 ?>
@@ -54,7 +59,19 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#Statistique">Statistique Du Personnage</a>
+                            <a class="nav-link js-scroll-trigger" href="#Statistique">Statistique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#competence">Competence</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#equipement">Equipement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#inventairePersonnel">Inventaire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#inventaireCollectif">Inventaire Groupe</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -89,83 +106,144 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>
-                                    Point de vie :
-                                    <?php echo $pdv;?><i class="em em-heart"></i><br>
-                                    Point Special :
-                                    <?php echo $pds;?><i class="em em-green_heart"></i><br>
-                                    Point de mana :
-                                    <?php echo $pdm;?><i class="em em-blue_heart"></i>
-                                    
-                                </p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>
-                                    Florin d'or :
-                                    <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
-                                    Florin d'argent :
-                                    <?php echo $florinArgent?> <i class="fas fa-coins" style="color:#CECECE"></i><br>
-                                    Florin de cuivre :
-                                    <?php echo $florinCuivre;?> <i class="fas fa-coins" style="color:#B36700"></i>
-                                </p>
-                            </div>
-                            <hr class="my-4">
+                        <h2 class="section-heading">Statistique</h2>
+                        <p class="mb-5">
+                            Statistique du personnage
+                            <?php echo $nomInvocateur?> !
+                        </p>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <p>
+                            Point de vie :
+                            <?php echo $pdv;?><i class="em em-heart"></i><br>
+                            Point Spirituel :
+                            <?php echo $pds;?><i class="em em-green_heart"></i><br>
+                            Point de mana :
+                            <?php echo $pdm;?><i class="em em-blue_heart"></i>
 
-                        </div>
-                        <br>
-                        <div class="row text-center">
-                            <div class="col-md-4">
-                                <p>
-                                    Charisme :
-                                    <?php echo $charisme;?><br>
-                                    Force :
-                                    <?php echo $force;?> <i class="em em-muscle"></i><br>
-                                    Endurance :
-                                    <?php echo $endurance;?><br>
-                                    Dexterité :
-                                    <?php echo $dexterité;?> <i class="em em-open_hands"></i><br>
-                                    Agilité :
-                                    <?php echo $agilité;?><br>
-                                    Intelligence :
-                                    <?php echo $agilité;?>
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <p>
-                                    Sagesse :
-                                    <?php echo $sagesse;?> <br>
-                                    Potentiel :
-                                    <?php echo $potentiel;?><br>
-                                    Initiative :
-                                    <?php echo $initiative;?><br>
-                                    Chance :
-                                    <?php echo $chance;?> <i class="em em-four_leaf_clover"></i><br>
-                                    Froid :
-                                    <?php echo $froid;?> <i class="em em-snowflake"></i><br>
-                                    Chaleur :
-                                    <?php echo $chaleur;?> <i class="em em-fire"></i><br>
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <p>
-                                    Maladie :
-                                    <?php echo $maladie;?> <i class="em em-nauseated_face"></i></i><br>
-                                    Boisson :
-                                    <?php echo $boisson;?> <i class="em em-beer"></i><br>
-                                    Charme :
-                                    <?php echo $charme;?> <i class="em em-kissing_heart"></i><br>
-                                    Peur :
-                                    <?php echo $peur;?> <i class="em em-scream"></i><br>
-                                    Sommeil :
-                                    <?php echo $sommeil?> <i class="em em-sleeping"></i><br>
-                                    Douleur :
-                                    <?php echo $douleur;?> <i class="em em-face_with_head_bandage"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p>(*) = Irrégularité</p>
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <p>
+                            Florin d'or :
+                            <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
+                            Florin d'argent :
+                            <?php echo $florinArgent?> <i class="fas fa-coins" style="color:#CECECE"></i><br>
+                            Florin de cuivre :
+                            <?php echo $florinCuivre;?> <i class="fas fa-coins" style="color:#B36700"></i>
+                        </p>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Charisme :
+                            <?php echo $charisme;?><br>
+                            Force :
+                            <?php echo $force;?> <i class="em em-muscle"></i><br>
+                            Endurance :
+                            <?php echo $endurance;?><br>
+                            Dexterité :
+                            <?php echo $dexterité;?> <i class="em em-open_hands"></i><br>
+                            Agilité :
+                            <?php echo $agilité;?><br>
+                            Intelligence :
+                            <?php echo $intelligence;?>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Sagesse :
+                            <?php echo $sagesse;?> <br>
+                            Potentiel :
+                            <?php echo $potentiel;?><br>
+                            Initiative :
+                            <?php echo $initiative;?><br>
+                            Chance :
+                            <?php echo $chance;?> <i class="em em-four_leaf_clover"></i><br>
+                            Froid :
+                            <?php echo $froid;?> <i class="em em-snowflake"></i><br>
+                            Chaleur :
+                            <?php echo $chaleur;?> <i class="em em-fire"></i><br>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Maladie :
+                            <?php echo $maladie;?> <i class="em em-nauseated_face"></i></i><br>
+                            Boisson :
+                            <?php echo $boisson;?> <i class="em em-beer"></i><br>
+                            Charme :
+                            <?php echo $charme;?> <i class="em em-kissing_heart"></i><br>
+                            Peur :
+                            <?php echo $peur;?> <i class="em em-scream"></i><br>
+                            Sommeil :
+                            <?php echo $sommeil?> <i class="em em-sleeping"></i><br>
+                            Douleur :
+                            <?php echo $douleur;?> <i class="em em-face_with_head_bandage"></i>
+                        </p>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <?php echo $irrégularité; ?>
+                </p>
+            </div>
+        </section>
+
+        <!-- Competence du personnage choisis par l'invocateur -->
+        <section id="competence">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Competente</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Competence du personnage
+                            <?php echo $nomInvocateur?> !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipement du personnage choisis par l'invocateur -->
+        <section id="equipement">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Equipement</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Equipement du personnage
+                            <?php echo $nomInvocateur?> !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inventaire personnelle du personnage choisi par l'invocateur -->
+        <section id="inventairePersonnel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Inventaire</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Inventaire du personnage
+                            <?php echo $nomInvocateur?> !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inventaire commun au aventurier de Utopia -->
+        <section id="inventaireCollectif">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2 class="section-heading">Inventair Collectif</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Inventaire Collectif des aventurier de Utopia !</p>
                     </div>
                 </div>
             </div>
@@ -182,6 +260,38 @@
     <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="../vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scipts for konami Code -->
+    <script src="https://rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js"></script>
+    <script>
+        // Création d'un HTMLScriptElement.
+        var script = document.createElement("script"),
+            // Référence sur le HTMLBodyElement.
+            body = document.getElementsByTagName("body")[0],
+            // Création d'un interrupteur activé/désactivé.
+            toggle = false;
+        // Notre script sera de type JavaScript
+        script.type = "text/javascript";
+        // Ce code s'exécutera quand la `src`
+        // de notre HTMLScriptElement sera rempli
+        // et quand le HTMLScriptElement sera injecté dans le DOM.
+        script.addEventListener("load", function () {
+            // Création d'un écouteur de Konami Code.
+            new KonamiCode(function () {
+                // Surprise ou retour à la normal.
+                if (toggle) {
+                    toggle = false;
+                    body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(0deg)";
+                } else {
+                    toggle = true;
+                    body.style = "overflow-x: hidden;transition: transform 2s ease;transform: rotate(180deg)";
+                }
+            });
+        });
+        // Attribution d'un fichier et injection de HTMLScriptElement dans le DOM.
+        script.src = "https://cdn.rawgit.com/Haeresis/konami-code-js/master/src/konami-code.js";
+        body.appendChild(script);
+    </script>
 
     <!-- Custom scripts for this template -->
     <script src="../js/creative.min.js"></script>
