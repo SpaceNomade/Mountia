@@ -34,6 +34,8 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
+
 } elseif ($nomPersonnage == "orochiDragon"){
 
     $armureTeteNom = "";
@@ -69,6 +71,8 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
+
 } elseif ($nomPersonnage == "rackham"){
 
     $armureTeteNom = "";
@@ -103,6 +107,8 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
 
 } elseif ($nomPersonnage == "barfero"){
 
@@ -147,6 +153,8 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
+
     $arme1 = "Arbalete";
     $arme1Rang = "A";
     $arme1Materiaux = "Argent";
@@ -154,6 +162,8 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatMagique = 7;
     $arme1DegatOverTime = 0;
     $arme1Portee = "20 M";
+
+    
 
 } elseif ($nomPersonnage == "barferoPossedé"){
 
@@ -198,6 +208,8 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
+
 } elseif ($nomPersonnage == "xanther"){
 
     $armureTeteNom = "Coiffe";
@@ -240,6 +252,8 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
 
     $arme1 = "Dague";
     $arme1Rang = "D";
@@ -301,6 +315,8 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
+
 } elseif ($nomPersonnage == "exyuGargouille"){
 
     $armureTeteNom = "";
@@ -335,6 +351,8 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteInfoComplete = "$nomInvocateur possede 1 $armureTeteNom en $armureTeteMatiere avec comme protetection physique $armureTetePhysique points et avec comme protection magique $armureTeteMagique points ." ;
 
 } else {
     echo "<script>alert</script>";

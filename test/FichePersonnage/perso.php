@@ -7,6 +7,8 @@
     include('statistiquePersonnageAll.php');
     // Importation du fichier qui contient l'inventaire des Personnages
     include('inventaire.php');
+    // Importation du fichier qui contient l'inventaire collectif du groupe.
+    include('inventaireCollectif.php');
     // Importation du fichier qui contient les competences des Personnages
     include('competence.php');
     // Importation du fichier qui contient les equipements des Personnages
@@ -93,7 +95,7 @@
                         </h1>
                         <hr>
                     </div>
-                    <div class="col-lg-8 mx-auto">
+                    <div class="col-lg-10 mx-auto">
                         <p class="text-faded mb-5" id="st">
                             <?php echo $messageAme;?>.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Statistique">Suite</a>
@@ -105,13 +107,14 @@
         <section id="Statistique">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
+                    <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Statistiques</h2>
-                        <p class="mb-5">Statistiques du personnage <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Statistiques du personnage
+                            <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-3 text-left">
                         <p>
                             Point de vie :
                             <?php echo $pdv;?><i class="em em-heart"></i><br>
@@ -122,7 +125,21 @@
 
                         </p>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div><br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div><br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-right">
                         <p>
                             Florin d'or :
                             <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
@@ -153,7 +170,7 @@
                     <div class="col-md-4 text-center">
                         <p>
                             Sagesse :
-                            <?php echo $sagesse;?> <br>
+                            <?php echo $sagesse;?> <i class="em em-crystal_ball"></i><br>
                             Potentiel :
                             <?php echo $potentiel;?><br>
                             Initiative :
@@ -193,12 +210,91 @@
         <section id="competence">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
+                    <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Compétences</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Compétences du personnage <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Compétences du personnage
+                            <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Art de la rue :
+                            <?php echo $artDeLaRue;?> <br>
+                            Athletisme :
+                            <?php echo $athletisme;?><br>
+                            Blibliotheque :
+                            <?php echo $bibliotheque;?><br>
+                            Charme :
+                            <?php echo $charmeCompetence;?><br>
+                            Chercher :
+                            <?php echo $chercher;?><br>
+                            Conduite :
+                            <?php echo $conduite;?><br>
+                            Credit :
+                            <?php echo $credit;?><br>
+                            Cuisine :
+                            <?php echo $cuisine;?><br>
+                            Diplomatie :
+                            <?php echo $diplomatie;?><br>
+                            Discretion :
+                            <?php echo $discretion;?><br>
+                            Equitation :
+                            <?php echo $equitation;?><br>
+                            Intuition :
+                            <?php echo $intuition;?><br>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Maniement :
+                            <?php echo $maniement;?><br>
+                            Langue Maternelle :
+                            <?php echo $langueMaternelle;?><br>
+                            Larcin :
+                            <?php echo $larcin;?><br>
+                            Leadership :
+                            <?php echo $leadership;?><br>
+                            Legende :
+                            <?php echo $legende;?><br>
+                            Medecine :
+                            <?php echo $medecine;?><br>
+                            Navigation :
+                            <?php echo $navigation;?><br>
+                            Orientation :
+                            <?php echo $orientation;?><br>
+                            Portage :
+                            <?php echo $portage;?><br>
+                            Pilotage :
+                            <?php echo $pilotage;?><br>
+                            Premier soins :
+                            <?php echo $premierSoins;?><br>
+                            Psychologie :
+                            <?php echo $psychologie;?><br>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>
+                            Savoir :
+                            <?php echo $savoir;?><br>
+                            Seconde vue :
+                            <?php echo $secondeVue;?><br>
+                            Survie :
+                            <?php echo $survie;?><br>
+                            Sprint :
+                            <?php echo $sprint;?><br>
+                            Traque :
+                            <?php echo $traque;?><br>
+                            <?php echo $bonus1?><br>
+                            <?php echo $bonus2?><br>
+                            <?php echo $bonus3?><br>
+                            <?php echo $bonus4?><br>
+                            <?php echo $bonus5?><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -206,10 +302,18 @@
         <section id="equipement">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
+                    <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Équipements</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Équipements du personnage <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Équipements du personnage
+                            <?php echo $nomInvocateur?> !</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <p>
+                            <?php echo $armureTeteInfoComplete;?>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -219,10 +323,11 @@
         <section id="inventairePersonnel">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
+                    <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire du personnage <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Inventaire du personnage
+                            <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
@@ -232,7 +337,7 @@
         <section id="inventaireCollectif">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
+                    <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Inventaire Collectif</h2>
                         <hr class="my-4">
                         <p class="mb-5">Inventaire Collectif des aventuriers d'Utopia !</p>
@@ -287,7 +392,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="../js/creative.min.js"></script>
-    <script>
+    <!-- <script>
         document.querySelector('main').style.display = 'none';
         document.getElementById('load').classList.add('spinner')
 
@@ -295,7 +400,7 @@
             document.getElementById('load').classList.remove('spinner')
             document.querySelector('main').style.display = 'block';
         }, 2000);
-    </script>
+    </script> -->
 </body>
 
 </html>
