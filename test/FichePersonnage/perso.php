@@ -44,6 +44,7 @@
     <!-- Custom styles -->
     <link href="../css/creative.css" rel="stylesheet">
     <link href="../css/loader.css" rel="stylesheet">
+
     <title>Fiche Personnage</title>
 </head>
 
@@ -127,15 +128,18 @@
                     </div>
                     <div class="col-md-6">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
+                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div><br>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%"
+                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div><br>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%"
+                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div>
                     </div>
@@ -392,6 +396,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="../js/creative.min.js"></script>
+
+    <!-- Code pour bubble loading -->
     <!-- <script>
         document.querySelector('main').style.display = 'none';
         document.getElementById('load').classList.add('spinner')
