@@ -5,14 +5,16 @@
     
     // Importation du fichier qui contient les stats des Personnages
     include('statistiquePersonnageAll.php');
-    // Importation du fichier qui contient l'inventaire des Personnages
-    include('inventaire.php');
-    // Importation du fichier qui contient l'inventaire collectif du groupe.
-    include('inventaireCollectif.php');
     // Importation du fichier qui contient les competences des Personnages
     include('competence.php');
     // Importation du fichier qui contient les equipements des Personnages
     include('equipement.php');
+    // Importation du fichir qui contient les sorts des Personnages
+    include('sort.php');
+    // Importation du fichier qui contient l'inventaire des Personnages
+    include('inventaire.php');
+    // Importation du fichier qui contient l'inventaire collectif du groupe.
+    include('inventaireCollectif.php');
     // Affichage d'une pop up alert pour confirmer la selection du Personnages
     echo $verdict;
 
@@ -69,6 +71,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#equipement">Équipements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#sort">Sort</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#inventairePersonnel">Inventaire</a>
@@ -217,8 +222,7 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Compétences</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Compétences du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Compétences du personnage <?php echo $nomInvocateur;?>!</p>
                     </div>
                 </div>
                 <div class="row">
@@ -290,11 +294,11 @@
                             <?php echo $sprint;?><br>
                             Traque :
                             <?php echo $traque;?><br>
-                            <?php echo $bonus1?><br>
-                            <?php echo $bonus2?><br>
-                            <?php echo $bonus3?><br>
-                            <?php echo $bonus4?><br>
-                            <?php echo $bonus5?><br>
+                            <?php echo $bonus1;?><br>
+                            <?php echo $bonus2;?><br>
+                            <?php echo $bonus3;?><br>
+                            <?php echo $bonus4;?><br>
+                            <?php echo $bonus5;?><br>
                         </p>
                     </div>
                 </div>
@@ -315,8 +319,23 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
+                    <h3>Armure</h3>
                         <p>
-                            <?php echo $armureTeteInfoComplete;?>
+                            <?php echo $armureTeteInfoComplete;?><br>
+                            <?php echo $armureEpauleInfoComplete;?><br>
+                            <?php echo $armureTorseInfoComplete;?><br>
+                            <?php echo $armureBrasInfoComplete;?><br>
+                            <?php echo $armureTasesetteInfoComplete;?><br>
+                            <?php echo $armureJambesInfoComplete;?><br>
+                            <?php echo $armurePiedsInfoComplete;?>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                    <h3>Arme</h3>
+                        <p>
+                            <?php echo $arme1InfoComplete;?><br>
                         </p>
                     </div>
                 </div>
@@ -330,8 +349,7 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Inventaire du personnage <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
