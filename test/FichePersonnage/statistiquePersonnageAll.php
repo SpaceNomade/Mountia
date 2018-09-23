@@ -1,12 +1,11 @@
 <?php
-    if ($nomPersonnage == "orochi") {
-        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
-        
+    if ($nomPersonnage == "orochi") {        
         $nomInvocateur = "Orochi";
         $surnomInvocateur = "l'Éxilé";
         $verdict = "<script>confirm('Orochi est invoquer');</script>";
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
-        
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
+
         $florinOr = 71+20;
         $florinArgent = 8;
         $florinCuivre = 0;
@@ -49,7 +48,7 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité"
+        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité";
     } elseif ($nomPersonnage == "orochiDragon"){
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
@@ -118,8 +117,8 @@
         $metier2 = "NC";
         $alignement = "Neutre";
         $couleur = "Violette";
-        $niveau = 2;
-        $experience = 4;
+        $niveau = 2+1;
+        $experience = 4+2;
         $age = 24;
         $sexe = "M";
         $poids = 220;
@@ -221,8 +220,8 @@
         $metier2 = "Mage d'ecriture";
         $alignement = "Chaotique / Bon";
         $couleur = "Bleu / Gris";
-        $niveau = 2;
-        $experience = 4;
+        $niveau = 2+1;
+        $experience = 4+2;
         $age = 810;
         $sexe = "M";
         $poids = 28;
@@ -274,8 +273,8 @@
         $metier2 = "Arbalétrier";
         $alignement = "Chaotique / Neutre";
         $couleur = "";
-        $niveau = 2;
-        $experience = 4;
+        $niveau = 2+1;
+        $experience = 4+2;
         $age = 20;
         $sexe = "M";
         $poids = 75;
@@ -325,8 +324,8 @@
         $metier2 = "";
         $alignement = "";
         $couleur = "";
-        $niveau = "";
-        $experience = "";
+        $niveau = 2+1;
+        $experience = 4+2;
         $age = "";
         $sexe = "";
         $poids = "";
@@ -377,8 +376,8 @@
         $metier2 = "";
         $alignement = "";
         $couleur = "";
-        $niveau = "";
-        $experience = "";
+        $niveau = 2+1;
+        $experience = 4+2;
         $age = "";
         $sexe = "";
         $poids = "";

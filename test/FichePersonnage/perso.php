@@ -222,84 +222,212 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Compétences</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Compétences du personnage <?php echo $nomInvocateur;?>!</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 text-center">
-                        <p>
-                            Art de la rue :
-                            <?php echo $artDeLaRue;?> <br>
-                            Athletisme :
-                            <?php echo $athletisme;?><br>
-                            Blibliotheque :
-                            <?php echo $bibliotheque;?><br>
-                            Charme :
-                            <?php echo $charmeCompetence;?><br>
-                            Chercher :
-                            <?php echo $chercher;?><br>
-                            Conduite :
-                            <?php echo $conduite;?><br>
-                            Credit :
-                            <?php echo $credit;?><br>
-                            Cuisine :
-                            <?php echo $cuisine;?><br>
-                            Diplomatie :
-                            <?php echo $diplomatie;?><br>
-                            Discretion :
-                            <?php echo $discretion;?><br>
-                            Equitation :
-                            <?php echo $equitation;?><br>
-                            Intuition :
-                            <?php echo $intuition;?><br>
-                        </p>
+                    <table class="table table-sm table-striped table-dark text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Competences</th>
+                                <th scope="col">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Art de la rue</th>
+                                <td><?php echo $artDeLaRue;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Athletisme</th>
+                                <td><?php echo $athletisme;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Bibliotheque</th>
+                                <td><?php echo $bibliotheque;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Charme</th>
+                                <td><?php echo $charme;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Chercher</th>
+                                <td><?php echo $chercher;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Conduite</th>
+                                <td><?php echo $conduite;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Credit</th>
+                                <td><?php echo $credit;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cuisine</th>
+                                <td><?php echo $cuisine;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Diplomatie</th>
+                                <td><?php echo $diplomatie;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Discretion</th>
+                                <td><?php echo $discretion;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Equitation</th>
+                                <td><?php echo $equitation;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Intuition</th>
+                                <td><?php echo $intuition;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Maniement</th>
+                                <td><?php echo $maniement;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Langue Maternelle</th>
+                                <td><?php echo $langueMaternelle;?></td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>
                     <div class="col-md-4 text-center">
-                        <p>
-                            Maniement :
-                            <?php echo $maniement;?><br>
-                            Langue Maternelle :
-                            <?php echo $langueMaternelle;?><br>
-                            Larcin :
-                            <?php echo $larcin;?><br>
-                            Leadership :
-                            <?php echo $leadership;?><br>
-                            Legende :
-                            <?php echo $legende;?><br>
-                            Medecine :
-                            <?php echo $medecine;?><br>
-                            Navigation :
-                            <?php echo $navigation;?><br>
-                            Orientation :
-                            <?php echo $orientation;?><br>
-                            Portage :
-                            <?php echo $portage;?><br>
-                            Pilotage :
-                            <?php echo $pilotage;?><br>
-                            Premier soins :
-                            <?php echo $premierSoins;?><br>
-                            Psychologie :
-                            <?php echo $psychologie;?><br>
-                        </p>
+                    <table class="table table-sm table-striped table-dark text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Competences</th>
+                                <th scope="col">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Larcin</th>
+                                <td><?php echo $larcin;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Leadership</th>
+                                <td><?php echo $leadership;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Légende</th>
+                                <td><?php echo $legende;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Medecine</th>
+                                <td><?php echo $medecine;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Navigation</th>
+                                <td><?php echo $navigation;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Orientation</th>
+                                <td><?php echo $orientation;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Portage</th>
+                                <td><?php echo $portage;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pilotage</th>
+                                <td><?php echo $pilotage;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Premier Soins</th>
+                                <td><?php echo $premierSoins;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Psychologie</th>
+                                <td><?php echo $psychologie;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Savoir</th>
+                                <td><?php echo $savoir;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Seconde Vue</th>
+                                <td><?php echo $secondeVue;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Survie</th>
+                                <td><?php echo $survie;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sprint</th>
+                                <td><?php echo $sprint;?></td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>
                     <div class="col-md-4 text-center">
-                        <p>
-                            Savoir :
-                            <?php echo $savoir;?><br>
-                            Seconde vue :
-                            <?php echo $secondeVue;?><br>
-                            Survie :
-                            <?php echo $survie;?><br>
-                            Sprint :
-                            <?php echo $sprint;?><br>
-                            Traque :
-                            <?php echo $traque;?><br>
-                            <?php echo $bonus1;?><br>
-                            <?php echo $bonus2;?><br>
-                            <?php echo $bonus3;?><br>
-                            <?php echo $bonus4;?><br>
-                            <?php echo $bonus5;?><br>
-                        </p>
+                    <table class="table table-sm table-striped table-dark text-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Competences</th>
+                                <th scope="col">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Traque</th>
+                                <td><?php echo $traque;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus1Nom;?></th>
+                                <td><?php echo $bonus1Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus2Nom;?></th>
+                                <td><?php echo $bonus2Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus3Nom;?></th>
+                                <td><?php echo $bonus3Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus4Nom;?></th>
+                                <td><?php echo $bonus4Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus5Nom;?></th>
+                                <td><?php echo $bonus5Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus6Nom;?></th>
+                                <td><?php echo $bonus6Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus7Nom;?></th>
+                                <td><?php echo $bonus7Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus8Nom;?></th>
+                                <td><?php echo $bonus8Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus9Nom;?></th>
+                                <td><?php echo $bonus9Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus10Nom;?></th>
+                                <td><?php echo $bonus10Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus11Nom;?></th>
+                                <td><?php echo $bonus11Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus12Nom;?></th>
+                                <td><?php echo $bonus12Valeur;?></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><?php echo $bonus13Nom;?></th>
+                                <td><?php echo $bonus13Valeur;?></td>
+                            </tr>
+                        </tbody>
+                    </table>
                     </div>
                 </div>
             </div>
@@ -313,27 +441,104 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Équipements</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Équipements du personnage
-                            <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                    <h3>Armure</h3>
-                        <p>
-                            <?php echo $armureTeteInfoComplete;?><br>
-                            <?php echo $armureEpauleInfoComplete;?><br>
-                            <?php echo $armureTorseInfoComplete;?><br>
-                            <?php echo $armureBrasInfoComplete;?><br>
-                            <?php echo $armureTasesetteInfoComplete;?><br>
-                            <?php echo $armureJambesInfoComplete;?><br>
-                            <?php echo $armurePiedsInfoComplete;?>
-                        </p>
+                        <h3>Armure</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-striped table-secondary text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Partie</th>
+                                        <th scope="col">Nom</th>
+                                        <th scope="col">Qualité</th>
+                                        <th scope="col">Matériaux</th>
+                                        <th scope="col">Physique</th>
+                                        <th scope="col">Magique</th>
+                                        <th scope="col">Bonus</th>
+                                        <th scope="col">Enchantement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Tete</th>
+                                        <td><?php echo $armureTeteNom;?></td>
+                                        <td><?php echo $armureTeteQualité;?></td>
+                                        <td><?php echo $armureTeteMatiere;?></td>
+                                        <td><?php echo $armureTetePhysique;?></td>
+                                        <td><?php echo $armureTeteMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Epaule</th>
+                                        <td><?php echo $armureEpaulesNom;?></td>
+                                        <td><?php echo $armureEpaulesQualité;?></td>
+                                        <td><?php echo $armureEpaulesMatiere;?></td>
+                                        <td><?php echo $armureEpaulesPhysique;?></td>
+                                        <td><?php echo $armureEpaulesMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Torse</th>
+                                        <td><?php echo $armureTorseNom;?></td>
+                                        <td><?php echo $armureTorseQualité;?></td>
+                                        <td><?php echo $armureTorseMatiere;?></td>
+                                        <td><?php echo $armureTorsePhysique;?></td>
+                                        <td><?php echo $armureTorseMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Bras</th>
+                                        <td><?php echo $armureBrasNom;?></td>
+                                        <td><?php echo $armureBrasQualité;?></td>
+                                        <td><?php echo $armureBrasMatiere;?></td>
+                                        <td><?php echo $armureBrasPhysique;?></td>
+                                        <td><?php echo $armureBrasMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Tassette</th>
+                                        <td><?php echo $armureTassetteNom;?></td>
+                                        <td><?php echo $armureTassetteQualité;?></td>
+                                        <td><?php echo $armureTassetteMatiere;?></td>
+                                        <td><?php echo $armureTassettePhysique;?></td>
+                                        <td><?php echo $armureTassetteMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Jambes</th>
+                                        <td><?php echo $armureJambesNom;?></td>
+                                        <td><?php echo $armureJambesQualité;?></td>
+                                        <td><?php echo $armureJambesMatiere;?></td>
+                                        <td><?php echo $armureJambesPhysique;?></td>
+                                        <td><?php echo $armureJambesMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Pieds</th>
+                                        <td><?php echo $armurePiedsNom;?></td>
+                                        <td><?php echo $armurePiedsQualité;?></td>
+                                        <td><?php echo $armurePiedsMatiere;?></td>
+                                        <td><?php echo $armurePiedsPhysique;?></td>
+                                        <td><?php echo $armurePiedsMagique;?></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table><br>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-10 mx-auto text-center">
-                    <h3>Arme</h3>
+                        <h3>Arme</h3>
                         <p>
                             <?php echo $arme1InfoComplete;?><br>
                         </p>
@@ -342,6 +547,21 @@
             </div>
         </section>
 
+        <!-- Sort du personnage choisi par l'invocateur -->
+        <section id="sort">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <h2 class="section-heading">Sort</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Sort du personnage
+                            <?php echo $nomInvocateur?> !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Inventaire personnelle du personnage choisi par l'invocateur -->
         <section id="inventairePersonnel">
             <div class="container">
@@ -349,7 +569,8 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire du personnage <?php echo $nomInvocateur?> !</p>
+                        <p class="mb-5">Inventaire du personnage
+                            <?php echo $nomInvocateur?> !</p>
                     </div>
                 </div>
             </div>
