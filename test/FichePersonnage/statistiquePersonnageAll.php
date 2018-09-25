@@ -185,8 +185,8 @@
         $dexterité = 7;
         $agilité = 5;
         $intelligence = 8;
-        $sagesse = 10+2;
-        $potentiel = 15;
+        $sagesse = 10+2+1;
+        $potentiel = 15+1;
         $initiative = 8;
         $chance = 5;
         $froid = 7;

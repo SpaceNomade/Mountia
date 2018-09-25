@@ -65,7 +65,15 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatPhysique = 7;
     $arme1DegatMagique = 14;
     $arme1DegatOverTime = 0;
-    $arme1Portee = "0,8 M";
+    $arme1Portee = 0.8;
+
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points ." ;
 
@@ -121,7 +129,15 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatPhysique = 7;
     $arme1DegatMagique = 14;
     $arme1DegatOverTime = 0;
-    $arme1Portee = "0,8 M";
+    $arme1Portee = 0.8;
+
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
@@ -178,6 +194,14 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatOverTime = "";
     $arme1Portee = "";
 
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
+
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
 
@@ -231,7 +255,15 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatPhysique = 5;
     $arme1DegatMagique = 7;
     $arme1DegatOverTime = 0;
-    $arme1Portee = "20 M";
+    $arme1Portee = 20;
+
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
@@ -289,6 +321,14 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatMagique = "";
     $arme1DegatOverTime = "";
     $arme1Portee = "";
+
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
@@ -351,7 +391,7 @@ if ($nomPersonnage == "orochi") {
     $arme2DegatPhysique = 8;
     $arme2DegatMagique = 9;
     $arme2DegatOverTime = 0;
-    $arme2Portee = "300 M";
+    $arme2Portee = 300;
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
@@ -409,6 +449,14 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatOverTime = "";
     $arme1Portee = "";
 
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
+
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 
 
@@ -455,6 +503,14 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatMagique = "";
     $arme1DegatOverTime = "";
     $arme1Portee = "";
+
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 

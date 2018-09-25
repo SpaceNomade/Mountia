@@ -222,9 +222,9 @@ if ($nomPersonnage == "orochi") {
     $bonus2Nom = "Alchimie";
     $bonus2Valeur = 12;
     $bonus3Nom = "Arbalete";
-    $bonus3Valeur = "5";
-    $bonus4Nom = "X";
-    $bonus4Valeur = "X";
+    $bonus3Valeur = 5;
+    $bonus4Nom = "Ecriture";
+    $bonus4Valeur = "50%";
     $bonus5Nom = "X";
     $bonus5Valeur = "X";
     $bonus6Nom = "X";

@@ -94,14 +94,14 @@
         <header class="masthead text-center text-black d-flex">
             <div class="container my-auto">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto">
+                    <div class="col-lg-12 mx-auto">
                         <h1 class="text-uppercase">
                             <strong>
                                 <?php echo $nomInvocateur; ?></strong>
                         </h1>
                         <hr>
                     </div>
-                    <div class="col-lg-10 mx-auto">
+                    <div class="col-lg-12 mx-auto">
                         <p class="text-faded mb-5" id="st">
                             <?php echo $messageAme;?>.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Statistique">Suite</a>
@@ -113,7 +113,7 @@
         <section id="Statistique">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Statistiques</h2>
                         <p class="mb-5">Statistiques du personnage
                             <?php echo $nomInvocateur?> !</p>
@@ -219,7 +219,7 @@
         <section id="competence">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Compétences</h2>
                         <hr class="my-4">
                     </div>
@@ -438,13 +438,13 @@
         <section id="equipement">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Équipements</h2>
                         <hr class="my-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h3>Armure</h3>
                         <div class="table-responsive">
                             <table class="table table-sm table-striped table-secondary text-center">
@@ -537,8 +537,47 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h3>Arme</h3>
+                        <table class="table table-sm table-striped table-secondary text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Rang</th>
+                                    <th scope="col">Matériaux</th>
+                                    <th scope="col">Physique</th>
+                                    <th scope="col">Magique</th>
+                                    <th scope="col">OverTime</th>
+                                    <th scope="col">Distance</th>
+                                    <th scope="col">Enchantement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Arme principal</th>
+                                    <td><?php echo $arme1Nom;?></td>
+                                    <td><?php echo $arme1Rang;?></td>
+                                    <td><?php echo $arme1Materiaux;?></td>
+                                    <td><?php echo $arme1DegatPhysique;?></td>
+                                    <td><?php echo $arme1DegatMagique;?></td>
+                                    <td><?php echo $arme1DegatOverTime;?></td>
+                                    <td><?php echo $arme1Portee;?> M</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Arme Secondaire</th>
+                                    <td><?php echo $arme2Nom;?></td>
+                                    <td><?php echo $arme2Rang;?></td>
+                                    <td><?php echo $arme2Materiaux;?></td>
+                                    <td><?php echo $arme2DegatPhysique;?></td>
+                                    <td><?php echo $arme2DegatMagique;?></td>
+                                    <td><?php echo $arme2DegatOverTime;?></td>
+                                    <td><?php echo $arme2Portee;?> M</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <p>
                             <?php echo $arme1InfoComplete;?><br>
                         </p>
@@ -551,7 +590,7 @@
         <section id="sort">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Sort</h2>
                         <hr class="my-4">
                         <table class="table table-sm table-striped table-dark text-center">
@@ -691,7 +730,7 @@
         <section id="inventairePersonnel">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
                         <table class="table table-sm table-striped table-dark text-center align-items-center">
@@ -775,7 +814,7 @@
         <section id="inventaireCollectif">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto text-center">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Inventaire Collectif</h2>
                         <hr class="my-4">
                         <p class="mb-5">Inventaire Collectif des aventuriers d'Utopia !</p>
