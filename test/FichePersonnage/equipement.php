@@ -43,21 +43,21 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 12+2;
     $armurePiedsMagique = 12+2;
 
-    $armureTeteMagique = "";
-    $armureEpaulesMagique = 2;
-    $armureTorseMagique = 7;
-    $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
-    $armureJambesMagique = 2;
-    $armurePiedsMagique = 2;
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
 
-    $armureTeteMagique = "";
-    $armureEpaulesMagique = 2;
-    $armureTorseMagique = 7;
-    $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
-    $armureJambesMagique = 2;
-    $armurePiedsMagique = 2;
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
 
     $arme1Nom = "Hikari No Kiba";
     $arme1Rang = "A";

@@ -447,7 +447,7 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h3>Armure</h3>
                         <div class="table-responsive">
-                            <table class="table table-sm table-striped table-secondary text-center">
+                            <table class="table table-sm table-striped table-dark text-center">
                                 <thead>
                                     <tr>
                                         <th scope="col">Partie</th>
@@ -468,8 +468,8 @@
                                         <td><?php echo $armureTeteMatiere;?></td>
                                         <td><?php echo $armureTetePhysique;?></td>
                                         <td><?php echo $armureTeteMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureTeteBonus;?></td>
+                                        <td><?php echo $armureTeteEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Epaule</th>
@@ -478,8 +478,8 @@
                                         <td><?php echo $armureEpaulesMatiere;?></td>
                                         <td><?php echo $armureEpaulesPhysique;?></td>
                                         <td><?php echo $armureEpaulesMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureTeteBonus;?></td>
+                                        <td><?php echo $armureTeteEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Torse</th>
@@ -539,7 +539,7 @@
                 <div class="row">
                     <div class="col-lg-12 mx-auto text-center">
                         <h3>Arme</h3>
-                        <table class="table table-sm table-striped table-secondary text-center">
+                        <table class="table table-sm table-striped table-dark text-center">
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>
@@ -549,7 +549,7 @@
                                     <th scope="col">Physique</th>
                                     <th scope="col">Magique</th>
                                     <th scope="col">OverTime</th>
-                                    <th scope="col">Distance</th>
+                                    <th scope="col">Distance <br> Metre</th>
                                     <th scope="col">Enchantement</th>
                                 </tr>
                             </thead>
