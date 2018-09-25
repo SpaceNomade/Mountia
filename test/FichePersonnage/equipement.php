@@ -170,42 +170,42 @@ if ($nomPersonnage == "orochi") {
 
     $armureTeteNom = "Coiffe";
     $armureEpaulesNom = "";
-    $armureTorseNom = "";
-    $armureBrasNom = "";
+    $armureTorseNom = "Broigne";
+    $armureBrasNom = "Mittons";
     $armureTassetteNom = "";
     $armureJambesNom = "Jambes Boissées";
     $armurePiedsNom = "Bottes Renforcées";
 
     $armureTeteRang = "D";
-    $armureEpaulesRang = "D";
+    $armureEpaulesRang = "";
     $armureTorseRang = "D";
     $armureBrasRang = "D";
-    $armureTassetteRang = "D";
+    $armureTassetteRang = "";
     $armureJambesRang = "D";
     $armurePiedsRang = "D";
 
     $armureTeteMatiere = "Cuir";
-    $armureEpaulesMatiere = "Cuir";
+    $armureEpaulesMatiere = "";
     $armureTorseMatiere = "Cuir";
     $armureBrasMatiere = "Cuir";
-    $armureTassetteMatiere = "Cuir";
+    $armureTassetteMatiere = "";
     $armureJambesMatiere = "Cuir";
     $armurePiedsMatiere = "Cuir";
 
 
     $armureTetePhysique = 2;
-    $armureEpaulesPhysique = 2;
+    $armureEpaulesPhysique = 0;
     $armureTorsePhysique = 2;
     $armureBrasPhysique = 2;
-    $armureTassettePhysique = 2;
+    $armureTassettePhysique = 0;
     $armureJambesPhysique = 2;
     $armurePiedsPhysique = 2;
 
     $armureTeteMagique = 2;
-    $armureEpaulesMagique = 2;
+    $armureEpaulesMagique = 0;
     $armureTorseMagique = 2;
     $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
+    $armureTassetteMagique = 0;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
