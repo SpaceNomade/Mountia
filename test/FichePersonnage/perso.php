@@ -56,7 +56,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Mountia</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><?php echo $nomPersonnage;?></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 text-left">
+                    <div class="col-md-3 text-center">
                         <p>
                             Point de vie :
                             <?php echo $pdv;?><i class="em em-heart"></i><br>
@@ -131,7 +131,7 @@
 
                         </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center">
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
                                 aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 text-right">
+                    <div class="col-md-3 text-center">
                         <p>
                             Florin d'or :
                             <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
@@ -452,7 +452,7 @@
                                     <tr>
                                         <th scope="col">Partie</th>
                                         <th scope="col">Nom</th>
-                                        <th scope="col">Qualité</th>
+                                        <th scope="col">Rang</th>
                                         <th scope="col">Matériaux</th>
                                         <th scope="col">Physique</th>
                                         <th scope="col">Magique</th>
@@ -464,7 +464,7 @@
                                     <tr>
                                         <th scope="row">Tete</th>
                                         <td><?php echo $armureTeteNom;?></td>
-                                        <td><?php echo $armureTeteQualité;?></td>
+                                        <td><?php echo $armureTeteRang;?></td>
                                         <td><?php echo $armureTeteMatiere;?></td>
                                         <td><?php echo $armureTetePhysique;?></td>
                                         <td><?php echo $armureTeteMagique;?></td>
@@ -474,7 +474,7 @@
                                     <tr>
                                         <th scope="row">Epaule</th>
                                         <td><?php echo $armureEpaulesNom;?></td>
-                                        <td><?php echo $armureEpaulesQualité;?></td>
+                                        <td><?php echo $armureEpaulesRang;?></td>
                                         <td><?php echo $armureEpaulesMatiere;?></td>
                                         <td><?php echo $armureEpaulesPhysique;?></td>
                                         <td><?php echo $armureEpaulesMagique;?></td>
@@ -484,7 +484,7 @@
                                     <tr>
                                         <th scope="row">Torse</th>
                                         <td><?php echo $armureTorseNom;?></td>
-                                        <td><?php echo $armureTorseQualité;?></td>
+                                        <td><?php echo $armureTorseRang;?></td>
                                         <td><?php echo $armureTorseMatiere;?></td>
                                         <td><?php echo $armureTorsePhysique;?></td>
                                         <td><?php echo $armureTorseMagique;?></td>
@@ -494,7 +494,7 @@
                                     <tr>
                                         <th scope="row">Bras</th>
                                         <td><?php echo $armureBrasNom;?></td>
-                                        <td><?php echo $armureBrasQualité;?></td>
+                                        <td><?php echo $armureBrasRang;?></td>
                                         <td><?php echo $armureBrasMatiere;?></td>
                                         <td><?php echo $armureBrasPhysique;?></td>
                                         <td><?php echo $armureBrasMagique;?></td>
@@ -504,7 +504,7 @@
                                     <tr>
                                         <th scope="row">Tassette</th>
                                         <td><?php echo $armureTassetteNom;?></td>
-                                        <td><?php echo $armureTassetteQualité;?></td>
+                                        <td><?php echo $armureTassetteRang;?></td>
                                         <td><?php echo $armureTassetteMatiere;?></td>
                                         <td><?php echo $armureTassettePhysique;?></td>
                                         <td><?php echo $armureTassetteMagique;?></td>
@@ -514,7 +514,7 @@
                                     <tr>
                                         <th scope="row">Jambes</th>
                                         <td><?php echo $armureJambesNom;?></td>
-                                        <td><?php echo $armureJambesQualité;?></td>
+                                        <td><?php echo $armureJambesRang;?></td>
                                         <td><?php echo $armureJambesMatiere;?></td>
                                         <td><?php echo $armureJambesPhysique;?></td>
                                         <td><?php echo $armureJambesMagique;?></td>
@@ -524,7 +524,7 @@
                                     <tr>
                                         <th scope="row">Pieds</th>
                                         <td><?php echo $armurePiedsNom;?></td>
-                                        <td><?php echo $armurePiedsQualité;?></td>
+                                        <td><?php echo $armurePiedsRang;?></td>
                                         <td><?php echo $armurePiedsMatiere;?></td>
                                         <td><?php echo $armurePiedsPhysique;?></td>
                                         <td><?php echo $armurePiedsMagique;?></td>
@@ -554,8 +554,122 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Sort</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Sort du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <table class="table table-sm table-striped table-dark text-center">
+                            <thead>
+                                <tr>
+                                   <th scope="col">Nom</th>
+                                   <th scope="col">Point</th>
+                                   <th scope="col">Cout</th>
+                                   <th scope="col">Degat</th>
+                                   <th scope="col">Durée</th>
+                                   <th scope="col">Portée</th>
+                                   <th scope="col">Effet Secondaire</th>
+                                   <th scope="col">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><?php echo $sort1Nom;?></td>
+                                    <td><?php echo $sort1Point;?></td>
+                                    <td><?php echo $sort1Cout;?></td>
+                                    <td><?php echo $sort1Degat;?></td>
+                                    <td><?php echo $sort1Duree;?></td>
+                                    <td><?php echo $sort1Portée;?></td>
+                                    <td><?php echo $sort1EffectSecondaire;?></td>
+                                    <td><?php echo $sort1Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort2Nom;?></td>
+                                    <td><?php echo $sort2Point;?></td>
+                                    <td><?php echo $sort2Cout;?></td>
+                                    <td><?php echo $sort2Degat;?></td>
+                                    <td><?php echo $sort2Duree;?></td>
+                                    <td><?php echo $sort2Portée;?></td>
+                                    <td><?php echo $sort2EffectSecondaire;?></td>
+                                    <td><?php echo $sort2Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort3Nom;?></td>
+                                    <td><?php echo $sort3Point;?></td>
+                                    <td><?php echo $sort3Cout;?></td>
+                                    <td><?php echo $sort3Degat;?></td>
+                                    <td><?php echo $sort3Duree;?></td>
+                                    <td><?php echo $sort3Portée;?></td>
+                                    <td><?php echo $sort3EffectSecondaire;?></td>
+                                    <td><?php echo $sort3Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort4Nom;?></td>
+                                    <td><?php echo $sort4Point;?></td>
+                                    <td><?php echo $sort4Cout;?></td>
+                                    <td><?php echo $sort4Degat;?></td>
+                                    <td><?php echo $sort4Duree;?></td>
+                                    <td><?php echo $sort4Portée;?></td>
+                                    <td><?php echo $sort4EffectSecondaire;?></td>
+                                    <td><?php echo $sort4Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort5Nom;?></td>
+                                    <td><?php echo $sort5Point;?></td>
+                                    <td><?php echo $sort5Cout;?></td>
+                                    <td><?php echo $sort5Degat;?></td>
+                                    <td><?php echo $sort5Duree;?></td>
+                                    <td><?php echo $sort5Portée;?></td>
+                                    <td><?php echo $sort5EffectSecondaire;?></td>
+                                    <td><?php echo $sort5Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort6Nom;?></td>
+                                    <td><?php echo $sort6Point;?></td>
+                                    <td><?php echo $sort6Cout;?></td>
+                                    <td><?php echo $sort6Degat;?></td>
+                                    <td><?php echo $sort6Duree;?></td>
+                                    <td><?php echo $sort6Portée;?></td>
+                                    <td><?php echo $sort6EffectSecondaire;?></td>
+                                    <td><?php echo $sort6Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort7Nom;?></td>
+                                    <td><?php echo $sort7Point;?></td>
+                                    <td><?php echo $sort7Cout;?></td>
+                                    <td><?php echo $sort7Degat;?></td>
+                                    <td><?php echo $sort7Duree;?></td>
+                                    <td><?php echo $sort7Portée;?></td>
+                                    <td><?php echo $sort7EffectSecondaire;?></td>
+                                    <td><?php echo $sort7Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort8Nom;?></td>
+                                    <td><?php echo $sort8Point;?></td>
+                                    <td><?php echo $sort8Cout;?></td>
+                                    <td><?php echo $sort8Degat;?></td>
+                                    <td><?php echo $sort8Duree;?></td>
+                                    <td><?php echo $sort8Portée;?></td>
+                                    <td><?php echo $sort8EffectSecondaire;?></td>
+                                    <td><?php echo $sort8Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort9Nom;?></td>
+                                    <td><?php echo $sort9Point;?></td>
+                                    <td><?php echo $sort9Cout;?></td>
+                                    <td><?php echo $sort9Degat;?></td>
+                                    <td><?php echo $sort9Duree;?></td>
+                                    <td><?php echo $sort9Portée;?></td>
+                                    <td><?php echo $sort9EffectSecondaire;?></td>
+                                    <td><?php echo $sort9Description;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $sort10Nom;?></td>
+                                    <td><?php echo $sort10Point;?></td>
+                                    <td><?php echo $sort10Cout;?></td>
+                                    <td><?php echo $sort10Degat;?></td>
+                                    <td><?php echo $sort10Duree;?></td>
+                                    <td><?php echo $sort10Portée;?></td>
+                                    <td><?php echo $sort10EffectSecondaire;?></td>
+                                    <td><?php echo $sort10Description;?></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -569,8 +683,78 @@
                     <div class="col-lg-10 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire du personnage
-                            <?php echo $nomInvocateur?> !</p>
+                        <table class="table table-sm table-striped table-dark text-center align-items-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Nom</th>
+                                <th scope="col">Quantité</th>
+                                <th scope="col">Prix</th>
+                                <th scope="col">Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><?php echo $item1Nom;?></td>
+                                <td><?php echo $item1Quantité;?></td>
+                                <td><?php echo $item1Prix;?></td>
+                                <td><?php echo $item1Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item2Nom;?></td>
+                                <td><?php echo $item2Quantité;?></td>
+                                <td><?php echo $item2Prix;?></td>
+                                <td><?php echo $item2Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item3Nom;?></td>
+                                <td><?php echo $item3Quantité;?></td>
+                                <td><?php echo $item3Prix;?></td>
+                                <td><?php echo $item3Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item4Nom;?></td>
+                                <td><?php echo $item4Quantité;?></td>
+                                <td><?php echo $item4Prix;?></td>
+                                <td><?php echo $item4Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item5Nom;?></td>
+                                <td><?php echo $item5Quantité;?></td>
+                                <td><?php echo $item5Prix;?></td>
+                                <td><?php echo $item5Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item6Nom;?></td>
+                                <td><?php echo $item6Quantité;?></td>
+                                <td><?php echo $item6Prix;?></td>
+                                <td><?php echo $item6Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item7Nom;?></td>
+                                <td><?php echo $item7Quantité;?></td>
+                                <td><?php echo $item7Prix;?></td>
+                                <td><?php echo $item7Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item8Nom;?></td>
+                                <td><?php echo $item8Quantité;?></td>
+                                <td><?php echo $item8Prix;?></td>
+                                <td><?php echo $item8Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item9Nom;?></td>
+                                <td><?php echo $item9Quantité;?></td>
+                                <td><?php echo $item9Prix;?></td>
+                                <td><?php echo $item9Type;?></td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $item10Nom;?></td>
+                                <td><?php echo $item10Quantité;?></td>
+                                <td><?php echo $item10Prix;?></td>
+                                <td><?php echo $item10Type;?></td>
+                            </tr>
+                        </tbody>
+                    </table><br>
                     </div>
                 </div>
             </div>

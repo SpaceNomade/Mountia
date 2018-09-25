@@ -50,12 +50,13 @@
 
         $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité";
     } elseif ($nomPersonnage == "orochiDragon"){
-        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
-
         $nomInvocateur = "Orochi";
+        $surnomInvocateur = "le dragon Éxilé";
         $verdict = "<script>confirm('Orochi le dragon est invoquer');</script>";
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Transformer";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
+
 
         $florinOr = 71+20;
         $florinArgent = 8;
@@ -103,11 +104,12 @@
 
     
     } elseif ($nomPersonnage == "rackham"){
-        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
         $nomInvocateur = "Rackham";
+        $surnomInvocateur = "basarab le pourfendeur de vent";
         $verdict = "<script>confirm('Rackham est invoquer');</script>";
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
-    
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
+
         $florinOr = 74+20;
         $florinArgent = 7;
         $florinCuivre = 2;
@@ -154,11 +156,12 @@
 
 
     } elseif ($nomPersonnage == "barfero") {
-        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
         $nomInvocateur = "Barfero";
+        $surnomInvocateur = "l'astronome erudit";
         $verdict = "<script>confirm('Barfero est invoquer');</script>";
-            $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
+        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Normal";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
         $florinOr = 19+46+20+14-16-144+108;
         $florinArgent = 8+8;
@@ -206,10 +209,12 @@
 
     } elseif ($nomPersonnage == "barferoPossedé") {
         $nomInvocateur = "Barfero";
+        $surnomInvocateur = "l'astronome erudit";
         $verdict = "<script> console.log('Perso Barfero Possedé');
-            confirm('Barfero possedé par Maleeds est invoquer');</script>";
-            $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
+        confirm('Barfero possedé par Maleeds est invoquer');</script>";
+        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Possedé";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
         $florinOr = 19+46+20;
         $florinArgent = 8+8;
@@ -259,10 +264,12 @@
 
     } elseif ($nomPersonnage == "xanther") {
         $nomInvocateur = "Xanther";
+        $surnomInvocateur = "l'eventreur de l'ombre";
         $verdict = "<script> console.log('Perso Xanther');
-            confirm('Xanther est invoquer');</script>";
-            $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
+        confirm('Xanther est invoquer');</script>";
+        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Normal";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
         $florinOr = 61+20;
         $florinArgent = 8;
@@ -311,9 +318,10 @@
     } elseif ($nomPersonnage == "exyu") {
         $nomInvocateur = "Exyu";
         $verdict = "<script> console.log('Perso Exyu');
-            confirm('Exyu est invoquer');</script>";
-            $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
+        confirm('Exyu est invoquer');</script>";
+        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Normal";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
         $florinOr = 102+20;
         $florinArgent = 1;
@@ -363,9 +371,10 @@
     } elseif ($nomPersonnage == "exyuGargouille") {
         $nomInvocateur = "Exyu";
         $verdict = "<script> console.log('Perso Exyu');
-            confirm('Exyu est invoquer');</script>";
-            $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
+        confirm('Exyu est invoquer');</script>";
+        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         $statutMental = "Gargouille";
+        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
         $florinOr = 102+20;
         $florinArgent = 1;
@@ -414,7 +423,7 @@
 
     } else {
     $verdict = "<script> console.log('Perso inconnu');
-        confirm('Vous etes inconnu personne ne peux vous invoquer');</script>";
+    confirm('Vous etes inconnu personne ne peux vous invoquer');</script>";
     $messageAme = "L'âme de votre guerrier ne peux pas etre invoquée";
 
     $florinOr = "0";

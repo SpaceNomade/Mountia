@@ -120,7 +120,7 @@ if ($nomPersonnage == "orochi") {
     $bonus12Valeur = "X";
     $bonus13Nom = "X";
     $bonus13Valeur = "X";
-    
+
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Competence de Rackham importer');</script>";
 
@@ -182,6 +182,7 @@ if ($nomPersonnage == "orochi") {
     $bonus12Valeur = "X";
     $bonus13Nom = "X";
     $bonus13Valeur = "X";
+
 } elseif ($nomPersonnage == "barfero"){
     echo "<script>console.log('Competence de Barfero importer');</script>";
 
@@ -277,6 +278,33 @@ if ($nomPersonnage == "orochi") {
     $sprint = $initiative;
 
     $traque = 2;
+    $bonus1Nom = "Potion";
+    $bonus1Valeur = 12;
+    $bonus2Nom = "Alchimie";
+    $bonus2Valeur = 12;
+    $bonus3Nom = "Arbalete";
+    $bonus3Valeur = "5";
+    $bonus4Nom = "X";
+    $bonus4Valeur = "X";
+    $bonus5Nom = "X";
+    $bonus5Valeur = "X";
+    $bonus6Nom = "X";
+    $bonus6Valeur = "X";
+    $bonus7Nom = "X";
+    $bonus7Valeur = "X";
+    $bonus8Nom = "X";
+    $bonus8Valeur = "X";
+    $bonus9Nom = "X";
+    $bonus9Valeur = "X";
+    $bonus10Nom = "X";
+    $bonus10Valeur = "X";
+    $bonus11Nom = "X";
+    $bonus11Valeur = "X";
+    $bonus12Nom = "X";
+    $bonus12Valeur = "X";
+    $bonus13Nom = "X";
+    $bonus13Valeur = "X";
+
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Competence de Xanther importer');</script>";
 
@@ -311,6 +339,33 @@ if ($nomPersonnage == "orochi") {
     $sprint = $initiative;
 
     $traque = 2;
+    $bonus1Nom = "Potion";
+    $bonus1Valeur = 12;
+    $bonus2Nom = "Alchimie";
+    $bonus2Valeur = 12;
+    $bonus3Nom = "Arbalete";
+    $bonus3Valeur = "5";
+    $bonus4Nom = "X";
+    $bonus4Valeur = "X";
+    $bonus5Nom = "X";
+    $bonus5Valeur = "X";
+    $bonus6Nom = "X";
+    $bonus6Valeur = "X";
+    $bonus7Nom = "X";
+    $bonus7Valeur = "X";
+    $bonus8Nom = "X";
+    $bonus8Valeur = "X";
+    $bonus9Nom = "X";
+    $bonus9Valeur = "X";
+    $bonus10Nom = "X";
+    $bonus10Valeur = "X";
+    $bonus11Nom = "X";
+    $bonus11Valeur = "X";
+    $bonus12Nom = "X";
+    $bonus12Valeur = "X";
+    $bonus13Nom = "X";
+    $bonus13Valeur = "X";
+
 } elseif ($nomPersonnage == "exyu"){
     echo "<script>console.log('Competence de Exyu importer');</script>";
 
@@ -345,6 +400,33 @@ if ($nomPersonnage == "orochi") {
     $sprint = $initiative;
 
     $traque = 2;
+    $bonus1Nom = "Potion";
+    $bonus1Valeur = 12;
+    $bonus2Nom = "Alchimie";
+    $bonus2Valeur = 12;
+    $bonus3Nom = "Arbalete";
+    $bonus3Valeur = "5";
+    $bonus4Nom = "X";
+    $bonus4Valeur = "X";
+    $bonus5Nom = "X";
+    $bonus5Valeur = "X";
+    $bonus6Nom = "X";
+    $bonus6Valeur = "X";
+    $bonus7Nom = "X";
+    $bonus7Valeur = "X";
+    $bonus8Nom = "X";
+    $bonus8Valeur = "X";
+    $bonus9Nom = "X";
+    $bonus9Valeur = "X";
+    $bonus10Nom = "X";
+    $bonus10Valeur = "X";
+    $bonus11Nom = "X";
+    $bonus11Valeur = "X";
+    $bonus12Nom = "X";
+    $bonus12Valeur = "X";
+    $bonus13Nom = "X";
+    $bonus13Valeur = "X";
+
 } elseif ($nomPersonnage == "exyuGargouille"){
     echo "<script>console.log('Competence de Exyu la Gargouille importer');</script>";
 
@@ -379,6 +461,33 @@ if ($nomPersonnage == "orochi") {
     $sprint = $initiative;
 
     $traque = 2;
+    $bonus1Nom = "Potion";
+    $bonus1Valeur = 12;
+    $bonus2Nom = "Alchimie";
+    $bonus2Valeur = 12;
+    $bonus3Nom = "Arbalete";
+    $bonus3Valeur = "5";
+    $bonus4Nom = "X";
+    $bonus4Valeur = "X";
+    $bonus5Nom = "X";
+    $bonus5Valeur = "X";
+    $bonus6Nom = "X";
+    $bonus6Valeur = "X";
+    $bonus7Nom = "X";
+    $bonus7Valeur = "X";
+    $bonus8Nom = "X";
+    $bonus8Valeur = "X";
+    $bonus9Nom = "X";
+    $bonus9Valeur = "X";
+    $bonus10Nom = "X";
+    $bonus10Valeur = "X";
+    $bonus11Nom = "X";
+    $bonus11Valeur = "X";
+    $bonus12Nom = "X";
+    $bonus12Valeur = "X";
+    $bonus13Nom = "X";
+    $bonus13Valeur = "X";
+
 } else {
     echo "<script>console.log('Competence de personne importer');</script>";
 

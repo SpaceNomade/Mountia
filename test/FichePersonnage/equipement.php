@@ -10,13 +10,13 @@ if ($nomPersonnage == "orochi") {
     $armureJambesNom = "Jambière";
     $armurePiedsNom = "";
 
-    $armureTeteQualité = "";
-    $armureEpaulesQualité = "";
-    $armureTorseQualité = "D";
-    $armureBrasQualité = "C";
-    $armureTassetteQualité = "";
-    $armureJambesQualité = "C";
-    $armurePiedsQualité = "";
+    $armureTeteRang = "";
+    $armureEpaulesRang = "";
+    $armureTorseRang = "D";
+    $armureBrasRang = "C";
+    $armureTassetteRang = "";
+    $armureJambesRang = "C";
+    $armurePiedsRang = "";
 
     $armureTeteMatiere = "";
     $armureEpaulesMatiere = "Cuir";
@@ -59,7 +59,7 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
-    $arme1 = "Katana d'Acier des cieux";
+    $arme1Nom = "Katana d'Acier des cieux";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
     $arme1DegatPhysique = 7;
@@ -67,7 +67,7 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatOverTime = 0;
     $arme1Portee = "0,8 M";
 
-    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1 de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points ." ;
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points ." ;
 
 
 } elseif ($nomPersonnage == "orochiDragon"){
@@ -82,6 +82,14 @@ if ($nomPersonnage == "orochi") {
     $armureJambesNom = "";
     $armurePiedsNom = "";
 
+    $armureTeteRang = "";
+    $armureEpaulesRang = "";
+    $armureTorseRang = "";
+    $armureBrasRang = "";
+    $armureTassetteRang = "";
+    $armureJambesRang = "";
+    $armurePiedsRang = "";
+
     $armureTeteMatiere = "Cuir";
     $armureEpaulesMatiere = "Cuir";
     $armureTorseMatiere = "Cuir";
@@ -106,6 +114,9 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
 
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Equipement de Rackham importer');</script>";
@@ -118,6 +129,14 @@ if ($nomPersonnage == "orochi") {
     $armureJambesNom = "";
     $armurePiedsNom = "";
 
+    $armureTeteRang = "";
+    $armureEpaulesRang = "";
+    $armureTorseRang = "";
+    $armureBrasRang = "";
+    $armureTassetteRang = "";
+    $armureJambesRang = "";
+    $armurePiedsRang = "";
+
     $armureTeteMatiere = "Cuir";
     $armureEpaulesMatiere = "Cuir";
     $armureTorseMatiere = "Cuir";
@@ -142,6 +161,9 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
 
 } elseif ($nomPersonnage == "barfero"){
     echo "<script>console.log('Equipement de Barfero importer');</script>";
@@ -187,13 +209,16 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
-    $arme1 = "Arbalete";
+    $arme1Nom = "Arbalete";
     $arme1Rang = "A";
     $arme1Materiaux = "Argent";
     $arme1DegatPhysique = 5;
     $arme1DegatMagique = 7;
     $arme1DegatOverTime = 0;
     $arme1Portee = "20 M";
+
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
 
     
 
@@ -241,6 +266,9 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
+
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Equipement de Xanther importer');</script>";
 
@@ -285,7 +313,7 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
-    $arme1 = "Dague";
+    $arme1Nom = "Dague";
     $arme1Rang = "D";
     $arme1Materiaux = "Fer";
     $arme1DegatPhysique = 2;
@@ -293,14 +321,17 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatOverTime = 0;
     $arme1Portee = "20 cm";
 
-    $arme2 = "Arbalete";
+    $arme2Nom = "Arbalete";
     $arme2Rang = "A";
     $arme2Materiaux = "Acier";
     $arme2DegatPhysique = 8;
     $arme2DegatMagique = 9;
     $arme2DegatOverTime = 0;
     $arme2Portee = "300 M";
-   
+
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
+    $arme2InfoComplete = "$nomInvocateur possede 1 $arme2Nom de rang $arme2Rang en $arme2Materiaux et une porté de $arme2Portee avec comme degats physique $arme2DegatPhysique points et avec comme degats magique $arme2DegatMagique points .";
 
 } elseif ($nomPersonnage == "exyu"){
     echo "<script>console.log('Equipement de Exyu importer');</script>";
@@ -346,6 +377,9 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
+
 } elseif ($nomPersonnage == "exyuGargouille"){
     echo "<script>console.log('Equipement de Exyu la Gargouille importer');</script>";
 
@@ -381,6 +415,9 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+
 
 } else {
     echo "<script>console.log('Equipement non recuperer')</script>";
