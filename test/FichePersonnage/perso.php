@@ -478,8 +478,8 @@
                                         <td><?php echo $armureEpaulesMatiere;?></td>
                                         <td><?php echo $armureEpaulesPhysique;?></td>
                                         <td><?php echo $armureEpaulesMagique;?></td>
-                                        <td><?php echo $armureEpauleBonus;?></td>
-                                        <td><?php echo $armureEpauleEnchantement;?></td>
+                                        <td><?php echo $armureEpaulesBonus;?></td>
+                                        <td><?php echo $armureEpaulesEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Torse</th>
@@ -488,8 +488,8 @@
                                         <td><?php echo $armureTorseMatiere;?></td>
                                         <td><?php echo $armureTorsePhysique;?></td>
                                         <td><?php echo $armureTorseMagique;?></td>
-                                        <td><?php echo $armureEpauleBonus;?></td>
-                                        <td><?php echo $armureEpauleEnchantement;?></td>
+                                        <td><?php echo $armureTorseBonus;?></td>
+                                        <td><?php echo $armureTorseEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Bras</th>
@@ -549,7 +549,7 @@
                                     <th scope="col">Physique</th>
                                     <th scope="col">Magique</th>
                                     <th scope="col">OverTime</th>
-                                    <th scope="col">Distance <br> Metre</th>
+                                    <th scope="col">Distance<br>(Mètre)</th>
                                     <th scope="col">Enchantement</th>
                                 </tr>
                             </thead>
@@ -603,7 +603,7 @@
                                    <th scope="col">Degat</th>
                                    <th scope="col">Durée</th>
                                    <th scope="col">Portée</th>
-                                   <th scope="col">Effet Secondaire</th>
+                                   <th scope="col">Effet<br>Secondaire</th>
                                    <th scope="col">Description</th>
                                 </tr>
                             </thead>
@@ -738,7 +738,8 @@
                             <tr>
                                 <th scope="col">Nom</th>
                                 <th scope="col">Quantité</th>
-                                <th scope="col">Prix</th>
+                                <th scope="col">Prix<br>d'achat</th>
+                                <th scope="col">Prix de<br>revente</th>
                                 <th scope="col">Type</th>
                             </tr>
                         </thead>
@@ -747,60 +748,70 @@
                                 <td><?php echo $item1Nom;?></td>
                                 <td><?php echo $item1Quantité;?></td>
                                 <td><?php echo $item1Prix;?></td>
+                                <td><?php echo $item1PrixRevente?></td>
                                 <td><?php echo $item1Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item2Nom;?></td>
                                 <td><?php echo $item2Quantité;?></td>
                                 <td><?php echo $item2Prix;?></td>
+                                <td><?php echo $item2PrixRevente?></td>
                                 <td><?php echo $item2Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item3Nom;?></td>
                                 <td><?php echo $item3Quantité;?></td>
                                 <td><?php echo $item3Prix;?></td>
+                                <td><?php echo $item3PrixRevente?></td>
                                 <td><?php echo $item3Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item4Nom;?></td>
                                 <td><?php echo $item4Quantité;?></td>
                                 <td><?php echo $item4Prix;?></td>
+                                <td><?php echo $item4PrixRevente?></td>
                                 <td><?php echo $item4Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item5Nom;?></td>
                                 <td><?php echo $item5Quantité;?></td>
                                 <td><?php echo $item5Prix;?></td>
+                                <td><?php echo $item5PrixRevente?></td>
                                 <td><?php echo $item5Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item6Nom;?></td>
                                 <td><?php echo $item6Quantité;?></td>
                                 <td><?php echo $item6Prix;?></td>
+                                <td><?php echo $item6PrixRevente?></td>
                                 <td><?php echo $item6Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item7Nom;?></td>
                                 <td><?php echo $item7Quantité;?></td>
                                 <td><?php echo $item7Prix;?></td>
+                                <td><?php echo $item7PrixRevente?></td>
                                 <td><?php echo $item7Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item8Nom;?></td>
                                 <td><?php echo $item8Quantité;?></td>
                                 <td><?php echo $item8Prix;?></td>
+                                <td><?php echo $item8PrixRevente?></td>
                                 <td><?php echo $item8Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item9Nom;?></td>
                                 <td><?php echo $item9Quantité;?></td>
                                 <td><?php echo $item9Prix;?></td>
+                                <td><?php echo $item9PrixRevente?></td>
                                 <td><?php echo $item9Type;?></td>
                             </tr>
                             <tr>
                                 <td><?php echo $item10Nom;?></td>
                                 <td><?php echo $item10Quantité;?></td>
                                 <td><?php echo $item10Prix;?></td>
+                                <td><?php echo $item10PrixRevente?></td>
                                 <td><?php echo $item10Type;?></td>
                             </tr>
                         </tbody>

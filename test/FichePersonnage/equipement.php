@@ -123,6 +123,22 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
+
     $arme1Nom = "Katana d'Acier des cieux";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
@@ -186,6 +202,22 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
+
     $arme1Nom = "";
     $arme1Rang = "";
     $arme1Materiaux = "";
@@ -248,6 +280,22 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 0;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
 
     $arme1Nom = "Arbalete";
     $arme1Rang = "A";
@@ -314,6 +362,22 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
+
     $arme1Nom = "";
     $arme1Rang = "";
     $arme1Materiaux = "";
@@ -376,6 +440,22 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
 
     $arme1Nom = "Dague";
     $arme1Rang = "D";
@@ -441,6 +521,22 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
+
     $arme1Nom = "";
     $arme1Rang = "";
     $arme1Materiaux = "";
@@ -495,6 +591,22 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 2;
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
+
+    $armureTeteBonus = "";
+    $armureEpaulesBonus = "";
+    $armureTorseBonus = "";
+    $armureBrasBonus = "";
+    $armureTassetteBonus = "";
+    $armureJambesBonus = "";
+    $armurePiedsBonus = "";
+
+    $armureTeteEnchantement = "";
+    $armureEpaulesEnchantement = "";
+    $armureTorseEnchantement = "";
+    $armureBrasEnchantement = "";
+    $armureTassetteEnchantement = "";
+    $armureJambesEnchantement = "";
+    $armurePiedsEnchantement = "";
 
     $arme1Nom = "";
     $arme1Rang = "";
