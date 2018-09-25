@@ -317,7 +317,7 @@
 
     } elseif ($nomPersonnage == "exyu") {
         $nomInvocateur = "Exyu";
-        $surnomInvocateur = "le fée"
+        $surnomInvocateur = "le fée";
         $verdict = "<script> console.log('Perso Exyu');
         confirm('Exyu est invoquer');</script>";
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
@@ -371,7 +371,7 @@
 
     } elseif ($nomPersonnage == "exyuGargouille") {
         $nomInvocateur = "Exyu";
-        $surnomInvocateur = "la Gargouille"
+        $surnomInvocateur = "la Gargouille";
         $verdict = "<script> console.log('Perso Exyu');
         confirm('Exyu est invoquer');</script>";
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
