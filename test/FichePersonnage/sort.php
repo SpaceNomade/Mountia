@@ -313,7 +313,7 @@ if ($nomPersonnage == "orochi") {
 
     $sort1Nom = "Cri d'ether";
     $sort1Point = 5;
-    $sort1Maitrise = "X";
+    $sort1Maitrise = "Novice";
     $sort1Cout = 5;
     $sort1Degat = 9;
     $sort1Duree = "";
@@ -323,7 +323,7 @@ if ($nomPersonnage == "orochi") {
 
     $sort2Nom = "Terreur";
     $sort2Point = 3;
-    $sort2Maitrise = "X";
+    $sort2Maitrise = "Novice";
     $sort2Cout = 5;
     $sort2Degat = "";
     $sort2Duree = 7;
@@ -333,7 +333,7 @@ if ($nomPersonnage == "orochi") {
 
     $sort3Nom = "Piege";
     $sort3Point = 3;
-    $sort3Maitrise = "X";
+    $sort3Maitrise = "Novice";
     $sort3Cout = 6;
     $sort3Degat = 7;
     $sort3Duree = 2;
@@ -343,7 +343,7 @@ if ($nomPersonnage == "orochi") {
 
     $sort4Nom = "Prison";
     $sort4Point = 5;
-    $sort4Maitrise = "X";
+    $sort4Maitrise = "Novice";
     $sort4Cout = 5;
     $sort4Degat = 9;
     $sort4Duree = "";
@@ -353,7 +353,7 @@ if ($nomPersonnage == "orochi") {
 
     $sort5Nom = "Invocation Calcifer";
     $sort5Point = 3;
-    $sort5Maitrise = "X";
+    $sort5Maitrise = "Novice";
     $sort5Cout = 10;
     $sort5Degat = 9;
     $sort5Duree = 3;
@@ -369,7 +369,7 @@ if ($nomPersonnage == "orochi") {
     $sort6Duree = "";
     $sort6Portée = "";
     $sort6EffectSecondaire = "";
-    $sort6Description = "Crée un portail permettant de cacher un objet ou un joueur";
+    $sort6Description = "Crée un portail permettant de cacher un objet ou un être vivant.";
 
     $sort7Nom = "X";
     $sort7Point = "X";

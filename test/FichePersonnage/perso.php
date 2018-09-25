@@ -559,6 +559,7 @@
                                 <tr>
                                    <th scope="col">Nom</th>
                                    <th scope="col">Point</th>
+                                   <th scope="col">Maitrise</th>
                                    <th scope="col">Cout</th>
                                    <th scope="col">Degat</th>
                                    <th scope="col">Durée</th>
@@ -571,6 +572,7 @@
                                 <tr>
                                     <td><?php echo $sort1Nom;?></td>
                                     <td><?php echo $sort1Point;?></td>
+                                    <td><?php echo $sort1Maitrise;?></td>
                                     <td><?php echo $sort1Cout;?></td>
                                     <td><?php echo $sort1Degat;?></td>
                                     <td><?php echo $sort1Duree;?></td>
@@ -581,6 +583,7 @@
                                 <tr>
                                     <td><?php echo $sort2Nom;?></td>
                                     <td><?php echo $sort2Point;?></td>
+                                    <td><?php echo $sort2Maitrise;?></td>
                                     <td><?php echo $sort2Cout;?></td>
                                     <td><?php echo $sort2Degat;?></td>
                                     <td><?php echo $sort2Duree;?></td>
@@ -591,6 +594,7 @@
                                 <tr>
                                     <td><?php echo $sort3Nom;?></td>
                                     <td><?php echo $sort3Point;?></td>
+                                    <td><?php echo $sort3Maitrise;?></td>
                                     <td><?php echo $sort3Cout;?></td>
                                     <td><?php echo $sort3Degat;?></td>
                                     <td><?php echo $sort3Duree;?></td>
@@ -601,6 +605,7 @@
                                 <tr>
                                     <td><?php echo $sort4Nom;?></td>
                                     <td><?php echo $sort4Point;?></td>
+                                    <td><?php echo $sort4Maitrise;?></td>
                                     <td><?php echo $sort4Cout;?></td>
                                     <td><?php echo $sort4Degat;?></td>
                                     <td><?php echo $sort4Duree;?></td>
@@ -611,6 +616,7 @@
                                 <tr>
                                     <td><?php echo $sort5Nom;?></td>
                                     <td><?php echo $sort5Point;?></td>
+                                    <td><?php echo $sort5Maitrise;?></td>
                                     <td><?php echo $sort5Cout;?></td>
                                     <td><?php echo $sort5Degat;?></td>
                                     <td><?php echo $sort5Duree;?></td>
@@ -621,6 +627,7 @@
                                 <tr>
                                     <td><?php echo $sort6Nom;?></td>
                                     <td><?php echo $sort6Point;?></td>
+                                    <td><?php echo $sort6Maitrise;?></td>
                                     <td><?php echo $sort6Cout;?></td>
                                     <td><?php echo $sort6Degat;?></td>
                                     <td><?php echo $sort6Duree;?></td>
@@ -631,6 +638,7 @@
                                 <tr>
                                     <td><?php echo $sort7Nom;?></td>
                                     <td><?php echo $sort7Point;?></td>
+                                    <td><?php echo $sort7Maitrise;?></td>
                                     <td><?php echo $sort7Cout;?></td>
                                     <td><?php echo $sort7Degat;?></td>
                                     <td><?php echo $sort7Duree;?></td>
@@ -641,6 +649,7 @@
                                 <tr>
                                     <td><?php echo $sort8Nom;?></td>
                                     <td><?php echo $sort8Point;?></td>
+                                    <td><?php echo $sort8Maitrise;?></td>
                                     <td><?php echo $sort8Cout;?></td>
                                     <td><?php echo $sort8Degat;?></td>
                                     <td><?php echo $sort8Duree;?></td>
@@ -651,6 +660,7 @@
                                 <tr>
                                     <td><?php echo $sort9Nom;?></td>
                                     <td><?php echo $sort9Point;?></td>
+                                    <td><?php echo $sort9Maitrise;?></td>
                                     <td><?php echo $sort9Cout;?></td>
                                     <td><?php echo $sort9Degat;?></td>
                                     <td><?php echo $sort9Duree;?></td>
@@ -661,6 +671,7 @@
                                 <tr>
                                     <td><?php echo $sort10Nom;?></td>
                                     <td><?php echo $sort10Point;?></td>
+                                    <td><?php echo $sort10Maitrise;?></td>
                                     <td><?php echo $sort10Cout;?></td>
                                     <td><?php echo $sort10Degat;?></td>
                                     <td><?php echo $sort10Duree;?></td>
