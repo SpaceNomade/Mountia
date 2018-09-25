@@ -478,8 +478,8 @@
                                         <td><?php echo $armureEpaulesMatiere;?></td>
                                         <td><?php echo $armureEpaulesPhysique;?></td>
                                         <td><?php echo $armureEpaulesMagique;?></td>
-                                        <td><?php echo $armureTeteBonus;?></td>
-                                        <td><?php echo $armureTeteEnchantement;?></td>
+                                        <td><?php echo $armureEpauleBonus;?></td>
+                                        <td><?php echo $armureEpauleEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Torse</th>
@@ -488,8 +488,8 @@
                                         <td><?php echo $armureTorseMatiere;?></td>
                                         <td><?php echo $armureTorsePhysique;?></td>
                                         <td><?php echo $armureTorseMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureEpauleBonus;?></td>
+                                        <td><?php echo $armureEpauleEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Bras</th>
@@ -498,8 +498,8 @@
                                         <td><?php echo $armureBrasMatiere;?></td>
                                         <td><?php echo $armureBrasPhysique;?></td>
                                         <td><?php echo $armureBrasMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureBrasBonus;?></td>
+                                        <td><?php echo $armureBrasEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Tassette</th>
@@ -508,8 +508,8 @@
                                         <td><?php echo $armureTassetteMatiere;?></td>
                                         <td><?php echo $armureTassettePhysique;?></td>
                                         <td><?php echo $armureTassetteMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureTassetteBonus;?></td>
+                                        <td><?php echo $armureTassetteEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Jambes</th>
@@ -518,8 +518,8 @@
                                         <td><?php echo $armureJambesMatiere;?></td>
                                         <td><?php echo $armureJambesPhysique;?></td>
                                         <td><?php echo $armureJambesMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armureJambesBonus;?></td>
+                                        <td><?php echo $armureJambesEnchantement;?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Pieds</th>
@@ -528,8 +528,8 @@
                                         <td><?php echo $armurePiedsMatiere;?></td>
                                         <td><?php echo $armurePiedsPhysique;?></td>
                                         <td><?php echo $armurePiedsMagique;?></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><?php echo $armurePiedsBonus;?></td>
+                                        <td><?php echo $armurePiedsEnchantement;?></td>
                                     </tr>
                                 </tbody>
                             </table><br>
