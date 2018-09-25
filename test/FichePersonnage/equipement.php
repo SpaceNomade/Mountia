@@ -3,53 +3,45 @@ if ($nomPersonnage == "orochi") {
     echo "<script>console.log('Equipement de Orochi importer');</script>";
 
     $armureTeteNom = "";
-    $armureEpaulesNom = "";
+    $armureEpaulesNom = "Spalière";
     $armureTorseNom = "Cuirasse";
     $armureBrasNom = "Bras D'armure";
-    $armureTassetteNom = "";
+    $armureTassetteNom = "Tassette";
     $armureJambesNom = "Jambière";
-    $armurePiedsNom = "";
+    $armurePiedsNom = "Soleret";
 
     $armureTeteRang = "";
-    $armureEpaulesRang = "";
+    $armureEpaulesRang = "D";
     $armureTorseRang = "D";
     $armureBrasRang = "C";
-    $armureTassetteRang = "";
+    $armureTassetteRang = "D";
     $armureJambesRang = "C";
-    $armurePiedsRang = "";
+    $armurePiedsRang = "C";
 
     $armureTeteMatiere = "";
-    $armureEpaulesMatiere = "Cuir";
+    $armureEpaulesMatiere = "Fer";
     $armureTorseMatiere = "Fer";
     $armureBrasMatiere = "Acier";
-    $armureTassetteMatiere = "Cuir";
+    $armureTassetteMatiere = "Fer";
     $armureJambesMatiere = "Acier";
-    $armurePiedsMatiere = "Cuir";
+    $armurePiedsMatiere = "Acier";
 
 
-    $armureTetePhysique = "";
-    $armureEpaulesPhysique = 2;
-    $armureTorsePhysique = 7;
-    $armureBrasPhysique = 2;
-    $armureTassettePhysique = 2;
-    $armureJambesPhysique = 2;
-    $armurePiedsPhysique = 2;
+    $armureTetePhysique = 2;
+    $armureEpaulesPhysique = 11+2;
+    $armureTorsePhysique = 11+2;
+    $armureBrasPhysique = 12+2;
+    $armureTassettePhysique = 11+2;
+    $armureJambesPhysique = 13+2;
+    $armurePiedsPhysique = 13+2;
 
-    $armureTeteMagique = "";
-    $armureEpaulesMagique = 2;
-    $armureTorseMagique = 7;
-    $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
-    $armureJambesMagique = 2;
-    $armurePiedsMagique = 2;
-
-    $armureTeteMagique = "";
-    $armureEpaulesMagique = 2;
-    $armureTorseMagique = 7;
-    $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
-    $armureJambesMagique = 2;
-    $armurePiedsMagique = 2;
+    $armureTeteMagique = 2;
+    $armureEpaulesMagique = 9+2;
+    $armureTorseMagique = 9+7;
+    $armureBrasMagique = 13+2;
+    $armureTassetteMagique = 9+2;
+    $armureJambesMagique = 12+2;
+    $armurePiedsMagique = 12+2;
 
     $armureTeteMagique = "";
     $armureEpaulesMagique = 2;
@@ -59,21 +51,29 @@ if ($nomPersonnage == "orochi") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
-    $arme1Nom = "Katana d'Acier des cieux";
+    $armureTeteMagique = "";
+    $armureEpaulesMagique = 2;
+    $armureTorseMagique = 7;
+    $armureBrasMagique = 2;
+    $armureTassetteMagique = 2;
+    $armureJambesMagique = 2;
+    $armurePiedsMagique = 2;
+
+    $arme1Nom = "Hikari No Kiba";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
-    $arme1DegatPhysique = 7;
-    $arme1DegatMagique = 14;
+    $arme1DegatPhysique = 37;
+    $arme1DegatMagique = 37;
     $arme1DegatOverTime = 0;
     $arme1Portee = 0.8;
 
-    $arme2Nom = "X";
-    $arme2Rang = "X";
-    $arme2Materiaux = "X";
-    $arme2DegatPhysique = "X";
-    $arme2DegatMagique = "X";
-    $arme2DegatOverTime = "X";
-    $arme2Portee = "X";
+    $arme2Nom = "Shinigami";
+    $arme2Rang = "A";
+    $arme2Materiaux = "Acier des cieux";
+    $arme2DegatPhysique = 45;
+    $arme2DegatMagique = 45;
+    $arme2DegatOverTime = 0;
+    $arme2Portee = 1.7;
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points ." ;
 
