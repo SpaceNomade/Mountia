@@ -179,16 +179,16 @@
         $poids = 28;
         $taille = "1,95";
 
-        $charisme = 9;
-        $force = 5;
-        $endurance = 5;
-        $dexterité = 7;
-        $agilité = 5;
-        $intelligence = 8;
-        $sagesse = 10+2+1;
-        $potentiel = 15+1;
-        $initiative = 8;
-        $chance = 5;
+        $charisme = 19;
+        $force = 6;
+        $endurance = 14;
+        $dexterité = 10+2;
+        $agilité = 7;
+        $intelligence = 17;
+        $sagesse = 18+1;
+        $potentiel = 19+1;
+        $initiative = 13;
+        $chance = 11;
         $froid = 7;
         $chaleur = 7;
         $maladie = 11;
@@ -200,10 +200,12 @@
 
         $pdvBonus = -4;
         $pdv = $force + $endurance + $pdvBonus;
-        $pdsBonus = 0;
+        $pdsBonus = -0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 24;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+        $pds = $pds - $pds;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
 
@@ -232,16 +234,16 @@
         $poids = 28;
         $taille = "1,95";
 
-        $charisme = 9;
-        $force = 5;
-        $endurance = 5;
-        $dexterité = 7;
-        $agilité = 5;
-        $intelligence = 8;
-        $sagesse = 10;
-        $potentiel = 15;
-        $initiative = 8;
-        $chance = 5;
+        $charisme = 19;
+        $force = 6;
+        $endurance = 14;
+        $dexterité = 10+2;
+        $agilité = 7;
+        $intelligence = 17;
+        $sagesse = 18+1;
+        $potentiel = 19+1;
+        $initiative = 13;
+        $chance = 11;
         $froid = 7;
         $chaleur = 7;
         $maladie = 11;
@@ -251,12 +253,14 @@
         $sommeil = 7;
         $douleur = 7;
 
-        $pdvBonus = -2;
+        $pdvBonus = -4;
         $pdv = $force + $endurance + $pdvBonus;
-        $pdsBonus = 0;
+        $pdsBonus = -0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 24;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+
+        $pds = $pds - $pds;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
 

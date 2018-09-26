@@ -9,6 +9,8 @@
     include('competence.php');
     // Importation du fichier qui contient les equipements des Personnages
     include('equipement.php');
+    // Importation du fichier qui contient les tatouages des personnages
+    include('tatouage.php');
     // Importation du fichir qui contient les sorts des Personnages
     include('sort.php');
     // Importation du fichier qui contient l'inventaire des Personnages
@@ -582,6 +584,107 @@
                             <?php echo $arme1InfoComplete;?><br>
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        $tatouage1Nom = "X";
+    $tatouage1Quantité = "X";
+    $tatouage1Emplacement = "X";
+    $tatouage1Type = "X";
+    $tatouage1Effet = "X";
+
+        <section id="tatouage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-center">
+                    <h2 class="section-heading">Sort</h2>
+                        <hr class="my-4">
+                        <table class="table table-sm table-striped table-dark text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Quantité</th>
+                                    <th scope="col">Emplacement</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Effet</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><?php echo $tatouage1Nom;?></td>
+                                    <td><?php echo $tatouage1Quantité;?></td>
+                                    <td><?php echo $tatouage1Emplacement;?></td>
+                                    <td><?php echo $tatouage1Type;?></td>
+                                    <td><?php echo $tatouage1Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage2Nom;?></td>
+                                    <td><?php echo $tatouage2Quantité;?></td>
+                                    <td><?php echo $tatouage2Emplacement;?></td>
+                                    <td><?php echo $tatouage2Type;?></td>
+                                    <td><?php echo $tatouage2Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage3Nom;?></td>
+                                    <td><?php echo $tatouage3Quantité;?></td>
+                                    <td><?php echo $tatouage3Emplacement;?></td>
+                                    <td><?php echo $tatouage3Type;?></td>
+                                    <td><?php echo $tatouage3Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage4Nom;?></td>
+                                    <td><?php echo $tatouage4Quantité;?></td>
+                                    <td><?php echo $tatouage4Emplacement;?></td>
+                                    <td><?php echo $tatouage4Type;?></td>
+                                    <td><?php echo $tatouage4Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage5Nom;?></td>
+                                    <td><?php echo $tatouage5Quantité;?></td>
+                                    <td><?php echo $tatouage5Emplacement;?></td>
+                                    <td><?php echo $tatouage5Type;?></td>
+                                    <td><?php echo $tatouage5Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage6Nom;?></td>
+                                    <td><?php echo $tatouage6Quantité;?></td>
+                                    <td><?php echo $tatouage6Emplacement;?></td>
+                                    <td><?php echo $tatouage6Type;?></td>
+                                    <td><?php echo $tatouage6Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage7Nom;?></td>
+                                    <td><?php echo $tatouage7Quantité;?></td>
+                                    <td><?php echo $tatouage7Emplacement;?></td>
+                                    <td><?php echo $tatouage7Type;?></td>
+                                    <td><?php echo $tatouage7Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage8Nom;?></td>
+                                    <td><?php echo $tatouage8Quantité;?></td>
+                                    <td><?php echo $tatouage8Emplacement;?></td>
+                                    <td><?php echo $tatouage8Type;?></td>
+                                    <td><?php echo $tatouage8Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage9Nom;?></td>
+                                    <td><?php echo $tatouage9Quantité;?></td>
+                                    <td><?php echo $tatouage9Emplacement;?></td>
+                                    <td><?php echo $tatouage9Type;?></td>
+                                    <td><?php echo $tatouage9Effet;?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $tatouage10Nom;?></td>
+                                    <td><?php echo $tatouage10Quantité;?></td>
+                                    <td><?php echo $tatouage10Emplacement;?></td>
+                                    <td><?php echo $tatouage10Type;?></td>
+                                    <td><?php echo $tatouage10Effet;?></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
             </div>
         </section>
