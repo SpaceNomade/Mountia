@@ -75,6 +75,9 @@
                             <a class="nav-link js-scroll-trigger" href="#equipement">Équipements</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#tatouage">Tatouage</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#sort">Sort</a>
                         </li>
                         <li class="nav-item">
@@ -84,10 +87,7 @@
                             <a class="nav-link js-scroll-trigger" href="#inventaireCollectif">Inventaire Groupe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:history.go(-1)">Retour</a>
+                            <a class="nav-link" href="javascript:history.go(-1)"><i class="fas fa-door-open"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -588,17 +588,11 @@
             </div>
         </section>
 
-        $tatouage1Nom = "X";
-    $tatouage1Quantité = "X";
-    $tatouage1Emplacement = "X";
-    $tatouage1Type = "X";
-    $tatouage1Effet = "X";
-
         <section id="tatouage">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mx-auto text-center">
-                    <h2 class="section-heading">Sort</h2>
+                    <h2 class="section-heading">Tatouage</h2>
                         <hr class="my-4">
                         <table class="table table-sm table-striped table-dark text-center">
                             <thead>

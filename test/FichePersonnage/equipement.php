@@ -304,14 +304,26 @@ if ($nomPersonnage == "orochi") {
     $arme1DegatMagique = 7;
     $arme1DegatOverTime = 0;
     $arme1Portee = 20;
+    $arme1Description = "X";
 
-    $arme2Nom = "X";
-    $arme2Rang = "X";
-    $arme2Materiaux = "X";
-    $arme2DegatPhysique = "X";
-    $arme2DegatMagique = "X";
+    $arme2Nom = "Arc Magique de foudre";
+    $arme2Rang = "B";
+    $arme2Materiaux = "Acier Blanc";
+    $arme2DegatPhysique = 20;
+    $arme2DegatMagique = 24;
     $arme2DegatOverTime = "X";
-    $arme2Portee = "X";
+    $arme2Portee = 150;
+    $arme2Description = "";
+
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Description = "X";
+
 
     $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
 

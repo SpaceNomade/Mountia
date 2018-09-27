@@ -308,7 +308,7 @@ if ($nomPersonnage == "orochi") {
     $sort10EffectSecondaire = "X";
     $sort10Description = "X";
 
-} elseif ($nomPersonnage == "barfero"){
+} elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Sort de Barfero importer');</script>";
 
     $sort1Nom = "Cri d'ether";
@@ -352,13 +352,13 @@ if ($nomPersonnage == "orochi") {
     $sort4Description = "";
 
     $sort5Nom = "Invocation Calcifer";
-    $sort5Point = 3;
-    $sort5Maitrise = "Novice";
-    $sort5Cout = 10;
-    $sort5Degat = 9;
-    $sort5Duree = 3;
-    $sort5Portée = 10;
-    $sort5EffectSecondaire = "Implosion (Zone d'effet de 2M)";
+    $sort5Point = 7;
+    $sort5Maitrise = "Disciple";
+    $sort5Cout = 6;
+    $sort5Degat = 25;
+    $sort5Duree = 5;
+    $sort5Portée = 15;
+    $sort5EffectSecondaire = "Implosion (Zone d'effet de 4 Metre)";
     $sort5Description = "Avant de retourner dans les abysses, Calcifer se charge d'énergie et active son effet secondaire.";
 
     $sort6Nom = "Portail";
@@ -410,109 +410,6 @@ if ($nomPersonnage == "orochi") {
     $sort10Portée = "CàC";
     $sort10EffectSecondaire = "X";
     $sort10Description = "Fait appel a la magie ecrite sur un parchemin";
-
-} elseif ($nomPersonnage == "barferoPossedé"){
-    echo "<script>console.log('Sort de Barfero le Possédée importer');</script>";
-
-    $sort1Nom = "X";
-    $sort1Point = "X";
-    $sort1Maitrise = "X";
-    $sort1Cout = "X";
-    $sort1Degat = "X";
-    $sort1Duree = "X";
-    $sort1Portée = "X";
-    $sort1EffectSecondaire = "X";
-    $sort1Description = "X";
-
-    $sort2Nom = "X";
-    $sort2Point = "X";
-    $sort2Maitrise = "X";
-    $sort2Cout = "X";
-    $sort2Degat = "X";
-    $sort2Duree = "X";
-    $sort2Portée = "X";
-    $sort2EffectSecondaire = "X";
-    $sort2Description = "X";
-
-    $sort3Nom = "X";
-    $sort3Point = "X";
-    $sort3Maitrise = "X";
-    $sort3Cout = "X";
-    $sort3Degat = "X";
-    $sort3Duree = "X";
-    $sort3Portée = "X";
-    $sort3EffectSecondaire = "X";
-    $sort3Description = "X";
-
-    $sort4Nom = "X";
-    $sort4Point = "X";
-    $sort4Maitrise = "X";
-    $sort4Cout = "X";
-    $sort4Degat = "X";
-    $sort4Duree = "X";
-    $sort4Portée = "X";
-    $sort4EffectSecondaire = "X";
-    $sort4Description = "X";
-
-    $sort5Nom = "X";
-    $sort5Point = "X";
-    $sort5Maitrise = "X";
-    $sort5Cout = "X";
-    $sort5Degat = "X";
-    $sort5Duree = "X";
-    $sort5Portée = "X";
-    $sort5EffectSecondaire = "X";
-    $sort5Description = "X";
-
-    $sort6Nom = "X";
-    $sort6Point = "X";
-    $sort6Maitrise = "X";
-    $sort6Cout = "X";
-    $sort6Degat = "X";
-    $sort6Duree = "X";
-    $sort6Portée = "X";
-    $sort6EffectSecondaire = "X";
-    $sort6Description = "X";
-
-    $sort7Nom = "X";
-    $sort7Point = "X";
-    $sort7Maitrise = "X";
-    $sort7Cout = "X";
-    $sort7Degat = "X";
-    $sort7Duree = "X";
-    $sort7Portée = "X";
-    $sort7EffectSecondaire = "X";
-    $sort7Description = "X";
-
-    $sort8Nom = "X";
-    $sort8Point = "X";
-    $sort8Maitrise = "X";
-    $sort8Cout = "X";
-    $sort8Degat = "X";
-    $sort8Duree = "X";
-    $sort8Portée = "X";
-    $sort8EffectSecondaire = "X";
-    $sort8Description = "X";
-
-    $sort9Nom = "X";
-    $sort9Point = "X";
-    $sort9Maitrise = "X";
-    $sort9Cout = "X";
-    $sort9Degat = "X";
-    $sort9Duree = "X";
-    $sort9Portée = "X";
-    $sort9EffectSecondaire = "X";
-    $sort9Description = "X";
-
-    $sort10Nom = "X";
-    $sort10Point = "X";
-    $sort10Maitrise = "X";
-    $sort10Cout = "X";
-    $sort10Degat = "X";
-    $sort10Duree = "X";
-    $sort10Portée = "X";
-    $sort10EffectSecondaire = "X";
-    $sort10Description = "X";
 
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Sort de Xanther importer');</script>";

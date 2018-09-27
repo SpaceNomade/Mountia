@@ -6,8 +6,8 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 71+20;
-        $florinArgent = 8;
+        $florinOr = 93;
+        $florinArgent = 0;
         $florinCuivre = 0;
 
         $race = "Drakens";
@@ -20,21 +20,21 @@
         $age = 21;
         $sexe = "M";
         $poids = 140;
-        $taille = "2,00";
+        $taille = 2.00;
 
-        $charisme = 7+2;
-        $force = 9+3;
-        $endurance = 10+2;
-        $dexterité = 8+3;
-        $agilité = 13;
-        $intelligence = 7;
-        $sagesse = 6;
-        $potentiel = 4;
-        $initiative = 7+2;
-        $chance = 7;
+        $charisme = 8;
+        $force = 18+5;
+        $endurance = 16+5;
+        $dexterité = 12+4;
+        $agilité = 12+2;
+        $intelligence = 11;
+        $sagesse = 14+1;
+        $potentiel = 11;
+        $initiative = 15+2;
+        $chance = 8;
         $froid = 7;
         $chaleur = 7+4;
-        $maladie = 7;
+        $maladie = 7+4;
         $boisson = 7;
         $charme = 7;
         $peur = 7;
@@ -49,6 +49,7 @@
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité";
+
     } elseif ($nomPersonnage == "orochiDragon"){
         $nomInvocateur = "Orochi";
         $surnomInvocateur = "le dragon Éxilé";
@@ -58,8 +59,8 @@
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
 
-        $florinOr = 71+20;
-        $florinArgent = 8;
+        $florinOr = 101;
+        $florinArgent = 0;
         $florinCuivre = 0;
 
         $race = "Drakans";
@@ -74,16 +75,16 @@
         $poids = 210;
         $taille = "3,00";
 
-        $charisme = 9;
-        $force = 12+6;
-        $endurance = 12+6;
-        $dexterité = 11;
-        $agilité = 13;
-        $intelligence = 7;
-        $sagesse = 6;
-        $potentiel = 4;
-        $initiative = 9;
-        $chance = 7;
+        $charisme = 8;
+        $force = 23+12;
+        $endurance = 21+11;
+        $dexterité = 16;
+        $agilité = 14;
+        $intelligence = 11;
+        $sagesse = 15;
+        $potentiel = 11;
+        $initiative = 17;
+        $chance = 8;
         $froid = 7;
         $chaleur = 11;
         $maladie = 7;
@@ -110,9 +111,9 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 74+20;
-        $florinArgent = 7;
-        $florinCuivre = 2;
+        $florinOr = 130;
+        $florinArgent = 0;
+        $florinCuivre = 7;
 
         $race = "Rédioras";
         $metier1 = "Mercenaire";
@@ -126,16 +127,16 @@
         $poids = 220;
         $taille = "2,40";
 
-        $charisme = 7;
-        $force = 12+1;
-        $endurance = 9;
-        $dexterité = 9+5;
-        $agilité = 8+1;
-        $intelligence = 7+4;
-        $sagesse = 4;
-        $potentiel = 5;
-        $initiative = 7+2;
-        $chance = 5;
+        $charisme = 11;
+        $force = 20+2;
+        $endurance = 15;
+        $dexterité = 11+5;
+        $agilité = 16+1;
+        $intelligence = 13+4;
+        $sagesse = 11;
+        $potentiel = 0;
+        $initiative = 9+3;
+        $chance = 10;
         $froid = 7;
         $chaleur = 7;
         $maladie = 7;
@@ -152,6 +153,9 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
+        $pdm = $pdm - $pdm;
+
+
         $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
 
 
@@ -163,9 +167,9 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 19+46+20+14-16-144+108;
-        $florinArgent = 8+8;
-        $florinCuivre = "0";
+        $florinOr = 47-32;
+        $florinArgent = 16-7;
+        $florinCuivre = 0;
 
         $race = "Lunaréen";
         $metier1 = "Alchimiste";
@@ -218,9 +222,9 @@
         $statutMental = "Possedé";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 19+46+20;
-        $florinArgent = 8+8;
-        $florinCuivre = "0";
+        $florinOr = 47;
+        $florinArgent = 16-7;
+        $florinCuivre = 0;
 
         $race = "Lunaréen";
         $metier1 = "Alchimiste";
@@ -275,8 +279,8 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 61+20;
-        $florinArgent = 8;
+        $florinOr = 81;
+        $florinArgent = 8-7;
         $florinCuivre = 0;
 
         $race = "";
@@ -291,16 +295,16 @@
         $poids = 75;
         $taille = "1,70";
 
-        $charisme = 8+4;
-        $force = 8+2;
-        $endurance = 6+2;
-        $dexterité = 8+4;
-        $agilité = 8+1;
-        $intelligence = 7;
-        $sagesse = 6;
-        $potentiel = 7;
-        $initiative = 10+6+8;
-        $chance = 7;
+        $charisme = 10+4;
+        $force = 13+2;
+        $endurance = 12+9;
+        $dexterité = 11+5;
+        $agilité = 17+1;
+        $intelligence = 13;
+        $sagesse = 13;
+        $potentiel = 15;
+        $initiative = 20+6+13;
+        $chance = 12;
         $froid = 7+2;
         $chaleur = 7;
         $maladie = 7;
@@ -328,9 +332,9 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 102+20;
-        $florinArgent = 1;
-        $florinCuivre = 0;
+        $florinOr = 163;
+        $florinArgent = 5;
+        $florinCuivre = 3;
 
         $race = "";
         $metier1 = "";
@@ -344,16 +348,16 @@
         $poids = "";
         $taille = "";
 
-        $charisme = 9+2;
-        $force = 7;
-        $endurance = 7+4;
-        $dexterité = 7;
-        $agilité = 7;
-        $intelligence = 7+1;
-        $sagesse = 6+2;
-        $potentiel = 10+7;
-        $initiative = 6;
-        $chance = 8;
+        $charisme = 18+2;
+        $force = 14;
+        $endurance = 14+4;
+        $dexterité = 9;
+        $agilité = 14;
+        $intelligence = 16+1;
+        $sagesse = 14+2;
+        $potentiel = 18+8;
+        $initiative = 9+1;
+        $chance = 11;
         $froid = 7;
         $chaleur = 7;
         $maladie = 7+2;
@@ -382,9 +386,9 @@
         $statutMental = "Gargouille";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 102+20;
-        $florinArgent = 1;
-        $florinCuivre = 0;
+        $florinOr = 163;
+        $florinArgent = 5;
+        $florinCuivre = 3;
 
         $race = "";
         $metier1 = "";
@@ -398,24 +402,24 @@
         $poids = "";
         $taille = "";
 
-        $charisme = 11;
-        $force = 7;
-        $endurance = 11+6;
-        $dexterité = 7;
-        $agilité = 7;
-        $intelligence = 8;
-        $sagesse = 8+2;
-        $potentiel = 17+3;
-        $initiative = 6;
-        $chance = 8;
+        $charisme = 20;
+        $force = 14;
+        $endurance = 18+6;
+        $dexterité = 9;
+        $agilité = 14;
+        $intelligence = 17;
+        $sagesse = 16+2;
+        $potentiel = 26+3;
+        $initiative = 10;
+        $chance = 11;
         $froid = 7;
         $chaleur = 7;
-        $maladie = 20;
+        $maladie = 9+20;
         $boisson = 9;
         $charme = 7;
-        $peur = 20;
+        $peur = 11+20;
         $sommeil = 7;
-        $douleur = 20;
+        $douleur = 11+20;
 
         $pdvBonus = 0;
         $pdv = $force + $endurance + $pdvBonus;

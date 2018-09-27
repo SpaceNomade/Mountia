@@ -190,12 +190,12 @@ if ($nomPersonnage == "orochi") {
 
 } elseif ($nomPersonnage == "barfero"){
     echo "<script>console.log('Inventaire de Barfero importer');</script>";
-
-    $tatouage1Nom = "X";
-    $tatouage1Quantité = "X";
-    $tatouage1Emplacement = "X";
-    $tatouage1Type = "X";
-    $tatouage1Effet = "X";
+    
+    $tatouage1Nom = "Pentacle";
+    $tatouage1Quantité = 1;
+    $tatouage1Emplacement = "Torse";
+    $tatouage1Type = "Offensif";
+    $tatouage1Effet = "+14% de degat de sort";
 
     $tatouage2Nom = "X";
     $tatouage2Quantité = "X";
@@ -570,5 +570,3 @@ if ($nomPersonnage == "orochi") {
 }
 
 ?>
-<!-- {+ 1 tatouage  +14% de degat de sort pour barfero
-- 2 arbalete d'acier} -->
