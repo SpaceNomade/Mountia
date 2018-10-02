@@ -316,20 +316,20 @@ if ($nomPersonnage == "orochi") {
     $sort1Maitrise = "Novice";
     $sort1Cout = 5;
     $sort1Degat = 9;
-    $sort1Duree = "";
+    $sort1Duree = "X";
     $sort1Portée = 10;
-    $sort1EffectSecondaire = "";
+    $sort1EffectSecondaire = "X";
     $sort1Description = "Pousse un cri d'éther qui s'écrase sur les ennemies.";
 
     $sort2Nom = "Terreur";
     $sort2Point = 3;
     $sort2Maitrise = "Novice";
     $sort2Cout = 5;
-    $sort2Degat = "";
+    $sort2Degat = "X";
     $sort2Duree = 7;
     $sort2Portée = "Cible";
     $sort2EffectSecondaire = "-1 Peur";
-    $sort2Description = "";
+    $sort2Description = "X";
 
     $sort3Nom = "Piege";
     $sort3Point = 3;
@@ -338,18 +338,18 @@ if ($nomPersonnage == "orochi") {
     $sort3Degat = 7;
     $sort3Duree = 2;
     $sort3Portée = 5;
-    $sort3EffectSecondaire = "";
-    $sort3Description = "";
+    $sort3EffectSecondaire = "X";
+    $sort3Description = "X";
 
     $sort4Nom = "Prison";
     $sort4Point = 5;
     $sort4Maitrise = "Novice";
     $sort4Cout = 5;
     $sort4Degat = 9;
-    $sort4Duree = "";
+    $sort4Duree = "X";
     $sort4Portée = 10;
-    $sort4EffectSecondaire = "";
-    $sort4Description = "";
+    $sort4EffectSecondaire = "X";
+    $sort4Description = "X";
 
     $sort5Nom = "Invocation Calcifer";
     $sort5Point = 7;
@@ -362,13 +362,13 @@ if ($nomPersonnage == "orochi") {
     $sort5Description = "Avant de retourner dans les abysses, Calcifer se charge d'énergie et active son effet secondaire.";
 
     $sort6Nom = "Portail";
-    $sort6Point = "2";
+    $sort6Point = 2;
     $sort6Maitrise = "Novice";
-    $sort6Cout = "10";
-    $sort6Degat = "";
-    $sort6Duree = "7";
-    $sort6Portée = "1";
-    $sort6EffectSecondaire = "";
+    $sort6Cout = 10;
+    $sort6Degat = "X";
+    $sort6Duree = 7;
+    $sort6Portée = 1;
+    $sort6EffectSecondaire = "X";
     $sort6Description = "Crée un portail permettant de cacher trois objets ou un être vivant.";
 
     $sort7Nom = "X";
@@ -421,7 +421,7 @@ if ($nomPersonnage == "orochi") {
     $sort1Degat = "9";
     $sort1Duree = "3";
     $sort1Portée = "300";
-    $sort1EffectSecondaire = "";
+    $sort1EffectSecondaire = "X";
     $sort1Description = "Cible une zone";
 
     $sort2Nom = "Shadowspread";
@@ -431,7 +431,7 @@ if ($nomPersonnage == "orochi") {
     $sort2Degat = "+1";
     $sort2Duree = "3";
     $sort2Portée = "CAC";
-    $sort2EffectSecondaire = "";
+    $sort2EffectSecondaire = "X";
     $sort2Description = "Ajoute des dégats d'ombre";
 
     $sort3Nom = "Darkshield";
