@@ -3,7 +3,7 @@
     height: 40px;
     margin: 100px auto;
     background-color: red;
-  
+    background-position: center;
     border-radius: 100%;  
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
