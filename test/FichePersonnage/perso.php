@@ -11,7 +11,9 @@
     include('equipement.php');
     // Importation du fichier qui contient les tatouages des personnages
     include('tatouage.php');
-    // Importation du fichir qui contient les sorts des Personnages
+    // Importation du fichier qui contient les voies des personnages
+    include('voie.php');
+    // Importation du fichier qui contient les sorts des Personnages
     include('sort.php');
     // Importation du fichier qui contient l'inventaire des Personnages
     include('inventaire.php');
@@ -1035,19 +1037,37 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">Voie de l'alchimiste</th>
+                                                <th scope="row" rowspan="3"><?php echo $voie1Nom;?></th>
+                                                <td><?php echo $voie1Niveau1;?></td>
+                                                <td><?php echo $voie1DescriptionNiveau1;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie1Niveau2;?></td>
+                                                <td>Permet de crée des potions de soin et de mana</td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie1Niveau3;?></td>
+                                                <td>Permet de crée des potions de soin et de mana</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-striped table-dark text-center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="row" rowspan="3"><?php echo $voie2Nom;?></th>
+                                                <th scope="col">Niveau</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Voie du mercenaire</th>
                                                 <td>1</td>
-                                                <td>Permet de crée des potions de soin et de mana</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Voie de l'alchimiste</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des potions de soin et de mana</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Voie de l'alchimiste</th>
-                                                <td><img src="../img/voie/alchimiste/rang_3.png" alt="" width="50px"></td>
-                                                <td>Permet de crée des potions de soin et de mana</td>
+                                                <td>Permet de maitriser une arme a deux mains</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1065,16 +1085,49 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">Voie du mercenaire</th>
+                                                <th scope="row">Voie de l'ecrimage</th>
                                                 <td>1</td>
-                                                <td>Permet de maitriser une arme a deux mains</td>
+                                                <td>Permet de crée des runes d'attaque</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Voie de l'ecrimage</th>
+                                                <td>2</td>
+                                                <td>Permet de crée des runes d'attaque</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-striped table-dark text-center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Voie</th>
+                                                <th scope="col">Niveau</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Voie de l'ecrimage</th>
+                                                <td>1</td>
+                                                <td>Permet de crée des runes d'attaque</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Voie de l'ecrimage</th>
+                                                <td>2</td>
+                                                <td>Permet de crée des runes d'attaque</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Voie de l'ecrimage</th>
+                                                <td>2</td>
+                                                <td>Permet de crée des runes d'attaque</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                             <div class="col-md-6 text-center">
                                 <div class="table-responsive">
                                     <table class="table table-sm table-striped table-dark text-center">
