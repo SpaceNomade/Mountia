@@ -76,11 +76,9 @@
                     <div class="col-lg-8 mx-auto text-center">
                         <h2 class="section-heading">Veuillez choisir votre âme !</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send
-                            us an email and we will get back to you as soon as possible!</p>
+                        <p class="mb-5">Choisissez votre âme et partez en quêtes ! </p>
                         <form method="POST" action="perso.php">
                             <div class="form-group">
-                                <label for="FormControlSelectPlayer">Choisisez votre ame</label>
                                 <select class="form-control" id="FormControlSelectPlayer" name="nomPersonnage">
                                     <option value="orochi">Orochi / l'Exilé</option>
                                     <option value="orochiDragon">Orochi / l'Exilé (Dragon)</option>
