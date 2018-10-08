@@ -1043,11 +1043,11 @@
                                             </tr>
                                             <tr>
                                                 <td><?php echo $voie1Niveau2;?></td>
-                                                <td>Permet de crée des potions de soin et de mana</td>
+                                                <td><?php echo $voie1DescriptionNiveau2;?></td>
                                             </tr>
                                             <tr>
                                                 <td><?php echo $voie1Niveau3;?></td>
-                                                <td>Permet de crée des potions de soin et de mana</td>
+                                                <td><?php echo $voie1DescriptionNiveau3;?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1058,41 +1058,24 @@
                                     <table class="table table-sm table-striped table-dark text-center">
                                         <thead>
                                             <tr>
+                                                <th scope="col">Voie</th>
+                                                <th scope="col">Niveau</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
                                                 <th scope="row" rowspan="3"><?php echo $voie2Nom;?></th>
-                                                <th scope="col">Niveau</th>
-                                                <th scope="col">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">Voie du mercenaire</th>
-                                                <td>1</td>
-                                                <td>Permet de maitriser une arme a deux mains</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-center">
-                                <div class="table-responsive">
-                                    <table class="table table-sm table-striped table-dark text-center">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Voie</th>
-                                                <th scope="col">Niveau</th>
-                                                <th scope="col">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>1</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie2Niveau1;?></td>
+                                                <td><?php echo $voie2DescriptionNiveau1;?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie2Niveau2;?></td>
+                                                <td><?php echo $voie2DescriptionNiveau2;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie2Niveau3;?></td>
+                                                <td><?php echo $voie2DescriptionNiveau3;?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1110,19 +1093,17 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>1</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <th scope="row" rowspan="3"><?php echo $voie3Nom;?></th>
+                                                <td><?php echo $voie3Niveau1;?></td>
+                                                <td><?php echo $voie3DescriptionNiveau1;?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie3Niveau2;?></td>
+                                                <td><?php echo $voie3DescriptionNiveau2;?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie3Niveau3;?></td>
+                                                <td><?php echo $voie3DescriptionNiveau3;?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1140,14 +1121,17 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>1</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <th scope="row" rowspan="3"><?php echo $voie4Nom;?></th>
+                                                <td><?php echo $voie4Niveau1;?></td>
+                                                <td><?php echo $voie4DescriptionNiveau1;?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie4Niveau2;?></td>
+                                                <td><?php echo $voie4DescriptionNiveau2;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie4Niveau3;?></td>
+                                                <td><?php echo $voie4DescriptionNiveau3;?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1165,14 +1149,45 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>1</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <th scope="row" rowspan="3"><?php echo $voie5Nom;?></th>
+                                                <td><?php echo $voie5Niveau1;?></td>
+                                                <td><?php echo $voie5DescriptionNiveau1;?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">Voie de l'ecrimage</th>
-                                                <td>2</td>
-                                                <td>Permet de crée des runes d'attaque</td>
+                                                <td><?php echo $voie5Niveau2;?></td>
+                                                <td><?php echo $voie5DescriptionNiveau2;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie5Niveau3;?></td>
+                                                <td><?php echo $voie5DescriptionNiveau3;?></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-striped table-dark text-center">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Voie</th>
+                                                <th scope="col">Niveau</th>
+                                                <th scope="col">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row" rowspan="3"><?php echo $voie6Nom;?></th>
+                                                <td><?php echo $voie6Niveau1;?></td>
+                                                <td><?php echo $voie6DescriptionNiveau1;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie6Niveau2;?></td>
+                                                <td><?php echo $voie6DescriptionNiveau2;?></td>
+                                            </tr>
+                                            <tr>
+                                                <td><?php echo $voie6Niveau3;?></td>
+                                                <td><?php echo $voie6DescriptionNiveau3;?></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1194,15 +1209,15 @@
                         <table class="table table-sm table-striped table-dark text-center table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col">Nom</th>
+                                    <th scope="col">Nom du sort</th>
                                     <th scope="col">Point</th>
-                                    <th scope="col">Maitrise</th>
+                                    <th scope="col">Niveau de Maitrise</th>
                                     <th scope="col">Cout</th>
                                     <th scope="col">Degat</th>
                                     <th scope="col">Durée</th>
-                                    <th scope="col">Portée</th>
+                                    <th scope="col">Portée (Metre)</th>
                                     <th scope="col">Effet<br>Secondaire</th>
-                                    <th scope="col">Description</th>
+                                    <th scope="col">Description du sort</th>
                                 </tr>
                             </thead>
                             <tbody>
