@@ -6,7 +6,7 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 93;
+        $florinOr = 93+60;
         $florinArgent = 0;
         $florinCuivre = 0;
 
@@ -48,7 +48,7 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité à une valeur de $agilité";
 
     } elseif ($nomPersonnage == "orochiDragon"){
         $nomInvocateur = "Orochi";
@@ -59,7 +59,7 @@
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
 
-        $florinOr = 101;
+        $florinOr = 0;
         $florinArgent = 0;
         $florinCuivre = 0;
 
@@ -101,7 +101,7 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.Cette irrégularité est d'une valeur de $agilité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité à une valeur de $agilité";
 
     
     } elseif ($nomPersonnage == "rackham"){
@@ -111,9 +111,9 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 130;
-        $florinArgent = 0;
-        $florinCuivre = 7;
+        $florinOr = 60;
+        $florinArgent = 4;
+        $florinCuivre = 8;
 
         $race = "Rédioras";
         $metier1 = "Mercenaire";
@@ -128,12 +128,12 @@
         $taille = "2,40";
 
         $charisme = 11;
-        $force = 20+2;
+        $force = 20+2/*Bonus */+4/*Bonus */;
         $endurance = 15;
-        $dexterité = 11+5;
+        $dexterité = 14+5;
         $agilité = 16+1;
         $intelligence = 13+4;
-        $sagesse = 11;
+        $sagesse = 14;
         $potentiel = 0;
         $initiative = 9+3;
         $chance = 10;
@@ -156,10 +156,10 @@
         $pdm = $pdm - $pdm;
 
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est la dextérité.<br>Cette irrégularité à une valeur de $dexterité";
 
 
-    } elseif ($nomPersonnage == "barfero") {
+    } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé") {
         $nomInvocateur = "Barfero";
         $surnomInvocateur = "l'astronome erudit";
         $verdict = "<script>confirm('Barfero est invoquer');</script>";
@@ -167,9 +167,9 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 47-32;
-        $florinArgent = 16-7;
-        $florinCuivre = 0;
+        $florinOr =  129;
+        $florinArgent = 29;
+        $florinCuivre = 13;
 
         $race = "Lunaréen";
         $metier1 = "Alchimiste";
@@ -184,9 +184,9 @@
         $taille = "1,95";
 
         $charisme = 19;
-        $force = 6;
+        $force = 9;
         $endurance = 14;
-        $dexterité = 10+2;
+        $dexterité = 11+2;
         $agilité = 7;
         $intelligence = 17;
         $sagesse = 18+1;
@@ -204,71 +204,15 @@
 
         $pdvBonus = -4;
         $pdv = $force + $endurance + $pdvBonus;
-        $pdsBonus = -0;
+        $pdsBonus = 0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 24;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
         $pds = $pds - $pds;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est la dextérité.<br>Cette irrégularité à une valeur de $dexterité";
 
-    } elseif ($nomPersonnage == "barferoPossedé") {
-        $nomInvocateur = "Barfero";
-        $surnomInvocateur = "l'astronome erudit";
-        $verdict = "<script> console.log('Perso Barfero Possedé');
-        confirm('Barfero possedé par Maleeds est invoquer');</script>";
-        $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
-        $statutMental = "Possedé";
-        echo "<script> console.log('Equipement de $nomInvocateur')</script>";
-
-        $florinOr = 47;
-        $florinArgent = 16-7;
-        $florinCuivre = 0;
-
-        $race = "Lunaréen";
-        $metier1 = "Alchimiste";
-        $metier2 = "Mage d'ecriture";
-        $alignement = "Chaotique / Bon";
-        $couleur = "Bleu / Gris";
-        $niveau = 2+1;
-        $experience = 4+2;
-        $age = 810;
-        $sexe = "M";
-        $poids = 28;
-        $taille = "1,95";
-
-        $charisme = 19;
-        $force = 6;
-        $endurance = 14;
-        $dexterité = 10+2;
-        $agilité = 7;
-        $intelligence = 17;
-        $sagesse = 18+1;
-        $potentiel = 19+1;
-        $initiative = 13;
-        $chance = 11;
-        $froid = 7;
-        $chaleur = 7;
-        $maladie = 11;
-        $boisson = 7;
-        $charme = 7;
-        $peur = 7;
-        $sommeil = 7;
-        $douleur = 7;
-
-        $pdvBonus = -4;
-        $pdv = $force + $endurance + $pdvBonus;
-        $pdsBonus = -0;
-        $pds = $intelligence + $sagesse + $pdsBonus;
-        $pdmBonus = 24;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
-
-        $pds = $pds - $pds;
-
-        $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
-
-        
 
     } elseif ($nomPersonnage == "xanther") {
         $nomInvocateur = "Xanther";
@@ -279,9 +223,9 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 81;
-        $florinArgent = 8-7;
-        $florinCuivre = 0;
+        $florinOr = 95;
+        $florinArgent = 8;
+        $florinCuivre = 1;
 
         $race = "";
         $metier1 = "Assassin";
@@ -296,12 +240,12 @@
         $taille = "1,70";
 
         $charisme = 10+4;
-        $force = 13+2;
+        $force = 15+2;
         $endurance = 12+9;
         $dexterité = 11+5;
         $agilité = 17+1;
         $intelligence = 13;
-        $sagesse = 13;
+        $sagesse = 16;
         $potentiel = 15;
         $initiative = 20+6+13;
         $chance = 12;
@@ -321,7 +265,7 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est la dexterité.Cette irrégularité est d'une valeur de $dexterité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est la dextérité.<br>Cette irrégularité à une valeur de $dexterité";
 
     } elseif ($nomPersonnage == "exyu") {
         $nomInvocateur = "Exyu";
@@ -374,7 +318,7 @@
         $pdmBonus = 3;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel.Cette irrégularité est d'une valeur de $potentiel ";
+        $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel.<br>Cette irrégularité à une valeur de $potentiel ";
 
 
     } elseif ($nomPersonnage == "exyuGargouille") {
@@ -428,7 +372,7 @@
         $pdmBonus = -12;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel. Cette irrégularité est d'une valeur de $potentiel ";
+        $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel.<br>Cette irrégularité à une valeur de $potentiel ";
 
 
     } else {

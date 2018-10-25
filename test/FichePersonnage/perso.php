@@ -107,8 +107,7 @@
                         <hr>
                     </div>
                     <div class="col-lg-12 mx-auto">
-                        <p class="text-faded mb-5" id="st">
-                            <?php echo $messageAme;?>.</p>
+                        <p class="text-faded mb-5" id="st"> <?php echo $messageAme;?>.</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Statistique">Suite</a>
                     </div>
                 </div>
@@ -173,7 +172,7 @@
                             <?php echo $force;?> <i class="em em-muscle"></i><br>
                             Endurance :
                             <?php echo $endurance;?><br>
-                            Dexterité :
+                            Dextérité :
                             <?php echo $dexterité;?> <i class="em em-open_hands"></i><br>
                             Agilité :
                             <?php echo $agilité;?><br>
@@ -223,12 +222,6 @@
         <!-- Competence du personnage choisis par l'invocateur -->
         <section id="competence">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mx-auto text-center">
-                        <h2 class="section-heading">Compétences</h2>
-                        <hr class="my-4">
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <table class="table table-sm table-striped table-dark text-center">
@@ -554,13 +547,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mx-auto text-center">
-                        <h2 class="section-heading">Équipements</h2>
-                        <hr class="my-4">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 mx-auto text-center">
                         <h3>Armure</h3>
+                        <hr class="my-4">
                         <div class="table-responsive">
                             <table class="table table-sm table-striped table-dark text-center">
                                 <thead>
@@ -745,6 +733,16 @@
                                         </td>
                                     </tr>
                                 </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>
+                                            Armure Physique Total <?php echo round ($armurePhysiqueComplete); ?>
+                                        </td>
+                                        <td>
+                                            Armure Magique Total <?php echo round($armureMagiqueComplete); ?>
+                                        </td>
+                                    </tr>
+                                </tfoot>
                             </table><br>
                         </div>
                     </div>
@@ -753,7 +751,7 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h3>Arme</h3>
                         <div class="table-responsive">
-                            <table class="table table-sm table-striped table-dark text-center table-responsive">
+                            <table class="table table-sm table-striped table-dark text-center">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
@@ -765,11 +763,13 @@
                                         <th scope="col">OverTime</th>
                                         <th scope="col">Distance<br>(Mètre)</th>
                                         <th scope="col">Enchantement</th>
+                                        <th scope="col">Description</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">Arme principal</th>
+                                        <th scope="row">1</th>
                                         <td>
                                             <?php echo $arme1Nom;?>
                                         </td>
@@ -789,11 +789,17 @@
                                             <?php echo $arme1DegatOverTime;?>
                                         </td>
                                         <td>
-                                            <?php echo $arme1Portee;?> M</td>
-                                        <td></td>
+                                            <?php echo $arme1Portee;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme1Enchantement;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme1Description;?>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Arme Secondaire</th>
+                                        <th scope="row">2</th>
                                         <td>
                                             <?php echo $arme2Nom;?>
                                         </td>
@@ -813,8 +819,44 @@
                                             <?php echo $arme2DegatOverTime;?>
                                         </td>
                                         <td>
-                                            <?php echo $arme2Portee;?> M</td>
-                                        <td></td>
+                                            <?php echo $arme2Portee;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme2Enchantement;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme2Description;?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <?php echo $arme3Nom;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3Rang;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3Materiaux;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3DegatPhysique;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3DegatMagique;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3DegatOverTime;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3Portee;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3Enchantement;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $arme3Description;?>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1210,7 +1252,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">Nom du sort</th>
-                                    <th scope="col">Point</th>
+                                    <th scope="col">Niveau du sort</th>
                                     <th scope="col">Niveau de Maitrise</th>
                                     <th scope="col">Cout</th>
                                     <th scope="col">Degat</th>
@@ -1511,6 +1553,64 @@
                                         <?php echo $sort10Description;?>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $sort11Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Point;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Maitrise;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Cout;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Degat;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Duree;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Portée;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11EffectSecondaire;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort11Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $sort12Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Point;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Maitrise;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Cout;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Degat;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Duree;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Portée;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12EffectSecondaire;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $sort12Description;?>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -1721,7 +1821,197 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Inventaire Collectif</h2>
                         <hr class="my-4">
-                        <p class="mb-5">Inventaire Collectif des aventuriers d'Utopia !</p>
+                        <table class="table table-sm table-striped table-dark text-center align-items-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Quantité</th>
+                                    <th scope="col">Prix<br>d'achat</th>
+                                    <th scope="col">Prix de<br>revente</th>
+                                    <th scope="col">Type</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif1Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif1Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif1Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif1PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif1Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif2Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif2Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif2Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif2PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif2Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif3Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif3Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif3Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif3PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif3Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif4Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif4Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif4Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif4PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif4Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif5Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif5Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif5Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif5PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif5Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif6Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif6Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif6Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif6PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif6Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif7Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif7Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif7Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif7PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif7Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif8Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif8Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif8Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif8PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif8Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif9Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif9Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif9Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif9PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif9Type;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif10Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif10Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif10Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif10PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif10Type;?>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table><br>
+                        <p>
+                            Florin d'or :
+                            <?php echo $CollectifOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
+                            Florin d'argent :
+                            <?php echo $CollectifArgent?> <i class="fas fa-coins" style="color:#CECECE"></i><br>
+                            Florin de cuivre :
+                            <?php echo $CollectifCuivre;?> <i class="fas fa-coins" style="color:#B36700"></i>
+                        </p>
                     </div>
                 </div>
             </div>

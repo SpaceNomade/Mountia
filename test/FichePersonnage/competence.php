@@ -1,5 +1,5 @@
 <?php
-if ($nomPersonnage == "orochi") {
+if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Competence de Orochi importer');</script>";
 
     $artDeLaRue = 2;
@@ -23,67 +23,6 @@ if ($nomPersonnage == "orochi") {
     $medecine = 1;
     $navigation = 1;
     $orientation = 2;
-    $portage = $force;
-    $pilotage = 1;
-    $premierSoins = 6;
-    $psychologie = 2;
-    $savoir = $sagesse;
-    $secondeVue = $potentiel;
-    $survie = 2;
-    $sprint = $initiative;
-
-    $traque = 2;
-    $bonus1Nom = "Forge";
-    $bonus1Valeur = 14;
-    $bonus2Nom = "Confection darme";
-    $bonus2Valeur = 16;
-    $bonus3Nom = "Arme a une main";
-    $bonus3Valeur = 15;
-    $bonus4Nom = "Armurie";
-    $bonus4Valeur = 2;
-    $bonus5Nom = "X";
-    $bonus5Valeur = "X";
-    $bonus6Nom = "X";
-    $bonus6Valeur = "X";
-    $bonus7Nom = "X";
-    $bonus7Valeur = "X";
-    $bonus8Nom = "X";
-    $bonus8Valeur = "X";
-    $bonus9Nom = "X";
-    $bonus9Valeur = "X";
-    $bonus10Nom = "X";
-    $bonus10Valeur = "X";
-    $bonus11Nom = "X";
-    $bonus11Valeur = "X";
-    $bonus12Nom = "X";
-    $bonus12Valeur = "X";
-    $bonus13Nom = "X";
-    $bonus13Valeur = "X";
-
-} elseif ($nomPersonnage == "orochiDragon"){
-    echo "<script>console.log('Competence de Orochi le Dragon importer');</script>";
-
-    $artDeLaRue = 2;
-    $athletisme = 6;
-    $bibliotheque = 4;
-    $charmeCompetence = 4;
-    $chercher = 6;
-    $conduite = 4;
-    $credit = 0+14;
-    $cuisine = 4;
-    $diplomatie = 4;
-    $discretion = 4;
-    $equitation = 1;
-    $intuition = 4+6;
-    $maniement = $dexterité;
-    $langueMaternelle = $intelligence;
-
-    $larcin = 2;
-    $leadership = 3;
-    $legende = 2;
-    $medecine = 1;
-    $navigation = 1+3;
-    $orientation = 2+3;
     $portage = $force;
     $pilotage = 1;
     $premierSoins = 6;
@@ -183,7 +122,7 @@ if ($nomPersonnage == "orochi") {
     $bonus13Nom = "X";
     $bonus13Valeur = "X";
 
-} elseif ($nomPersonnage == "barfero"){
+} elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Competence de Barfero importer');</script>";
 
     $artDeLaRue = 2;
@@ -225,67 +164,6 @@ if ($nomPersonnage == "orochi") {
     $bonus3Valeur = 5;
     $bonus4Nom = "Ecriture";
     $bonus4Valeur = "50%";
-    $bonus5Nom = "X";
-    $bonus5Valeur = "X";
-    $bonus6Nom = "X";
-    $bonus6Valeur = "X";
-    $bonus7Nom = "X";
-    $bonus7Valeur = "X";
-    $bonus8Nom = "X";
-    $bonus8Valeur = "X";
-    $bonus9Nom = "X";
-    $bonus9Valeur = "X";
-    $bonus10Nom = "X";
-    $bonus10Valeur = "X";
-    $bonus11Nom = "X";
-    $bonus11Valeur = "X";
-    $bonus12Nom = "X";
-    $bonus12Valeur = "X";
-    $bonus13Nom = "X";
-    $bonus13Valeur = "X";
-
-} elseif ($nomPersonnage == "barferoPossedé"){
-    echo "<script>console.log('Competence de Barfero le Possédé importer');</script>";
-
-    $artDeLaRue = 2;
-    $athletisme = 6;
-    $bibliotheque = 4;
-    $charmeCompetence = 4;
-    $chercher = 6;
-    $conduite = 4;
-    $credit = 0;
-    $cuisine = 4;
-    $diplomatie = 4;
-    $discretion = 4;
-    $equitation = 1;
-    $intuition = 4;
-    $maniement = $dexterité;
-    $langueMaternelle = $intelligence;
-
-    $larcin = 2;
-    $leadership = 3;
-    $legende = 2;
-    $medecine = 1;
-    $navigation = 1;
-    $orientation = 2;
-    $portage = $force;
-    $pilotage = 1;
-    $premierSoins = 6;
-    $psychologie = 2;
-    $savoir = $sagesse;
-    $secondeVue = $potentiel;
-    $survie = 2;
-    $sprint = $initiative;
-
-    $traque = 2;
-    $bonus1Nom = "Potion";
-    $bonus1Valeur = 12;
-    $bonus2Nom = "Alchimie";
-    $bonus2Valeur = 12;
-    $bonus3Nom = "Arbalete";
-    $bonus3Valeur = "5";
-    $bonus4Nom = "X";
-    $bonus4Valeur = "X";
     $bonus5Nom = "X";
     $bonus5Valeur = "X";
     $bonus6Nom = "X";
