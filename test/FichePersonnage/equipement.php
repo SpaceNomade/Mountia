@@ -216,18 +216,18 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
 
     $armureTetePhysique = 5;
-    $armureEpaulesPhysique = "";
+    $armureEpaulesPhysique = 0;
     $armureTorsePhysique = 5;
     $armureBrasPhysique = 5;
-    $armureTassettePhysique = "";
+    $armureTassettePhysique = 0;
     $armureJambesPhysique = 5;
     $armurePiedsPhysique = 5;
 
     $armureTeteMagique = 4;
-    $armureEpaulesMagique = "";
+    $armureEpaulesMagique = 0;
     $armureTorseMagique = 4;
     $armureBrasMagique = 4;
-    $armureTassetteMagique = "";
+    $armureTassetteMagique = 0;
     $armureJambesMagique = 4;
     $armurePiedsMagique = 4;
 
@@ -389,46 +389,46 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "exyu"){
     echo "<script>console.log('Equipement de Exyu importer');</script>";
 
-    $armureTeteNom = "";
+    $armureTeteNom = "Calotte";
     $armureEpaulesNom = "";
-    $armureTorseNom = "";
-    $armureBrasNom = "";
+    $armureTorseNom = "Pourpoing";
+    $armureBrasNom = "Brassards";
     $armureTassetteNom = "";
-    $armureJambesNom = "";
-    $armurePiedsNom = "";
+    $armureJambesNom = "Bambes Gamboisées";
+    $armurePiedsNom = "Bottes Renforcées";
 
     $armureTeteRang = "D";
-    $armureEpaulesRang = "D";
+    $armureEpaulesRang = "";
     $armureTorseRang = "D";
     $armureBrasRang = "D";
-    $armureTassetteRang = "D";
+    $armureTassetteRang = "";
     $armureJambesRang = "D";
     $armurePiedsRang = "D";
 
     $armureTeteMatiere = "Cuir";
-    $armureEpaulesMatiere = "Cuir";
+    $armureEpaulesMatiere = "";
     $armureTorseMatiere = "Cuir";
     $armureBrasMatiere = "Cuir";
-    $armureTassetteMatiere = "Cuir";
+    $armureTassetteMatiere = "";
     $armureJambesMatiere = "Cuir";
     $armurePiedsMatiere = "Cuir";
 
 
-    $armureTetePhysique = 2;
-    $armureEpaulesPhysique = 2;
-    $armureTorsePhysique = 2;
-    $armureBrasPhysique = 2;
-    $armureTassettePhysique = 2;
-    $armureJambesPhysique = 2;
-    $armurePiedsPhysique = 2;
+    $armureTetePhysique = 8 ;
+    $armureEpaulesPhysique = 0;
+    $armureTorsePhysique = 7;
+    $armureBrasPhysique = 7;
+    $armureTassettePhysique = 0;
+    $armureJambesPhysique = 8;
+    $armurePiedsPhysique = 8;
 
-    $armureTeteMagique = 2;
-    $armureEpaulesMagique = 2;
-    $armureTorseMagique = 2;
-    $armureBrasMagique = 2;
-    $armureTassetteMagique = 2;
-    $armureJambesMagique = 2;
-    $armurePiedsMagique = 2;
+    $armureTeteMagique = 7;
+    $armureEpaulesMagique = 0;
+    $armureTorseMagique = 8;
+    $armureBrasMagique = 8;
+    $armureTassetteMagique = 0;
+    $armureJambesMagique = 7;
+    $armurePiedsMagique = 7;
 
     $armureTeteBonus = "";
     $armureEpaulesBonus = "";
@@ -446,13 +446,15 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesEnchantement = "";
     $armurePiedsEnchantement = "";
 
-    $arme1Nom = "";
+    $arme1Nom = "Dague";
     $arme1Rang = "";
     $arme1Materiaux = "";
-    $arme1DegatPhysique = "";
-    $arme1DegatMagique = "";
+    $arme1DegatPhysique = 7;
+    $arme1DegatMagique = 7;
     $arme1DegatOverTime = "";
     $arme1Portee = "";
+    $arme1Enchantement = "";
+    $arme1Description = "";
 
     $arme2Nom = "";
     $arme2Rang = "";
@@ -474,8 +476,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme3Enchantement = "";
     $arme3Description = "";
 
-    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+    $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
+    $armureMagiqueComplete = (($armureTeteMagique + $armureEpaulesMagique + $armureTorseMagique + $armureBrasMagique + $armureTassetteMagique + $armureJambesMagique + $armurePiedsMagique)/ 5) * 1.5;
 
 } elseif ($nomPersonnage == "exyuGargouille"){
     echo "<script>console.log('Equipement de Exyu la Gargouille importer');</script>";
@@ -559,8 +562,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme3Enchantement = "";
     $arme3Description = "";
 
-    $arme1InfoComplete = "$nomInvocateur possede 1 $arme1Nom de rang $arme1Rang en $arme1Materiaux et une porté de $arme1Portee avec comme degats physique $arme1DegatPhysique points et avec comme degats magique $arme1DegatMagique points .";
+    $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
+    $armureMagiqueComplete = (($armureTeteMagique + $armureEpaulesMagique + $armureTorseMagique + $armureBrasMagique + $armureTassetteMagique + $armureJambesMagique + $armurePiedsMagique)/ 5) * 1.5;
 
 } else {
     echo "<script>console.log('Equipement non recuperer')</script>";
