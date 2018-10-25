@@ -128,7 +128,7 @@
         $taille = "2,40";
 
         $charisme = 11;
-        $force = 20+2/*Bonus */+4/*Bonus */;
+        $force = 20+2/*Bonus voie Mercenaire et chevalier noir*/;
         $endurance = 15;
         $dexterité = 14+5;
         $agilité = 16+1;
