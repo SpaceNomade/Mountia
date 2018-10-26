@@ -223,13 +223,13 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesPhysique = 5;
     $armurePiedsPhysique = 5;
 
-    $armureTeteMagique = 4;
+    $armureTeteMagique = 5;
     $armureEpaulesMagique = 0;
-    $armureTorseMagique = 4;
-    $armureBrasMagique = 4;
+    $armureTorseMagique = 5;
+    $armureBrasMagique = 5;
     $armureTassetteMagique = 0;
-    $armureJambesMagique = 4;
-    $armurePiedsMagique = 4;
+    $armureJambesMagique = 5;
+    $armurePiedsMagique = 5;
 
     $armureTeteBonus = "";
     $armureEpaulesBonus = "";
@@ -250,8 +250,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme1Nom = "Dague (gauche)";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
-    $arme1DegatPhysique = 23;
-    $arme1DegatMagique = 23;
+    $arme1DegatPhysique = 24;
+    $arme1DegatMagique = 24;
     $arme1DegatOverTime = "";
     $arme1Portee = "CaC";
     $arme1Enchantement = "";
@@ -260,8 +260,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme2Nom = "Dague (droite)";
     $arme2Rang = "A";
     $arme2Materiaux = "Acier des cieux";
-    $arme2DegatPhysique = 23;
-    $arme2DegatMagique = 23;
+    $arme2DegatPhysique = 24;
+    $arme2DegatMagique = 24;
     $arme2DegatOverTime = "";
     $arme2Portee = "CaC";
     $arme2Enchantement = "";
@@ -270,8 +270,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme3Nom = "Arc Magique de foudre";
     $arme3Rang = "B";
     $arme3Materiaux = "Acier Blanc";
-    $arme3DegatPhysique = 21;
-    $arme3DegatMagique = 27;
+    $arme3DegatPhysique = 22;
+    $arme3DegatMagique = 28;
     $arme3DegatOverTime = "";
     $arme3Portee = 150;
     $arme3Enchantement = "";
@@ -280,8 +280,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme4Nom = "Arbalete";
     $arme4Rang = "A";
     $arme4Materiaux = "Argent";
-    $arme4DegatPhysique = 21;
-    $arme4DegatMagique = 21;
+    $arme4DegatPhysique = 22;
+    $arme4DegatMagique = 22;
     $arme4DegatOverTime = "";
     $arme4Portee = 20;
     $arme4Enchantement = "";
