@@ -990,9 +990,6 @@
                                             <?php echo $tatouage5Taille;?>
                                         </td>
                                         <td>
-                                            <?php echo $tatouage5Quantité;?>
-                                        </td>
-                                        <td>
                                             <?php echo $tatouage5Emplacement;?>
                                         </td>
                                         <td>
@@ -1007,7 +1004,13 @@
                                             <?php echo $tatouage6Nom;?>
                                         </td>
                                         <td>
+                                            <?php echo $tatouage6Rang;?>
+                                        </td>
+                                        <td>
                                             <?php echo $tatouage6Quantité;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $tatouage6Taille;?>
                                         </td>
                                         <td>
                                             <?php echo $tatouage6Emplacement;?>
@@ -1024,7 +1027,13 @@
                                             <?php echo $tatouage7Nom;?>
                                         </td>
                                         <td>
+                                            <?php echo $tatouage7Rang;?>
+                                        </td>
+                                        <td>
                                             <?php echo $tatouage7Quantité;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $tatouage7Taille;?>
                                         </td>
                                         <td>
                                             <?php echo $tatouage7Emplacement;?>
@@ -1041,7 +1050,13 @@
                                             <?php echo $tatouage8Nom;?>
                                         </td>
                                         <td>
+                                            <?php echo $tatouage8Rang;?>
+                                        </td>
+                                        <td>
                                             <?php echo $tatouage8Quantité;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $tatouage8Taille;?>
                                         </td>
                                         <td>
                                             <?php echo $tatouage8Emplacement;?>
@@ -1058,7 +1073,13 @@
                                             <?php echo $tatouage9Nom;?>
                                         </td>
                                         <td>
+                                            <?php echo $tatouage9Rang;?>
+                                        </td>
+                                        <td>
                                             <?php echo $tatouage9Quantité;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $tatouage9Taille;?>
                                         </td>
                                         <td>
                                             <?php echo $tatouage9Emplacement;?>
@@ -1075,7 +1096,13 @@
                                             <?php echo $tatouage10Nom;?>
                                         </td>
                                         <td>
+                                            <?php echo $tatouage10Rang;?>
+                                        </td>
+                                        <td>
                                             <?php echo $tatouage10Quantité;?>
+                                        </td>
+                                        <td>
+                                            <?php echo $tatouage10Taille;?>
                                         </td>
                                         <td>
                                             <?php echo $tatouage10Emplacement;?>

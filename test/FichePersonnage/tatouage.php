@@ -5,7 +5,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $tatouage1Nom = "X";
     $tatouage1Rang = "X";
     $tatouage1Quantité = "X";
-    $tatouageTaille = "X";
+    $tatouage1Taille = "X";
     $tatouage1Emplacement = "X";
     $tatouage1Type = "X";
     $tatouage1Effet = "X";
