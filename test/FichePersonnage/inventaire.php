@@ -193,14 +193,14 @@ if ($nomPersonnage == "orochi") {
     echo "<script>console.log('Inventaire de Barfero importer');</script>";
 
     $item1Nom = "Potion de soin";
-    $item1Quantité = "1";
-    $item1Prix = "";
+    $item1Quantité = "11";
+    $item1Prix = "1";
     $item1PrixRevente = "";
     $item1Type = "Potion";
 
     $item2Nom = "Potion de mana";
     $item2Quantité = "1";
-    $item2Prix = "";
+    $item2Prix = "1";
     $item2PrixRevente = "";
     $item2Type = "Potion";
 
@@ -222,11 +222,11 @@ if ($nomPersonnage == "orochi") {
     $item5PrixRevente = "";
     $item5Type = "Viande";
 
-    $item6Nom = "";
-    $item6Quantité = "";
+    $item6Nom = "Potion Hallucinogène";
+    $item6Quantité = "10";
     $item6Prix = "";
     $item6PrixRevente = "";
-    $item6Type = "";
+    $item6Type = "Potion";
 
     $item7Nom = "";
     $item7Quantité = "";

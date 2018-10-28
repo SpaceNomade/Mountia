@@ -137,18 +137,11 @@
                     </div>
                     <div class="col-md-6 text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%"
-                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
-                        </div><br>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%"
-                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
-                        </div><br>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%"
-                                aria-valuenow="<?php echo $pdv;?>" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div>
                     </div>
@@ -1310,7 +1303,8 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Sort</h2>
                         <hr class="my-4">
-                        <table class="table table-sm table-striped table-dark text-center table-responsive">
+                        <div class="table-responsive">
+                        <table class="table table-sm table-striped table-dark text-center">
                             <thead>
                                 <tr>
                                     <th scope="col">Nom du sort</th>
@@ -1675,6 +1669,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1688,7 +1683,7 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Inventaire</h2>
                         <hr class="my-4">
-                        <table class="table table-sm table-striped table-dark text-center align-items-center">
+                        <table class="table table-sm table-striped table-dark text-center">
                             <thead>
                                 <tr>
                                     <th scope="col">Nom</th>
@@ -1883,7 +1878,8 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Inventaire Collectif</h2>
                         <hr class="my-4">
-                        <table class="table table-sm table-striped table-dark text-center align-items-center">
+                        <div class="table-responsive">
+                        <table class="table table-sm table-striped table-dark text-center">
                             <thead>
                                 <tr>
                                     <th scope="col">Nom</th>
@@ -1891,6 +1887,7 @@
                                     <th scope="col">Prix<br>d'achat</th>
                                     <th scope="col">Prix de<br>revente</th>
                                     <th scope="col">Type</th>
+                                    <th scope="col">Description</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1910,6 +1907,10 @@
                                     <td>
                                         <?php echo $itemCollectif1Type;?>
                                     </td>
+
+                                    <td>
+                                        <?php echo $itemCollectif1Description;?>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -1926,6 +1927,10 @@
                                     </td>
                                     <td>
                                         <?php echo $itemCollectif2Type;?>
+                                    </td>
+
+                                    <td>
+                                        <?php echo $itemCollectif2Description;?>
                                     </td>
                                 </tr>
                                 <tr>
@@ -1944,6 +1949,10 @@
                                     <td>
                                         <?php echo $itemCollectif3Type;?>
                                     </td>
+
+                                    <td>
+                                        <?php echo $itemCollectif3Description;?>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -1960,6 +1969,10 @@
                                     </td>
                                     <td>
                                         <?php echo $itemCollectif4Type;?>
+                                    </td>
+
+                                    <td>
+                                        <?php echo $itemCollectif4Description;?>
                                     </td>
                                 </tr>
                                 <tr>
@@ -1978,6 +1991,9 @@
                                     <td>
                                         <?php echo $itemCollectif5Type;?>
                                     </td>
+                                    <td>
+                                        <?php echo $itemCollectif5Description;?>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -1994,6 +2010,9 @@
                                     </td>
                                     <td>
                                         <?php echo $itemCollectif6Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif6Description;?>
                                     </td>
                                 </tr>
                                 <tr>
@@ -2012,6 +2031,9 @@
                                     <td>
                                         <?php echo $itemCollectif7Type;?>
                                     </td>
+                                    <td>
+                                        <?php echo $itemCollectif7Description;?>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -2028,6 +2050,9 @@
                                     </td>
                                     <td>
                                         <?php echo $itemCollectif8Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif8Description;?>
                                     </td>
                                 </tr>
                                 <tr>
@@ -2046,6 +2071,9 @@
                                     <td>
                                         <?php echo $itemCollectif9Type;?>
                                     </td>
+                                    <td>
+                                        <?php echo $itemCollectif9Description;?>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -2063,9 +2091,12 @@
                                     <td>
                                         <?php echo $itemCollectif10Type;?>
                                     </td>
+                                    <td>
+                                        <?php echo $itemCollectif10Description;?>
+                                    </td>
                                 </tr>
                             </tbody>
-                        </table><br>
+                        </table></div><br>
                         <p>
                             Florin d'or :
                             <?php echo $CollectifOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>

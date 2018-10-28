@@ -32,9 +32,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort3EffectSecondaire = "X";
     $sort3Description = "Renforce la resistance physique et magique de l'armure";
 
-    $sort4Nom = "X";
-    $sort4Point = "X";
-    $sort4Maitrise = "X";
+    $sort4Nom = "Jugement du Dragon";
+    $sort4Point = "2";
+    $sort4Maitrise = "Novice";
     $sort4Cout = "X";
     $sort4Degat = "X";
     $sort4Duree = "X";
@@ -42,9 +42,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort4EffectSecondaire = "X";
     $sort4Description = "X";
 
-    $sort5Nom = "X";
-    $sort5Point = "X";
-    $sort5Maitrise = "X";
+    $sort5Nom = "Bouclier Draconique";
+    $sort5Point = "2";
+    $sort5Maitrise = "Novice";
     $sort5Cout = "X";
     $sort5Degat = "X";
     $sort5Duree = "X";
@@ -52,9 +52,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort5EffectSecondaire = "X";
     $sort5Description = "X";
 
-    $sort6Nom = "X";
-    $sort6Point = "X";
-    $sort6Maitrise = "X";
+    $sort6Nom = "Corne du Dragon";
+    $sort6Point = "2";
+    $sort6Maitrise = "Novice";
     $sort6Cout = "X";
     $sort6Degat = "X";
     $sort6Duree = "X";
@@ -62,25 +62,25 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort6EffectSecondaire = "X";
     $sort6Description = "X";
 
-    $sort7Nom = "X";
-    $sort7Point = "X";
-    $sort7Maitrise = "X";
+    $sort7Nom = "Chaine Draconique";
+    $sort7Point = "2";
+    $sort7Maitrise = "Novice";
     $sort7Cout = "X";
     $sort7Degat = "X";
     $sort7Duree = "X";
-    $sort7Portée = "X";
+    $sort7Portée = 10;
     $sort7EffectSecondaire = "X";
     $sort7Description = "X";
 
-    $sort8Nom = "X";
-    $sort8Point = "X";
-    $sort8Maitrise = "X";
+    $sort8Nom = "Création de métal";
+    $sort8Point = 6;
+    $sort8Maitrise = "Disciple";
     $sort8Cout = "X";
     $sort8Degat = "X";
     $sort8Duree = "X";
     $sort8Portée = "X";
-    $sort8EffectSecondaire = "X";
-    $sort8Description = "X";
+    $sort8EffectSecondaire = "Fer / Fer Blanc / Fer Noir / Argent / Acier / Acier Blanc / Acier Noir";
+    $sort8Description = "Permet de changer le type de metal";
 
     $sort9Nom = "X";
     $sort9Point = "X";
@@ -215,37 +215,37 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Sort de Rackham importer');</script>";
 
-    $sort1Nom = "X Coupe";
+    $sort1Nom = "X Coups";
     $sort1Point = "6";
     $sort1Maitrise = "Novice";
-    $sort1Cout = "5 PS";
-    $sort1Degat = "9";
+    $sort1Cout = 6;
+    $sort1Degat = 26;
     $sort1Duree = "X";
     $sort1Portée = "X";
     $sort1EffectSecondaire = "x";
     $sort1Description = "Lancé un dés de 4 afin de savoir combien de coup seront porté";
 
-    $sort2Nom = "Xp";
-    $sort2Point = "X";
+    $sort2Nom = "Charge Demoniaque";
+    $sort2Point = "6";
     $sort2Maitrise = "X";
-    $sort2Cout = "X";
-    $sort2Degat = "X";
+    $sort2Cout = 6;
+    $sort2Degat = 26;
     $sort2Duree = "X";
-    $sort2Portée = "X";
+    $sort2Portée = 15;
     $sort2EffectSecondaire = "X";
     $sort2Description = "X";
 
-    $sort3Nom = "X";
-    $sort3Point = "X";
-    $sort3Maitrise = "X";
-    $sort3Cout = "X";
-    $sort3Degat = "X";
-    $sort3Duree = "X";
-    $sort3Portée = "X";
+    $sort3Nom = "Cyclone Tournoyant";
+    $sort3Point = "2";
+    $sort3Maitrise = "Novice";
+    $sort3Cout = 25;
+    $sort3Degat = 24;
+    $sort3Duree = 3;
+    $sort3Portée = 2;
     $sort3EffectSecondaire = "X";
     $sort3Description = "X";
 
-    $sort4Nom = "X";
+    $sort4Nom = "Illusion";
     $sort4Point = "X";
     $sort4Maitrise = "X";
     $sort4Cout = "X";
@@ -255,7 +255,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort4EffectSecondaire = "X";
     $sort4Description = "X";
 
-    $sort5Nom = "X";
+    $sort5Nom = "Arsenal Fantome";
     $sort5Point = "X";
     $sort5Maitrise = "X";
     $sort5Cout = "X";
@@ -265,7 +265,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort5EffectSecondaire = "X";
     $sort5Description = "X";
 
-    $sort6Nom = "X";
+    $sort6Nom = "Attaque Fantome";
     $sort6Point = "X";
     $sort6Maitrise = "X";
     $sort6Cout = "X";
@@ -432,7 +432,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort1Point = 5;
     $sort1Maitrise = "Novice";
     $sort1Cout = 5;
-    $sort1Degat = 9;
+    $sort1Degat = 9+8/**Bonus Tatouage */;
     $sort1Duree = "X";
     $sort1Portée = 10;
     $sort1EffectSecondaire = "X";
@@ -452,7 +452,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort3Point = 3;
     $sort3Maitrise = "Novice";
     $sort3Cout = 6;
-    $sort3Degat = 7;
+    $sort3Degat = 7+8/**Bonus Tatouage */;
     $sort3Duree = 2;
     $sort3Portée = 5;
     $sort3EffectSecondaire = "X";
@@ -462,24 +462,24 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort4Point = 5;
     $sort4Maitrise = "Novice";
     $sort4Cout = 5;
-    $sort4Degat = 9;
+    $sort4Degat = 9+8/**Bonus Tatouage */;
     $sort4Duree = "X";
     $sort4Portée = 10;
     $sort4EffectSecondaire = "X";
     $sort4Description = "X";
 
     $sort5Nom = "Invocation Calcifer";
-    $sort5Point = 7;
+    $sort5Point = 9;
     $sort5Maitrise = "Disciple";
     $sort5Cout = 6;
-    $sort5Degat = 25;
+    $sort5Degat = 25+8/**Bonus Tatouage */;
     $sort5Duree = 5;
     $sort5Portée = 15;
     $sort5EffectSecondaire = "Implosion (Zone d'effet de 4 Metre)";
     $sort5Description = "Avant de retourner dans les abysses, Calcifer se charge d'énergie et active son effet secondaire.";
 
     $sort6Nom = "Portail";
-    $sort6Point = 2;
+    $sort6Point = 3;
     $sort6Maitrise = "Novice";
     $sort6Cout = 10;
     $sort6Degat = "X";
@@ -488,17 +488,17 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort6EffectSecondaire = "X";
     $sort6Description = "Crée un portail permettant de cacher trois objets ou un être vivant.";
 
-    $sort7Nom = "Conjuration de Feu";
-    $sort7Point = "X";
-    $sort7Maitrise = "X";
-    $sort7Cout = "X";
+    $sort7Nom = "Conjuration Elementaire";
+    $sort7Point = 3;
+    $sort7Maitrise = "Novice";
+    $sort7Cout = 10;
     $sort7Degat = "X";
-    $sort7Duree = "X";
-    $sort7Portée = "X";
+    $sort7Duree = 7;
+    $sort7Portée = "Cible";
     $sort7EffectSecondaire = "X";
-    $sort7Description = "Permet de conjurer une arme et de rajouter une magie de Feu dessus";
+    $sort7Description = "Permet de conjurer une arme et de rajouter un aspect d'element sur une arme ou une invocation";
 
-    $sort8Nom = "Conjuration de Glace";
+    $sort8Nom = "x";
     $sort8Point = "X";
     $sort8Maitrise = "X";
     $sort8Cout = "X";
@@ -506,9 +506,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort8Duree = "X";
     $sort8Portée = "X";
     $sort8EffectSecondaire = "X";
-    $sort8Description = "Permet de conjurer une arme et de rajouter une magie de Glace dessus";
+    $sort8Description = "X";
 
-    $sort9Nom = "Conjuration de Foudre";
+    $sort9Nom = "X";
     $sort9Point = "X";
     $sort9Maitrise = "X";
     $sort9Cout = "X";
@@ -516,7 +516,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort9Duree = "X";
     $sort9Portée = "X";
     $sort9EffectSecondaire = "X";
-    $sort9Description = "Permet de conjurer une arme et de rajouter une magie de Foudre dessus";
+    $sort9Description = "X";
 
     $sort10Nom = "Magie ecriture";
     $sort10Point = 5;

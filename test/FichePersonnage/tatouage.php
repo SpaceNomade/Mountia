@@ -170,12 +170,12 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Inventaire de Barfero importer');</script>";
 
     $tatouage1Nom = "Pentacle";
-    $tatouage1Rang = "X";
-    $tatouage1Quantité = "1";
-    $tatouage1Taille = "X";
+    $tatouage1Rang = "A";
+    $tatouage1Quantité = 1;
+    $tatouage1Taille = 4;
     $tatouage1Emplacement = "Torse";
     $tatouage1Type = "Offensif";
-    $tatouage1Effet = "+14% de degat de sort";
+    $tatouage1Effet = "+8 de degat de sort";
 
     $tatouage2Nom = "X";
     $tatouage2Rang = "X";

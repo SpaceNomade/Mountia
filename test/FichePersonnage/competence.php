@@ -40,7 +40,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus3Nom = "Arme a une main";
     $bonus3Valeur = 15;
     $bonus4Nom = "Armurie";
-    $bonus4Valeur = 2;
+    $bonus4Valeur = 7;
     $bonus5Nom = "X";
     $bonus5Valeur = "X";
     $bonus6Nom = "X";
@@ -57,8 +57,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
-    $bonus13Valeur = "X";
+    $bonus13Nom = "Armure";
+    $bonus13Valeur = 2+1;
 
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Competence de Rackham importer');</script>";
@@ -119,8 +119,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
-    $bonus13Valeur = "X";
+    $bonus13Nom = "Armure";
+    $bonus13Valeur = 2+3;
 
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Competence de Barfero importer');</script>";
@@ -157,9 +157,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
     $traque = 2;
     $bonus1Nom = "Potion";
-    $bonus1Valeur = 12;
+    $bonus1Valeur = 14;
     $bonus2Nom = "Alchimie";
-    $bonus2Valeur = 12;
+    $bonus2Valeur = 14;
     $bonus3Nom = "Arbalete";
     $bonus3Valeur = 5;
     $bonus4Nom = "Ecriture";
@@ -180,8 +180,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
-    $bonus13Valeur = "X";
+    $bonus13Nom = "Armure";
+    $bonus13Valeur = 2+8;
 
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Competence de Xanther importer');</script>";
@@ -216,13 +216,13 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $survie = 2;
     $sprint = $initiative;
 
-    $traque = 2;
+    $traque = 3;
     $bonus1Nom = "Potion";
-    $bonus1Valeur = 12;
+    $bonus1Valeur = 14;
     $bonus2Nom = "Alchimie";
-    $bonus2Valeur = 12;
+    $bonus2Valeur = 14;
     $bonus3Nom = "Arbalete";
-    $bonus3Valeur = "5";
+    $bonus3Valeur = 5;
     $bonus4Nom = "X";
     $bonus4Valeur = "X";
     $bonus5Nom = "X";
@@ -241,7 +241,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
+    $bonus13Nom = "Armure";
     $bonus13Valeur = "X";
 
 } elseif ($nomPersonnage == "exyu"){
@@ -302,7 +302,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
+    $bonus13Nom = "Armure";
     $bonus13Valeur = "X";
 
 } elseif ($nomPersonnage == "exyuGargouille"){
@@ -363,7 +363,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus11Valeur = "X";
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
-    $bonus13Nom = "X";
+    $bonus13Nom = "Armure";
     $bonus13Valeur = "X";
 
 } else {

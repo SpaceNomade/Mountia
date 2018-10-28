@@ -11,37 +11,37 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armurePiedsNom = "Soleret";
 
     $armureTeteRang = "";
-    $armureEpaulesRang = "D";
-    $armureTorseRang = "D";
-    $armureBrasRang = "C";
-    $armureTassetteRang = "D";
-    $armureJambesRang = "C";
-    $armurePiedsRang = "C";
+    $armureEpaulesRang = "A";
+    $armureTorseRang = "A";
+    $armureBrasRang = "A";
+    $armureTassetteRang = "A";
+    $armureJambesRang = "A";
+    $armurePiedsRang = "A";
 
     $armureTeteMatiere = "";
-    $armureEpaulesMatiere = "Fer";
-    $armureTorseMatiere = "Fer";
-    $armureBrasMatiere = "Acier";
-    $armureTassetteMatiere = "Fer";
-    $armureJambesMatiere = "Acier";
-    $armurePiedsMatiere = "Acier";
+    $armureEpaulesMatiere = "Béryllium";
+    $armureTorseMatiere = "Béryllium";
+    $armureBrasMatiere = "Béryllium";
+    $armureTassetteMatiere = "Béryllium";
+    $armureJambesMatiere = "Béryllium";
+    $armurePiedsMatiere = "Béryllium";
 
 
     $armureTetePhysique = 2;
-    $armureEpaulesPhysique = 11+2;
-    $armureTorsePhysique = 11+2;
-    $armureBrasPhysique = 12+2;
-    $armureTassettePhysique = 11+2;
-    $armureJambesPhysique = 13+2;
-    $armurePiedsPhysique = 13+2;
+    $armureEpaulesPhysique = 23+2;
+    $armureTorsePhysique = 23+2;
+    $armureBrasPhysique = 22+2;
+    $armureTassettePhysique = 23+2;
+    $armureJambesPhysique = 23+2;
+    $armurePiedsPhysique = 23+2;
 
     $armureTeteMagique = 2;
-    $armureEpaulesMagique = 9+2;
-    $armureTorseMagique = 9+7;
-    $armureBrasMagique = 13+2;
-    $armureTassetteMagique = 9+2;
-    $armureJambesMagique = 12+2;
-    $armurePiedsMagique = 12+2;
+    $armureEpaulesMagique = 22+2;
+    $armureTorseMagique = 22+7;
+    $armureBrasMagique = 23+2;
+    $armureTassetteMagique = 22+2;
+    $armureJambesMagique = 22+2;
+    $armurePiedsMagique = 22+2;
 
     $armureTeteBonus = "";
     $armureEpaulesBonus = "";
@@ -67,7 +67,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme1DegatOverTime = "";
     $arme1Portee = "0.8";
     $arme1Enchantement = "";
-    $arme1Description = "";
+    $arme1Description = "Katana";
 
     $arme2Nom = "Shinigami";
     $arme2Rang = "A";
@@ -77,7 +77,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme2DegatOverTime = "";
     $arme2Portee = 1.7;
     $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Description = "Odachi";
 
     $arme3Nom = "";
     $arme3Rang = "";
@@ -190,46 +190,46 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Equipement de Barfero importer');</script>";
 
-    $armureTeteNom = "Coiffe";
+    $armureTeteNom = "Calotte";
     $armureEpaulesNom = "";
     $armureTorseNom = "Broigne";
-    $armureBrasNom = "Mittons";
+    $armureBrasNom = "Brassard";
     $armureTassetteNom = "";
     $armureJambesNom = "Jambes Boissées";
     $armurePiedsNom = "Bottes Renforcées";
 
-    $armureTeteRang = "D";
+    $armureTeteRang = "A";
     $armureEpaulesRang = "";
-    $armureTorseRang = "D";
-    $armureBrasRang = "D";
+    $armureTorseRang = "A";
+    $armureBrasRang = "A";
     $armureTassetteRang = "";
-    $armureJambesRang = "D";
-    $armurePiedsRang = "D";
+    $armureJambesRang = "A";
+    $armurePiedsRang = "A";
 
-    $armureTeteMatiere = "Cuir";
+    $armureTeteMatiere = "Acier des Cieux";
     $armureEpaulesMatiere = "";
-    $armureTorseMatiere = "Cuir";
-    $armureBrasMatiere = "Cuir";
+    $armureTorseMatiere = "Acier des Cieux";
+    $armureBrasMatiere = "Acier des Cieux";
     $armureTassetteMatiere = "";
-    $armureJambesMatiere = "Cuir";
-    $armurePiedsMatiere = "Cuir";
+    $armureJambesMatiere = "Acier des Cieux";
+    $armurePiedsMatiere = "Acier des Cieux";
 
 
-    $armureTetePhysique = 5;
+    $armureTetePhysique = 13;
     $armureEpaulesPhysique = 0;
-    $armureTorsePhysique = 5;
-    $armureBrasPhysique = 5;
+    $armureTorsePhysique = 13;
+    $armureBrasPhysique = 12;
     $armureTassettePhysique = 0;
-    $armureJambesPhysique = 5;
-    $armurePiedsPhysique = 5;
+    $armureJambesPhysique = 13;
+    $armurePiedsPhysique = 13;
 
-    $armureTeteMagique = 5;
+    $armureTeteMagique = 12;
     $armureEpaulesMagique = 0;
-    $armureTorseMagique = 5;
-    $armureBrasMagique = 5;
+    $armureTorseMagique = 12;
+    $armureBrasMagique = 13;
     $armureTassetteMagique = 0;
-    $armureJambesMagique = 5;
-    $armurePiedsMagique = 5;
+    $armureJambesMagique = 12;
+    $armurePiedsMagique = 12;
 
     $armureTeteBonus = "";
     $armureEpaulesBonus = "";
