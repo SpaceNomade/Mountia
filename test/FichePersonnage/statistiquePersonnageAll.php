@@ -6,7 +6,7 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 784+200;
+        $florinOr = 984;
         $florinArgent = 1;
         $florinCuivre = 2;
 
@@ -59,7 +59,7 @@
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
 
-        $florinOr = 784+200;
+        $florinOr = 984;
         $florinArgent = 1;
         $florinCuivre = 2;
 
@@ -144,7 +144,7 @@
         $charme = 7;
         $peur = 7;
         $sommeil = 7;
-        $douleur = 7;
+        $douleur = 7+1;
 
         $pdvBonus = 13;
         $pdv = $force + $endurance + $pdvBonus;
@@ -167,7 +167,7 @@
         $statutMental = "Normal";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 1125-493;
+        $florinOr = 1125-493-200;
         $florinArgent = 25-7;
         $florinCuivre = 8-4;
 

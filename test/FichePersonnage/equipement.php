@@ -121,13 +121,13 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armurePiedsMatiere = "Acier";
 
 
-    $armureTetePhysique = 8;
-    $armureEpaulesPhysique = 8;
-    $armureTorsePhysique = 8;
-    $armureBrasPhysique = 8;
-    $armureTassettePhysique = 8;
-    $armureJambesPhysique = 8;
-    $armurePiedsPhysique = 8;
+    $armureTetePhysique = 9;
+    $armureEpaulesPhysique = 9;
+    $armureTorsePhysique = 9;
+    $armureBrasPhysique = 9;
+    $armureTassettePhysique = 9;
+    $armureJambesPhysique = 9;
+    $armurePiedsPhysique = 9;
 
     $armureTeteMagique = 8;
     $armureEpaulesMagique = 8;

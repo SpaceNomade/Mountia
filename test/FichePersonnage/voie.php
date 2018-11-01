@@ -105,15 +105,15 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon" ) {
     echo "<script>console.log('Voie de Barfero bien importer');</script>";
     $voie1Nom = "Alchimiste";
     $voie1Niveau1 = '<img src="../img/voies/alchimie/rang_1.png" alt="" title="Niveau 1" width="50px">';
-    $voie1DescriptionNiveau1 = "O";
+    $voie1DescriptionNiveau1 = "";
     $voie1Niveau2 = '<img src="../img/voies/alchimie/rang_2.png" alt="" title="Niveau 2" width="50px">';
-    $voie1DescriptionNiveau2 = "O";
+    $voie1DescriptionNiveau2 = "";
     $voie1Niveau3 = '<img src="../img/voies/alchimie/rang_3.png" alt="" title="Niveau 3" width="50px">';
-    $voie1DescriptionNiveau3 = "O";
+    $voie1DescriptionNiveau3 = "";
 
     $voie2Nom = "Mage d'ecriture";
     $voie2Niveau1 = '<img src="../img/voies/mage_ecriture/rang_1.png" alt="" title="Niveau 1" width="50px">';
-    $voie2DescriptionNiveau1 = "O";
+    $voie2DescriptionNiveau1 = "";
     $voie2Niveau2 = ""/*'<img src="../img/voies/mage_ecriture/rang_2.png" alt="" title="Niveau 2" width="50px">'*/;
     $voie2DescriptionNiveau2 = "";
     $voie2Niveau3 = ""/*'<img src="../img/voies/mage_ecriture/rang_3.png" alt="" title="Niveau 3" width="50px">'*/;
@@ -121,7 +121,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon" ) {
 
     $voie3Nom = "Architect";
     $voie3Niveau1 = '<img src="../img/voies/architect/rang_1.png" alt="" title="Niveau 1" width="50px">';
-    $voie3DescriptionNiveau1 = "O";
+    $voie3DescriptionNiveau1 = "";
     $voie3Niveau2 = '<img src="../img/voies/architect/rang_2.png" alt="" title="Niveau 1" width="50px">';
     $voie3DescriptionNiveau2 = "";
     $voie3Niveau3 = ""/*'<img src="../img/voies/architect/rang_3.png" alt="" title="Niveau 1" width="50px">';*/;

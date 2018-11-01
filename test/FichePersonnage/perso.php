@@ -51,6 +51,7 @@
     <link href="../css/creative.css" rel="stylesheet">
     <link href="../css/loader.css" rel="stylesheet">
 
+
     <title>Fiche Personnage</title>
 </head>
 
@@ -2109,10 +2110,28 @@
                 </div>
             </div>
         </section>
+        
+        <section id="statetoile">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <canvas id="myFirstStat" height="450px"></canvas>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <canvas id="mySecondStat" height="450px"></canvas>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <canvas id="myThirdStat" height="450px"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
     </main>
+
+   
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -2167,6 +2186,83 @@
             document.querySelector('main').style.display = 'block';
         }, 2000);
     </script> -->
+    
+    <!-- Chart.js -->
+    <script src="../js/Chart.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
+     <script>
+        var ctx = document.getElementById("myFirstStat").getContext('2d');
+        var myFirstStat = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'radar',
+            // The data for our dataset
+            data: {
+                labels: ["Charisme", "Force", "Endurance", "Dextérité", "Agilité", "Intelligence"],
+                datasets: [{
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [<?php echo htmlspecialchars($charisme);?>, <?php echo htmlspecialchars($force);?>, <?php echo htmlspecialchars($endurance);?>, <?php echo htmlspecialchars($dexterité);?>, <?php echo htmlspecialchars($agilité);?>, <?php echo htmlspecialchars($intelligence);?>],
+                }]
+            },
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: false,
+                },
+                scale: {
+                    ticks: {
+                    min: 0,
+                }
+            }
+            }
+        });
+        var ctx = document.getElementById("mySecondStat").getContext('2d');
+        var mySecondStat = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ["Sagesse", "Potentiel", "Initiative", "Chance", "Froid", "Chaleur"],
+                datasets: [{
+                    backgroundColor: 'rgba(55, 220, 0, 0.2)',
+                    borderColor: 'rgb(55, 220, 0)',
+                    data: [<?php echo htmlspecialchars($sagesse);?>, <?php echo htmlspecialchars($potentiel);?>, <?php echo htmlspecialchars($initiative);?>, <?php echo htmlspecialchars($chance);?>, <?php echo htmlspecialchars($froid);?>, <?php echo htmlspecialchars($chaleur);?>],
+                }]
+            },
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: false,
+                },
+                scale: {
+                    ticks: {
+                    min: 0,
+                }
+            }
+            }
+        });
+        var ctx = document.getElementById("myThirdStat").getContext('2d');
+        var myThirdStat = new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ["Maladie", "Boisson", "Charme", "Peur", "Sommeil", "Douleur"],
+                datasets: [{
+                    backgroundColor: 'rgba(0, 164, 219, 0.2)',
+                    borderColor: 'rgb(0, 164, 219)',
+                    data: [<?php echo htmlspecialchars($maladie);?>, <?php echo htmlspecialchars($boisson);?>, <?php echo htmlspecialchars($charme);?>, <?php echo htmlspecialchars($peur);?>, <?php echo htmlspecialchars($sommeil);?>, <?php echo htmlspecialchars($douleur);?>],
+                }]
+            },
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: false,
+                },
+                scale: {
+                    ticks: {
+                    min: 0,
+                }
+            }
+        }
+    });
+    </script>
 </body>
 
 </html>
