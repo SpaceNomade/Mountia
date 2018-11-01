@@ -369,4 +369,62 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } else {
     echo "<script>console.log('Competence de personne importer');</script>";
 
+    $artDeLaRue = "X";
+    $athletisme = "X";
+    $bibliotheque = "X";
+    $charmeCompetence = "X";
+    $chercher = "X";
+    $conduite = "X";
+    $credit = "X";
+    $cuisine = "X";
+    $diplomatie = "X";
+    $discretion = "X";
+    $equitation = "X";
+    $intuition = "X";
+    $maniement = $dexterité;
+    $langueMaternelle = $intelligence;
+
+    $larcin = "X";
+    $leadership = "X";
+    $legende = "X";
+    $medecine = "X";
+    $navigation = "X";
+    $orientation = "X";
+    $portage = $force;
+    $pilotage = "X";
+    $premierSoins = "X";
+    $psychologie = "X";
+    $savoir = $sagesse;
+    $secondeVue = $potentiel;
+    $survie = "X";
+    $sprint = $initiative;
+
+    $traque = "X";
+    $bonus1Nom = "X";
+    $bonus1Valeur = "12";
+    $bonus2Nom = "X";
+    $bonus2Valeur = "X";
+    $bonus3Nom = "X";
+    $bonus3Valeur = "X";
+    $bonus4Nom = "X";
+    $bonus4Valeur = "X";
+    $bonus5Nom = "X";
+    $bonus5Valeur = "X";
+    $bonus6Nom = "X";
+    $bonus6Valeur = "X";
+    $bonus7Nom = "X";
+    $bonus7Valeur = "X";
+    $bonus8Nom = "X";
+    $bonus8Valeur = "X";
+    $bonus9Nom = "X";
+    $bonus9Valeur = "X";
+    $bonus10Nom = "X";
+    $bonus10Valeur = "X";
+    $bonus11Nom = "X";
+    $bonus11Valeur = "X";
+    $bonus12Nom = "X";
+    $bonus12Valeur = "X";
+    $bonus13Nom = "Armure";
+    $bonus13Valeur = "X";
+
 }

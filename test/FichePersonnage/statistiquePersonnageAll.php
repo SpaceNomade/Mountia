@@ -376,6 +376,8 @@
 
 
     } else {
+        $nomInvocateur = "Inconnu";
+        $surnomInvocateur = "";
         $verdict = "<script> console.log('Perso inconnu');
         confirm('Vous etes inconnu personne ne peux vous invoquer');</script>";
         $messageAme = "L'âme de votre guerrier ne peux pas etre invoquée";
@@ -419,7 +421,7 @@
         $pdv = $force + $endurance + $pdvBonus;
         $pdsBonus = 0;
         $pds = $intelligence + $sagesse + $pdsBonus;
-        $pdmBonus = -12;
+        $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 }
 ?>

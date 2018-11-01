@@ -2,7 +2,7 @@
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Equipement de Orochi importer');</script>";
 
-    $armureTeteNom = "";
+    $armureTeteNom = "X";
     $armureEpaulesNom = "Spalière";
     $armureTorseNom = "Cuirasse";
     $armureBrasNom = "Bras D'armure";
@@ -10,7 +10,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesNom = "Jambière";
     $armurePiedsNom = "Soleret";
 
-    $armureTeteRang = "";
+    $armureTeteRang = "X";
     $armureEpaulesRang = "A";
     $armureTorseRang = "A";
     $armureBrasRang = "A";
@@ -18,7 +18,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesRang = "A";
     $armurePiedsRang = "A";
 
-    $armureTeteMatiere = "";
+    $armureTeteMatiere = "X";
     $armureEpaulesMatiere = "Béryllium";
     $armureTorseMatiere = "Béryllium";
     $armureBrasMatiere = "Béryllium";
@@ -43,30 +43,30 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 22+2;
     $armurePiedsMagique = 22+2;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
     $arme1Nom = "Hikari No Kiba";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
     $arme1DegatPhysique = 40;
     $arme1DegatMagique = 40;
-    $arme1DegatOverTime = "";
+    $arme1DegatOverTime = "X";
     $arme1Portee = "0.8";
-    $arme1Enchantement = "";
+    $arme1Enchantement = "X";
     $arme1Description = "Katana";
 
     $arme2Nom = "Shinigami";
@@ -74,20 +74,20 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $arme2Materiaux = "Acier des cieux";
     $arme2DegatPhysique = 42;
     $arme2DegatMagique = 42;
-    $arme2DegatOverTime = "";
+    $arme2DegatOverTime = "X";
     $arme2Portee = 1.7;
-    $arme2Enchantement = "";
+    $arme2Enchantement = "X";
     $arme2Description = "Odachi";
 
-    $arme3Nom = "";
-    $arme3Rang = "";
-    $arme3Materiaux = "";
-    $arme3DegatPhysique = "";
-    $arme3DegatMagique = "";
-    $arme3DegatOverTime = "";
-    $arme3Portee = "";
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 7) * 2.5;
 
@@ -137,51 +137,51 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 8;
     $armurePiedsMagique = 8;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
     $arme1Nom = "Espadon";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier Draconique";
     $arme1DegatPhysique = 46;
     $arme1DegatMagique = 46;
-    $arme1DegatOverTime = "";
+    $arme1DegatOverTime = "X";
     $arme1Portee = 2;
     $arme1Enchantement = "Vent";
-    $arme1Description = "";
+    $arme1Description = "X";
 
     $arme2Nom = "Dague";
     $arme2Rang = "D";
     $arme2Materiaux = "Fer";
     $arme2DegatPhysique = 11;
     $arme2DegatMagique = 11;
-    $arme2DegatOverTime = "";
+    $arme2DegatOverTime = "X";
     $arme2Portee = "0,2";
-    $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Enchantement = "X";
+    $arme2Description = "X";
 
-    $arme3Nom = "";
-    $arme3Rang = "";
-    $arme3Materiaux = "";
-    $arme3DegatPhysique = "";
-    $arme3DegatMagique = "";
-    $arme3DegatOverTime = "";
-    $arme3Portee = "";
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 7) * 2.5;
 
@@ -191,26 +191,26 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Equipement de Barfero importer');</script>";
 
     $armureTeteNom = "Calotte";
-    $armureEpaulesNom = "";
+    $armureEpaulesNom = "X";
     $armureTorseNom = "Broigne";
     $armureBrasNom = "Brassard";
-    $armureTassetteNom = "";
+    $armureTassetteNom = "X";
     $armureJambesNom = "Jambes Boissées";
     $armurePiedsNom = "Bottes Renforcées";
 
     $armureTeteRang = "A";
-    $armureEpaulesRang = "";
+    $armureEpaulesRang = "X";
     $armureTorseRang = "A";
     $armureBrasRang = "A";
-    $armureTassetteRang = "";
+    $armureTassetteRang = "X";
     $armureJambesRang = "A";
     $armurePiedsRang = "A";
 
     $armureTeteMatiere = "Acier des Cieux";
-    $armureEpaulesMatiere = "";
+    $armureEpaulesMatiere = "X";
     $armureTorseMatiere = "Acier des Cieux";
     $armureBrasMatiere = "Acier des Cieux";
-    $armureTassetteMatiere = "";
+    $armureTassetteMatiere = "X";
     $armureJambesMatiere = "Acier des Cieux";
     $armurePiedsMatiere = "Acier des Cieux";
 
@@ -231,61 +231,61 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 12;
     $armurePiedsMagique = 12;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
     $arme1Nom = "Dague (gauche)";
     $arme1Rang = "A";
     $arme1Materiaux = "Acier des cieux";
     $arme1DegatPhysique = 24;
     $arme1DegatMagique = 24;
-    $arme1DegatOverTime = "";
+    $arme1DegatOverTime = "X";
     $arme1Portee = "CaC";
-    $arme1Enchantement = "";
-    $arme1Description = "";
+    $arme1Enchantement = "X";
+    $arme1Description = "X";
 
     $arme2Nom = "Dague (droite)";
     $arme2Rang = "A";
     $arme2Materiaux = "Acier des cieux";
     $arme2DegatPhysique = 24;
     $arme2DegatMagique = 24;
-    $arme2DegatOverTime = "";
+    $arme2DegatOverTime = "X";
     $arme2Portee = "CaC";
-    $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Enchantement = "X";
+    $arme2Description = "X";
 
     $arme3Nom = "Arc Magique de foudre";
     $arme3Rang = "B";
     $arme3Materiaux = "Acier Blanc";
     $arme3DegatPhysique = 22;
     $arme3DegatMagique = 28;
-    $arme3DegatOverTime = "";
+    $arme3DegatOverTime = "X";
     $arme3Portee = 150;
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $arme4Nom = "Arbalete";
     $arme4Rang = "A";
     $arme4Materiaux = "Argent";
     $arme4DegatPhysique = 22;
     $arme4DegatMagique = 22;
-    $arme4DegatOverTime = "";
+    $arme4DegatOverTime = "X";
     $arme4Portee = 20;
-    $arme4Enchantement = "";
-    $arme4Description = "";
+    $arme4Enchantement = "X";
+    $arme4Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
@@ -296,10 +296,10 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Equipement de Xanther importer');</script>";
 
     $armureTeteNom = "Coiffe";
-    $armureEpaulesNom = "";
+    $armureEpaulesNom = "X";
     $armureTorseNom = "Pourpoing";
     $armureBrasNom = "Brassard";
-    $armureTassetteNom = "";
+    $armureTassetteNom = "X";
     $armureJambesNom = "Jambes Gamboisées";
     $armurePiedsNom = "Bottes Renforcées";
 
@@ -312,10 +312,10 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armurePiedsRang = "B";
 
     $armureTeteMatiere = "Cuir Cloutée";
-    $armureEpaulesMatiere = "";
+    $armureEpaulesMatiere = "X";
     $armureTorseMatiere = "Cuir Cloutée";
     $armureBrasMatiere = "Cuir Cloutée";
-    $armureTassetteMatiere = "";
+    $armureTassetteMatiere = "X";
     $armureJambesMatiere = "Cuir Cloutée";
     $armurePiedsMatiere = "Cuir Cloutée";
 
@@ -336,51 +336,51 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 9;
     $armurePiedsMagique = 9;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
     $arme1Nom = "Dague";
     $arme1Rang = "D";
     $arme1Materiaux = "Fer";
     $arme1DegatPhysique = 10;
     $arme1DegatMagique = 10;
-    $arme1DegatOverTime = "";
+    $arme1DegatOverTime = "X";
     $arme1Portee = "20 cm";
-    $arme1Enchantement = "";
-    $arme2Description = "";
+    $arme1Enchantement = "X";
+    $arme2Description = "X";
 
     $arme2Nom = "Arbalete Lourde";
     $arme2Rang = "A";
     $arme2Materiaux = "Acier";
     $arme2DegatPhysique = 35;
     $arme2DegatMagique = 35;
-    $arme2DegatOverTime = "";
+    $arme2DegatOverTime = "X";
     $arme2Portee = 300;
-    $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Enchantement = "X";
+    $arme2Description = "X";
 
-    $arme3Nom = "";
-    $arme3Rang = "";
-    $arme3Materiaux = "";
-    $arme3DegatPhysique = "";
-    $arme3DegatMagique = "";
-    $arme3DegatOverTime = "";
-    $arme3Portee = "";
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
@@ -390,26 +390,26 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Equipement de Exyu importer');</script>";
 
     $armureTeteNom = "Calotte";
-    $armureEpaulesNom = "";
+    $armureEpaulesNom = "X";
     $armureTorseNom = "Pourpoing";
     $armureBrasNom = "Brassards";
-    $armureTassetteNom = "";
+    $armureTassetteNom = "X";
     $armureJambesNom = "Bambes Gamboisées";
     $armurePiedsNom = "Bottes Renforcées";
 
     $armureTeteRang = "D";
-    $armureEpaulesRang = "";
+    $armureEpaulesRang = "X";
     $armureTorseRang = "D";
     $armureBrasRang = "D";
-    $armureTassetteRang = "";
+    $armureTassetteRang = "X";
     $armureJambesRang = "D";
     $armurePiedsRang = "D";
 
     $armureTeteMatiere = "Cuir";
-    $armureEpaulesMatiere = "";
+    $armureEpaulesMatiere = "X";
     $armureTorseMatiere = "Cuir";
     $armureBrasMatiere = "Cuir";
-    $armureTassetteMatiere = "";
+    $armureTassetteMatiere = "X";
     $armureJambesMatiere = "Cuir";
     $armurePiedsMatiere = "Cuir";
 
@@ -430,51 +430,51 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 7;
     $armurePiedsMagique = 7;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
     $arme1Nom = "Dague";
-    $arme1Rang = "";
-    $arme1Materiaux = "";
+    $arme1Rang = "X";
+    $arme1Materiaux = "X";
     $arme1DegatPhysique = 7;
     $arme1DegatMagique = 7;
-    $arme1DegatOverTime = "";
-    $arme1Portee = "";
-    $arme1Enchantement = "";
-    $arme1Description = "";
+    $arme1DegatOverTime = "X";
+    $arme1Portee = "X";
+    $arme1Enchantement = "X";
+    $arme1Description = "X";
 
-    $arme2Nom = "";
-    $arme2Rang = "";
-    $arme2Materiaux = "";
-    $arme2DegatPhysique = "";
-    $arme2DegatMagique = "";
-    $arme2DegatOverTime = "";
-    $arme2Portee = "";
-    $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
+    $arme2Enchantement = "X";
+    $arme2Description = "X";
 
-    $arme3Nom = "";
-    $arme3Rang = "";
-    $arme3Materiaux = "";
-    $arme3DegatPhysique = "";
-    $arme3DegatMagique = "";
-    $arme3DegatOverTime = "";
-    $arme3Portee = "";
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
@@ -483,13 +483,13 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "exyuGargouille"){
     echo "<script>console.log('Equipement de Exyu la Gargouille importer');</script>";
 
-    $armureTeteNom = "";
-    $armureEpaulesNom = "";
-    $armureTorseNom = "";
-    $armureBrasNom = "";
-    $armureTassetteNom = "";
-    $armureJambesNom = "";
-    $armurePiedsNom = "";
+    $armureTeteNom = "X";
+    $armureEpaulesNom = "X";
+    $armureTorseNom = "X";
+    $armureBrasNom = "X";
+    $armureTassetteNom = "X";
+    $armureJambesNom = "X";
+    $armurePiedsNom = "X";
 
     $armureTeteMatiere = "Cuir";
     $armureEpaulesMatiere = "Cuir";
@@ -516,51 +516,51 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $armureJambesMagique = 2;
     $armurePiedsMagique = 2;
 
-    $armureTeteBonus = "";
-    $armureEpaulesBonus = "";
-    $armureTorseBonus = "";
-    $armureBrasBonus = "";
-    $armureTassetteBonus = "";
-    $armureJambesBonus = "";
-    $armurePiedsBonus = "";
+    $armureTeteBonus = "X";
+    $armureEpaulesBonus = "X";
+    $armureTorseBonus = "X";
+    $armureBrasBonus = "X";
+    $armureTassetteBonus = "X";
+    $armureJambesBonus = "X";
+    $armurePiedsBonus = "X";
 
-    $armureTeteEnchantement = "";
-    $armureEpaulesEnchantement = "";
-    $armureTorseEnchantement = "";
-    $armureBrasEnchantement = "";
-    $armureTassetteEnchantement = "";
-    $armureJambesEnchantement = "";
-    $armurePiedsEnchantement = "";
+    $armureTeteEnchantement = "X";
+    $armureEpaulesEnchantement = "X";
+    $armureTorseEnchantement = "X";
+    $armureBrasEnchantement = "X";
+    $armureTassetteEnchantement = "X";
+    $armureJambesEnchantement = "X";
+    $armurePiedsEnchantement = "X";
 
-    $arme1Nom = "";
-    $arme1Rang = "";
-    $arme1Materiaux = "";
-    $arme1DegatPhysique = "";
-    $arme1DegatMagique = "";
-    $arme1DegatOverTime = "";
-    $arme1Portee = "";
-    $arme1Enchantement = "";
-    $arme1Description = "";
+    $arme1Nom = "X";
+    $arme1Rang = "X";
+    $arme1Materiaux = "X";
+    $arme1DegatPhysique = "X";
+    $arme1DegatMagique = "X";
+    $arme1DegatOverTime = "X";
+    $arme1Portee = "X";
+    $arme1Enchantement = "X";
+    $arme1Description = "X";
 
-    $arme2Nom = "";
-    $arme2Rang = "";
-    $arme2Materiaux = "";
-    $arme2DegatPhysique = "";
-    $arme2DegatMagique = "";
-    $arme2DegatOverTime = "";
-    $arme2Portee = "";
-    $arme2Enchantement = "";
-    $arme2Description = "";
+    $arme2Nom = "X";
+    $arme2Rang = "X";
+    $arme2Materiaux = "X";
+    $arme2DegatPhysique = "X";
+    $arme2DegatMagique = "X";
+    $arme2DegatOverTime = "X";
+    $arme2Portee = "X";
+    $arme2Enchantement = "X";
+    $arme2Description = "X";
 
-    $arme3Nom = "";
-    $arme3Rang = "";
-    $arme3Materiaux = "";
-    $arme3DegatPhysique = "";
-    $arme3DegatMagique = "";
-    $arme3DegatOverTime = "";
-    $arme3Portee = "";
-    $arme3Enchantement = "";
-    $arme3Description = "";
+    $arme3Nom = "X";
+    $arme3Rang = "X";
+    $arme3Materiaux = "X";
+    $arme3DegatPhysique = "X";
+    $arme3DegatMagique = "X";
+    $arme3DegatOverTime = "X";
+    $arme3Portee = "X";
+    $arme3Enchantement = "X";
+    $arme3Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 
@@ -568,4 +568,95 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
 } else {
     echo "<script>console.log('Equipement non recuperer')</script>";
+
+    $armureTeteNom = "0";
+    $armureEpaulesNom = "0";
+    $armureTorseNom = "0";
+    $armureBrasNom = "0";
+    $armureTassetteNom = "0";
+    $armureJambesNom = "0";
+    $armurePiedsNom = "0";
+
+    $armureTeteRang = "X";
+    $armureEpaulesRang = "X";
+    $armureTorseRang = "X";
+    $armureBrasRang = "X";
+    $armureTassetteRang = "X";
+    $armureJambesRang = "X";
+    $armurePiedsRang = "X";
+
+    $armureTeteMatiere = "0";
+    $armureEpaulesMatiere = "0";
+    $armureTorseMatiere = "0";
+    $armureBrasMatiere = "0";
+    $armureTassetteMatiere = "0";
+    $armureJambesMatiere = "0";
+    $armurePiedsMatiere = "0";
+
+
+    $armureTetePhysique = "0";
+    $armureEpaulesPhysique = "0";
+    $armureTorsePhysique = "0";
+    $armureBrasPhysique = "0";
+    $armureTassettePhysique = "0";
+    $armureJambesPhysique = "0";
+    $armurePiedsPhysique = "0";
+
+    $armureTeteMagique = "0";
+    $armureEpaulesMagique = "0";
+    $armureTorseMagique = "0";
+    $armureBrasMagique = "0";
+    $armureTassetteMagique = "0";
+    $armureJambesMagique = "0";
+    $armurePiedsMagique = "0";
+
+    $armureTeteBonus = "0";
+    $armureEpaulesBonus = "0";
+    $armureTorseBonus = "0";
+    $armureBrasBonus = "0";
+    $armureTassetteBonus = "0";
+    $armureJambesBonus = "0";
+    $armurePiedsBonus = "0";
+
+    $armureTeteEnchantement = "0";
+    $armureEpaulesEnchantement = "0";
+    $armureTorseEnchantement = "0";
+    $armureBrasEnchantement = "0";
+    $armureTassetteEnchantement = "0";
+    $armureJambesEnchantement = "0";
+    $armurePiedsEnchantement = "0";
+
+    $arme1Nom = "0";
+    $arme1Rang = "0";
+    $arme1Materiaux = "0";
+    $arme1DegatPhysique = "0";
+    $arme1DegatMagique = "0";
+    $arme1DegatOverTime = "0";
+    $arme1Portee = "0";
+    $arme1Enchantement = "0";
+    $arme1Description = "0";
+
+    $arme2Nom = "0";
+    $arme2Rang = "0";
+    $arme2Materiaux = "0";
+    $arme2DegatPhysique = "0";
+    $arme2DegatMagique = "0";
+    $arme2DegatOverTime = "0";
+    $arme2Portee = "0";
+    $arme2Enchantement = "0";
+    $arme2Description = "0";
+
+    $arme3Nom = "0";
+    $arme3Rang = "0";
+    $arme3Materiaux = "0";
+    $arme3DegatPhysique = "0";
+    $arme3DegatMagique = "0";
+    $arme3DegatOverTime = "0";
+    $arme3Portee = "0";
+    $arme3Enchantement = "0";
+    $arme3Description = "0";
+
+    $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
+
+    $armureMagiqueComplete = (($armureTeteMagique + $armureEpaulesMagique + $armureTorseMagique + $armureBrasMagique + $armureTassetteMagique + $armureJambesMagique + $armurePiedsMagique)/ 5) * 1.5;
 }

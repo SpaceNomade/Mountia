@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-2 text-center">
                         <p>
                             Point de vie :
                             <?php echo $pdv;?><i class="em em-heart"></i><br>
@@ -133,78 +133,32 @@
                             <?php echo $pds;?><i class="em em-green_heart"></i><br>
                             Point de mana :
                             <?php echo $pdm;?><i class="em em-blue_heart"></i>
-
                         </p>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-8 text-center">
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100">
-                            </div>
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-2 text-right">
                         <p>
-                            Florin d'or :
-                            <?php echo $florinOr;?> <i class="fas fa-coins" style="color:#FFD700"></i><br>
-                            Florin d'argent :
-                            <?php echo $florinArgent?> <i class="fas fa-coins" style="color:#CECECE"></i><br>
-                            Florin de cuivre :
-                            <?php echo $florinCuivre;?> <i class="fas fa-coins" style="color:#B36700"></i>
+                            <i class="fas fa-coins fa-lg" style="color:#FFD700"> <span class="badge badge-dark"><?php echo $florinOr;?></span></i><br>
+                            <i class="fas fa-coins fa-lg" style="color:#CECECE"> <span class="badge badge-dark"><?php echo $florinArgent?></span></i><br>
+                            <i class="fas fa-coins fa-lg" style="color:#B36700"> <span class="badge badge-dark"><?php echo $florinCuivre;?></span></i>
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-4 text-center">
-                        <p>
-                            Charisme :
-                            <?php echo $charisme;?><br>
-                            Force :
-                            <?php echo $force;?> <i class="em em-muscle"></i><br>
-                            Endurance :
-                            <?php echo $endurance;?><br>
-                            Dextérité :
-                            <?php echo $dexterité;?> <i class="em em-open_hands"></i><br>
-                            Agilité :
-                            <?php echo $agilité;?><br>
-                            Intelligence :
-                            <?php echo $intelligence;?>
-                        </p>
+                        <canvas id="myFirstStat" height="450px"></canvas>
                     </div>
                     <div class="col-md-4 text-center">
-                        <p>
-                            Sagesse :
-                            <?php echo $sagesse;?> <i class="em em-crystal_ball"></i><br>
-                            Potentiel :
-                            <?php echo $potentiel;?><br>
-                            Initiative :
-                            <?php echo $initiative;?><br>
-                            Chance :
-                            <?php echo $chance;?> <i class="em em-four_leaf_clover"></i><br>
-                            Froid :
-                            <?php echo $froid;?> <i class="em em-snowflake"></i><br>
-                            Chaleur :
-                            <?php echo $chaleur;?> <i class="em em-fire"></i><br>
-                        </p>
+                        <canvas id="mySecondStat" height="450px"></canvas>
                     </div>
                     <div class="col-md-4 text-center">
-                        <p>
-                            Maladie :
-                            <?php echo $maladie;?> <i class="em em-nauseated_face"></i></i><br>
-                            Boisson :
-                            <?php echo $boisson;?> <i class="em em-beer"></i><br>
-                            Charme :
-                            <?php echo $charme;?> <i class="em em-kissing_heart"></i><br>
-                            Peur :
-                            <?php echo $peur;?> <i class="em em-scream"></i><br>
-                            Sommeil :
-                            <?php echo $sommeil?> <i class="em em-sleeping"></i><br>
-                            Douleur :
-                            <?php echo $douleur;?> <i class="em em-face_with_head_bandage"></i>
-                        </p>
+                        <canvas id="myThirdStat" height="450px"></canvas>
                     </div>
                 </div>
                 <p class="text-center">
