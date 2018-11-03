@@ -125,28 +125,18 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 text-center">
-                        <p>
-                            Point de vie :
-                            <?php echo $pdv;?><i class="em em-heart"></i><br>
-                            Point Spirituel :
-                            <?php echo $pds;?><i class="em em-green_heart"></i><br>
-                            Point de mana :
-                            <?php echo $pdm;?><i class="em em-blue_heart"></i>
-                        </p>
-                    </div>
                     <div class="col-md-8 text-center">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100"></div>
-                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress font-weight-bold" style="height: 80px;">
+                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100">Point <br>de Vie :<br> <?php echo htmlspecialchars($pdv);?></div>
+                            <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100">Point <br>Spirituel :<br> <?php echo htmlspecialchars($pds);?></div>
+                            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100">Point <br>de Mana :<br> <?php echo htmlspecialchars($pdm);?></div>
                         </div>
                     </div>
-                    <div class="col-md-2 text-right">
+                    <div class="col-md-4 text-center">
                         <p>
-                            <i class="fas fa-coins fa-lg" style="color:#FFD700"> <span class="badge badge-dark"><?php echo $florinOr;?></span></i><br>
-                            <i class="fas fa-coins fa-lg" style="color:#CECECE"> <span class="badge badge-dark"><?php echo $florinArgent?></span></i><br>
-                            <i class="fas fa-coins fa-lg" style="color:#B36700"> <span class="badge badge-dark"><?php echo $florinCuivre;?></span></i>
+                            <i class="fas fa-coins " style="color:#FFD700"> <?php echo $florinOr;?></i> Florin d'or<br>
+                            <i class="fas fa-coins " style="color:#CECECE"> <?php echo $florinArgent?></i> Florin d'argent<br>
+                            <i class="fas fa-coins " style="color:#B36700"> <?php echo $florinCuivre;?></i> Florin de cuivre
                         </p>
                     </div>
                 </div>
@@ -683,11 +673,11 @@
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <td>
-                                            Armure Physique Total <?php echo round ($armurePhysiqueComplete); ?>
+                                        <td colspan="4">
+                                        Armure Physique Total <?php echo round($armurePhysiqueComplete); ?>
                                         </td>
-                                        <td>
-                                            Armure Magique Total <?php echo round($armureMagiqueComplete); ?>
+                                        <td colspan="4">
+                                        Armure Magique Total <?php echo round($armureMagiqueComplete); ?>
                                         </td>
                                     </tr>
                                 </tfoot>
@@ -2048,6 +2038,166 @@
                                     </td>
                                     <td>
                                         <?php echo $itemCollectif10Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif11Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif11Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif11Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif11PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif11Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif11Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif12Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif12Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif12Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif12PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif12Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif12Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif13Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif13Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif13Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif13PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif13Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif13Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif14Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif14Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif14Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif14PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif14Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif14Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif15Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif15Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif15Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif15PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif15Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif15Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif16Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif16Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif16Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif16PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif16Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif16Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif17Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif17Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif17Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif17PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif17Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif17Description;?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <?php echo $itemCollectif18Nom;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif18Quantité;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif18Prix;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif18PrixRevente?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif18Type;?>
+                                    </td>
+                                    <td>
+                                        <?php echo $itemCollectif18Description;?>
                                     </td>
                                 </tr>
                             </tbody>

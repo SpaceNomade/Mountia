@@ -15,8 +15,8 @@
         $metier2 = "";
         $alignement = "Neutre";
         $couleur = "Gris";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = 21;
         $sexe = "M";
         $poids = 140;
@@ -28,7 +28,7 @@
         $dexterité = 12+4;
         $agilité = 12+2;
         $intelligence = 11;
-        $sagesse = 15+1;
+        $sagesse = 16+1;
         $potentiel = 11;
         $initiative = 15+2;
         $chance = 8;
@@ -36,7 +36,7 @@
         $chaleur = 7+4;
         $maladie = 7+4;
         $boisson = 7;
-        $charme = 7;
+        $charme = 4;
         $peur = 7;
         $sommeil = 7;
         $douleur = 7+4; 
@@ -68,20 +68,20 @@
         $metier2 = "";
         $alignement = "Neutre";
         $couleur = "Gris";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = 21;
         $sexe = "M";
         $poids = 210;
-        $taille = "3,00";
+        $taille = 3.00;
 
         $charisme = 8;
-        $force = 23+12;
+        $force = 24+12;
         $endurance = 21+11;
         $dexterité = 16;
         $agilité = 14;
         $intelligence = 11;
-        $sagesse = 16;
+        $sagesse = 17;
         $potentiel = 11;
         $initiative = 17;
         $chance = 8;
@@ -89,7 +89,7 @@
         $chaleur = 11;
         $maladie = 7;
         $boisson = 7;
-        $charme = 7;
+        $charme = 4;
         $peur = 7;
         $sommeil = 7;
         $douleur = 11; 
@@ -120,12 +120,12 @@
         $metier2 = "NC";
         $alignement = "Neutre";
         $couleur = "Violette";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = 24;
         $sexe = "M";
         $poids = 220;
-        $taille = "2,40";
+        $taille = 2.40;
 
         $charisme = 11;
         $force = 20+2/*Bonus voie Mercenaire et chevalier noir*/;
@@ -133,7 +133,7 @@
         $dexterité = 14+5;
         $agilité = 16+1;
         $intelligence = 13+4;
-        $sagesse = 14;
+        $sagesse = 14+2;
         $potentiel = 0;
         $initiative = 9+4;
         $chance = 10;
@@ -176,12 +176,12 @@
         $metier2 = "NC";
         $alignement = "Chaotique / Bon";
         $couleur = "Bleu / Gris";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = 810;
         $sexe = "M";
         $poids = 28;
-        $taille = "1,95";
+        $taille = 1.95;
 
         $charisme = 19;
         $force = 9;
@@ -232,21 +232,21 @@
         $metier2 = "Arbalétrier";
         $alignement = "Chaotique / Neutre";
         $couleur = "";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = 20;
         $sexe = "M";
         $poids = 75;
-        $taille = "1,70";
+        $taille = 1.70;
 
         $charisme = 10+4;
         $force = 15+2;
         $endurance = 12+9;
-        $dexterité = 11+6;
+        $dexterité = 11+5;
         $agilité = 17+1;
-        $intelligence = 13;
+        $intelligence = 15;
         $sagesse = 16;
-        $potentiel = 15;
+        $potentiel = 16;
         $initiative = (20+6)*1.5;
         $chance = 12;
         $froid = 7+2;
@@ -285,8 +285,8 @@
         $metier2 = "";
         $alignement = "";
         $couleur = "";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = "";
         $sexe = "";
         $poids = "";
@@ -339,8 +339,8 @@
         $metier2 = "";
         $alignement = "";
         $couleur = "";
-        $niveau = 5;
-        $experience = 17;
+        $niveau = 7;
+        $experience = 31;
         $age = "";
         $sexe = "";
         $poids = "";

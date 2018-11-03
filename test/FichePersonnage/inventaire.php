@@ -129,29 +129,29 @@ if ($nomPersonnage == "orochi") {
     echo "<script>console.log('Inventaire de Rackham importer');</script>";
     
 
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
+    $item1Nom = "Potion de soin";
+    $item1Quantité = "14";
+    $item1Prix = "1";
     $item1PrixRevente = "X";
-    $item1Type = "X";
+    $item1Type = "Potion";
 
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
+    $item2Nom = "Potion de Mana";
+    $item2Quantité = "4";
+    $item2Prix = "1";
     $item2PrixRevente = "X";
-    $item2Type = "X";
+    $item2Type = "Potion";
 
-    $item3Nom = "X";
-    $item3Quantité = "X";
+    $item3Nom = "Cape";
+    $item3Quantité = "1";
     $item3Prix = "X";
     $item3PrixRevente = "X";
     $item3Type = "X";
 
-    $item4Nom = "X";
+    $item4Nom = "Burin en Fer (A)";
     $item4Quantité = "X";
     $item4Prix = "X";
     $item4PrixRevente = "X";
-    $item4Type = "X";
+    $item4Type = "Outil";
 
     $item5Nom = "X";
     $item5Quantité = "X";

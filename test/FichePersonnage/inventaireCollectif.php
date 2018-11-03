@@ -76,43 +76,43 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon" || $nomPerson
     $itemCollectif11Quantité = "X";
     $itemCollectif11Prix = "X";
     $itemCollectif11PrixRevente = "X";
-    $itemCollectif11Type = "Enlevement suspect pret de marble tower (Enlevement d'etre vivant)";
-    $itemCollectif11Description = "X";
-
-    $itemCollectif12Nom = "X";
-    $itemCollectif12Quantité = "X";
+    $itemCollectif11Type = "Quete";
+    $itemCollectif11Description = "Enlevement suspect pret de marble tower (Enlevement d'etre vivant)";
+    
+    $itemCollectif12Nom = "Ration de loup";
+    $itemCollectif12Quantité = "9";
     $itemCollectif12Prix = "X";
     $itemCollectif12PrixRevente = "X";
-    $itemCollectif12Type = "X";
-    $itemCollectif12Description = "X";
+    $itemCollectif12Type = "Viande";
+    $itemCollectif12Description = "Viande de loup";
 
-    $itemCollectif13Nom = "X";
-    $itemCollectif13Quantité = "X";
+    $itemCollectif13Nom = "Peau d'Ours";
+    $itemCollectif13Quantité = "24 metre";
     $itemCollectif13Prix = "X";
     $itemCollectif13PrixRevente = "X";
-    $itemCollectif13Type = "X";
-    $itemCollectif13Description = "X";
+    $itemCollectif13Type = "Peau";
+    $itemCollectif13Description = "Peau de plusieurs ours ";
 
-    $itemCollectif14Nom = "X";
-    $itemCollectif14Quantité = "X";
+    $itemCollectif14Nom = "Ration d'Ours";
+    $itemCollectif14Quantité = "24";
     $itemCollectif14Prix = "X";
     $itemCollectif14PrixRevente = "X";
-    $itemCollectif14Type = "X";
+    $itemCollectif14Type = "Viande";
     $itemCollectif14Description = "X";
 
-    $itemCollectif15Nom = "X";
-    $itemCollectif15Quantité = "X";
+    $itemCollectif15Nom = "Peau aigle drakan";
+    $itemCollectif15Quantité = "16 metre";
     $itemCollectif15Prix = "X";
     $itemCollectif15PrixRevente = "X";
-    $itemCollectif15Type = "X";
-    $itemCollectif15Description = "X";
+    $itemCollectif15Type = "Peau";
+    $itemCollectif15Description = "Peau de plusieurs aigle";
 
-    $itemCollectif16Nom = "X";
-    $itemCollectif16Quantité = "X";
+    $itemCollectif16Nom = "Ration aigle drakan";
+    $itemCollectif16Quantité = "18";
     $itemCollectif16Prix = "X";
     $itemCollectif16PrixRevente = "X";
-    $itemCollectif16Type = "X";
-    $itemCollectif16Description = "X";
+    $itemCollectif16Type = "Viande";
+    $itemCollectif16Description = "Viande d'aigle drakan";
 
     $itemCollectif17Nom = "X";
     $itemCollectif17Quantité = "X";

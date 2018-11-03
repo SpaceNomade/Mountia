@@ -13,7 +13,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $diplomatie = 4;
     $discretion = 4;
     $equitation = 1;
-    $intuition = 4;
+    $intuition = 10;
     $maniement = $dexterité;
     $langueMaternelle = $intelligence;
 
@@ -21,8 +21,8 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $leadership = 3;
     $legende = 2;
     $medecine = 1;
-    $navigation = 1;
-    $orientation = 2;
+    $navigation = 4;
+    $orientation = 7;
     $portage = $force;
     $pilotage = 1;
     $premierSoins = 6;
@@ -34,15 +34,15 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
     $traque = 2;
     $bonus1Nom = "Forge";
-    $bonus1Valeur = 14;
+    $bonus1Valeur = 16;
     $bonus2Nom = "Confection darme";
-    $bonus2Valeur = 16;
+    $bonus2Valeur = 18;
     $bonus3Nom = "Arme a une main";
     $bonus3Valeur = 15;
     $bonus4Nom = "Armurie";
-    $bonus4Valeur = 7;
-    $bonus5Nom = "X";
-    $bonus5Valeur = "X";
+    $bonus4Valeur = 9;
+    $bonus5Nom = "Armes a deux mains";
+    $bonus5Valeur = 5;
     $bonus6Nom = "X";
     $bonus6Valeur = "X";
     $bonus7Nom = "X";
@@ -63,7 +63,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Competence de Rackham importer');</script>";
 
-    $artDeLaRue = 2;
+    $artDeLaRue = 2+5;
     $athletisme = 6+1;
     $bibliotheque = 4;
     $charmeCompetence = 4;
@@ -186,7 +186,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Competence de Xanther importer');</script>";
 
-    $artDeLaRue = 2;
+    $artDeLaRue = 6;
     $athletisme = 6;
     $bibliotheque = 4;
     $charmeCompetence = 4;
@@ -197,34 +197,34 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $diplomatie = 4;
     $discretion = 4;
     $equitation = 1;
-    $intuition = 4;
+    $intuition = 9;
     $maniement = $dexterité;
     $langueMaternelle = $intelligence;
 
-    $larcin = 2;
+    $larcin = 10;
     $leadership = 3;
     $legende = 2;
     $medecine = 1;
     $navigation = 1;
-    $orientation = 2;
+    $orientation = 8;
     $portage = $force;
     $pilotage = 1;
     $premierSoins = 6;
-    $psychologie = 2;
+    $psychologie = 3;
     $savoir = $sagesse;
     $secondeVue = $potentiel;
-    $survie = 2;
+    $survie = 3;
     $sprint = $initiative;
 
-    $traque = 3;
-    $bonus1Nom = "Potion";
-    $bonus1Valeur = 14;
-    $bonus2Nom = "Alchimie";
-    $bonus2Valeur = 14;
-    $bonus3Nom = "Arbalete";
-    $bonus3Valeur = 5;
-    $bonus4Nom = "X";
-    $bonus4Valeur = "X";
+    $traque = 10;
+    $bonus1Nom = "Dague";
+    $bonus1Valeur = 6;
+    $bonus2Nom = "Poison";
+    $bonus2Valeur = 9;
+    $bonus3Nom = "Arbalète";
+    $bonus3Valeur = 9;
+    $bonus4Nom = "Arc";
+    $bonus4Valeur = 4;
     $bonus5Nom = "X";
     $bonus5Valeur = "X";
     $bonus6Nom = "X";
@@ -303,7 +303,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
     $bonus13Nom = "Armure";
-    $bonus13Valeur = "X";
+    $bonus13Valeur = 10;
 
 } elseif ($nomPersonnage == "exyuGargouille"){
     echo "<script>console.log('Competence de Exyu la Gargouille importer');</script>";

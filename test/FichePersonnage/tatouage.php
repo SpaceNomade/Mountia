@@ -2,13 +2,13 @@
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Inventaire de Orochi importer');</script>";
 
-    $tatouage1Nom = "X";
-    $tatouage1Rang = "X";
-    $tatouage1Quantité = "X";
-    $tatouage1Taille = "X";
-    $tatouage1Emplacement = "X";
+    $tatouage1Nom = "Controle";
+    $tatouage1Rang = "S";
+    $tatouage1Quantité = "1";
+    $tatouage1Taille = "5";
+    $tatouage1Emplacement = "Tete";
     $tatouage1Type = "X";
-    $tatouage1Effet = "X";
+    $tatouage1Effet = "Controle quasi parfait lors de la transformation";
 
     $tatouage2Nom = "X";
     $tatouage2Rang = "X";

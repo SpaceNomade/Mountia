@@ -2,7 +2,7 @@
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Sort de Orochi importer');</script>";
 
-    $sort1Nom = "Détection de métaux";
+    $sort1Nom = "Keshutsu";
     $sort1Point = 4;
     $sort1Maitrise = "Novice";
     $sort1Cout = "X";
@@ -12,7 +12,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort1EffectSecondaire = "X";
     $sort1Description = "Détecte tous les métaux à sa portée d'actions";
 
-    $sort2Nom = "Lame Démoniaque";
+    $sort2Nom = "Doragon Buredo";
     $sort2Point = 4;
     $sort2Maitrise = "Novice";
     $sort2Cout = 10;
@@ -22,28 +22,28 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort2EffectSecondaire = "X";
     $sort2Description = "Augmente la longueur de la lame de 25%";
 
-    $sort3Nom = "Armure Draconique";
+    $sort3Nom = "Doragon Ämä";
     $sort3Point = 2;
     $sort3Maitrise = "Novice";
-    $sort3Cout = 5;
+    $sort3Cout = 10;
     $sort3Degat = 1;
     $sort3Duree = 2;
     $sort3Portée = "X";
     $sort3EffectSecondaire = "X";
     $sort3Description = "Renforce la resistance physique et magique de l'armure";
 
-    $sort4Nom = "Jugement du Dragon";
+    $sort4Nom = "Doragon No Handan";
     $sort4Point = "2";
     $sort4Maitrise = "Novice";
-    $sort4Cout = "X";
-    $sort4Degat = "X";
+    $sort4Cout = 5;
+    $sort4Degat = 24;
     $sort4Duree = "X";
-    $sort4Portée = "X";
+    $sort4Portée = "Arme";
     $sort4EffectSecondaire = "X";
     $sort4Description = "X";
 
-    $sort5Nom = "Bouclier Draconique";
-    $sort5Point = "2";
+    $sort5Nom = "Doragon Shirudo";
+    $sort5Point = 2;
     $sort5Maitrise = "Novice";
     $sort5Cout = "X";
     $sort5Degat = "X";
@@ -52,7 +52,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort5EffectSecondaire = "X";
     $sort5Description = "X";
 
-    $sort6Nom = "Corne du Dragon";
+    $sort6Nom = "Doragon Nokibu";
     $sort6Point = "2";
     $sort6Maitrise = "Novice";
     $sort6Cout = "X";
@@ -62,7 +62,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort6EffectSecondaire = "X";
     $sort6Description = "X";
 
-    $sort7Nom = "Chaine Draconique";
+    $sort7Nom = "Doragon Chën";
     $sort7Point = "2";
     $sort7Maitrise = "Novice";
     $sort7Cout = "X";
@@ -72,7 +72,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $sort7EffectSecondaire = "X";
     $sort7Description = "X";
 
-    $sort8Nom = "Création de métal";
+    $sort8Nom = "Kinzoku No Henka";
     $sort8Point = 6;
     $sort8Maitrise = "Disciple";
     $sort8Cout = "X";
@@ -642,43 +642,43 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Sort de Xanther importer');</script>";
 
     $sort1Nom = "Tir précis";
-    $sort1Point = "2";
-    $sort1Maitrise = "D";
-    $sort1Cout = "5";
-    $sort1Degat = "9";
-    $sort1Duree = "3";
+    $sort1Point = 2;
+    $sort1Maitrise = "Novice";
+    $sort1Cout = 6;
+    $sort1Degat = 23;
+    $sort1Duree = 3;
     $sort1Portée = "300";
     $sort1EffectSecondaire = "X";
     $sort1Description = "Cible une zone";
 
     $sort2Nom = "Shadowspread";
-    $sort2Point = "2";
-    $sort2Maitrise = "D";
-    $sort2Cout = "10";
-    $sort2Degat = "+1";
-    $sort2Duree = "3";
+    $sort2Point = 2;
+    $sort2Maitrise = "Novice";
+    $sort2Cout = 10;
+    $sort2Degat = "+2";
+    $sort2Duree = 3;
     $sort2Portée = "CAC";
     $sort2EffectSecondaire = "X";
     $sort2Description = "Ajoute des dégats d'ombre";
 
     $sort3Nom = "Darkshield";
-    $sort3Point = "2";
-    $sort3Maitrise = "D";
-    $sort3Cout = "6";
-    $sort3Degat = "6";
-    $sort3Duree = "2";
-    $sort3Portée = "5";
+    $sort3Point = 2;
+    $sort3Maitrise = "Novice";
+    $sort3Cout = 6;
+    $sort3Degat = 16;
+    $sort3Duree = 2;
+    $sort3Portée = 5;
     $sort3EffectSecondaire = "X";
     $sort3Description = "Bouclier";
 
     $sort4Nom = "ShadowGate";
     $sort4Point = "X";
-    $sort4Maitrise = "X";
-    $sort4Cout = "X";
+    $sort4Maitrise = "Novice";
+    $sort4Cout = 10;
     $sort4Degat = "X";
-    $sort4Duree = "X";
-    $sort4Portée = "X";
-    $sort4EffectSecondaire = "X";
+    $sort4Duree = 3;
+    $sort4Portée = 10;
+    $sort4EffectSecondaire = "P'tit portail de tp pas piqué des hannetons ou je peux me tp ou faire tp des trucs  à une portée de 10 m";
     $sort4Description = "Portails d'ombres";
 
     $sort5Nom = "X";
