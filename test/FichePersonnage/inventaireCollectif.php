@@ -142,9 +142,9 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon" || $nomPerson
     $itemCollectif20Type = "X";
     $itemCollectif20Description = "X";
 
-    $CollectifOr =269+3+65+84;
+    $CollectifOr =269+3+65+84+10+300+200;
     $CollectifArgent = 5+5;
-    $CollectifCuivre = 0;
+    $CollectifCuivre = 45;
 } else {
     echo "<script>console.log('Inventaire collectif bien non importer');</script>";
 }

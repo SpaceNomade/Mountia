@@ -101,7 +101,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus2Valeur = 7;
     $bonus3Nom = "Dague";
     $bonus3Valeur = 7;
-    $bonus4Nom = "Epee a deux mainson";
+    $bonus4Nom = "Epee a deux mains";
     $bonus4Valeur = 2;
     $bonus5Nom = "X";
     $bonus5Valeur = "X";
@@ -120,7 +120,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $bonus12Nom = "X";
     $bonus12Valeur = "X";
     $bonus13Nom = "Armure";
-    $bonus13Valeur = 2+6;
+    $bonus13Valeur = 2+6+6;
 
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Competence de Barfero importer');</script>";

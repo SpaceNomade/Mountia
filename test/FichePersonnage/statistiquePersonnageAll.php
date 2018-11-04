@@ -101,7 +101,7 @@
         $pdmBonus = 0;
         $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
 
-        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité à une valeur de $agilité";
+        $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité à une valeur de $force";
 
     
     } elseif ($nomPersonnage == "rackham"){
@@ -111,9 +111,9 @@
         $messageAme = "L'âme du guerrier $nomInvocateur, également appeler $surnomInvocateur est invoquée.";
         echo "<script> console.log('Equipement de $nomInvocateur')</script>";
 
-        $florinOr = 60+5+10+30;
-        $florinArgent = 4;
-        $florinCuivre = 8;
+        $florinOr = 123;
+        $florinArgent = 28;
+        $florinCuivre = 109;
 
         $race = "Rédioras";
         $metier1 = "Mercenaire";
@@ -129,13 +129,13 @@
 
         $charisme = 11;
         $force = 20+2/*Bonus voie Mercenaire et chevalier noir*/;
-        $endurance = 15;
+        $endurance = 16;
         $dexterité = 14+5;
         $agilité = 16+1;
         $intelligence = 13+4;
         $sagesse = 14+2;
         $potentiel = 0;
-        $initiative = 9+4;
+        $initiative = 9+5;
         $chance = 10;
         $froid = 7;
         $chaleur = 7;
@@ -144,7 +144,7 @@
         $charme = 7;
         $peur = 7;
         $sommeil = 7;
-        $douleur = 7+1;
+        $douleur = 7+2;
 
         $pdvBonus = 13;
         $pdv = $force + $endurance + $pdvBonus;

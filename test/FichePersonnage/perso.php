@@ -1066,7 +1066,7 @@
                     <div class="col-lg-12 mx-auto text-center">
                         <h2 class="section-heading">Voie</h2>
                         <hr class="my-4">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col-md-6 text-center">
                                 <div class="table-responsive">
                                     <table class="table table-sm table-striped table-dark text-center">
@@ -1079,7 +1079,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie1Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie1Nom;?></th>
                                                 <td><?php echo $voie1Niveau1;?></td>
                                                 <td><?php echo $voie1DescriptionNiveau1;?></td>
                                             </tr>
@@ -1107,7 +1107,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie2Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie2Nom;?></th>
                                                 <td><?php echo $voie2Niveau1;?></td>
                                                 <td><?php echo $voie2DescriptionNiveau1;?></td>
                                             </tr>
@@ -1135,7 +1135,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie3Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie3Nom;?></th>
                                                 <td><?php echo $voie3Niveau1;?></td>
                                                 <td><?php echo $voie3DescriptionNiveau1;?></td>
                                             </tr>
@@ -1163,7 +1163,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie4Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie4Nom;?></th>
                                                 <td><?php echo $voie4Niveau1;?></td>
                                                 <td><?php echo $voie4DescriptionNiveau1;?></td>
                                             </tr>
@@ -1191,7 +1191,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie5Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie5Nom;?></th>
                                                 <td><?php echo $voie5Niveau1;?></td>
                                                 <td><?php echo $voie5DescriptionNiveau1;?></td>
                                             </tr>
@@ -1219,7 +1219,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row" rowspan="3"><?php echo $voie6Nom;?></th>
+                                                <th scope="row" rowspan="3" class="align-middle"><?php echo $voie6Nom;?></th>
                                                 <td><?php echo $voie6Niveau1;?></td>
                                                 <td><?php echo $voie6DescriptionNiveau1;?></td>
                                             </tr>
@@ -2304,6 +2304,7 @@
                 labels: ["Charisme", "Force", "Endurance", "Dextérité", "Agilité", "Intelligence"],
                 datasets: [{
                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    pointBackgroundColor:'rgba(128, 21, 21)',
                     borderColor: 'rgb(255, 99, 132)',
                     data: [<?php echo htmlspecialchars($charisme);?>, <?php echo htmlspecialchars($force);?>, <?php echo htmlspecialchars($endurance);?>, <?php echo htmlspecialchars($dexterité);?>, <?php echo htmlspecialchars($agilité);?>, <?php echo htmlspecialchars($intelligence);?>],
                 }]
@@ -2327,6 +2328,7 @@
                 labels: ["Sagesse", "Potentiel", "Initiative", "Chance", "Froid", "Chaleur"],
                 datasets: [{
                     backgroundColor: 'rgba(55, 220, 0, 0.2)',
+                    pointBackgroundColor: 'rgb(16, 99, 26)',
                     borderColor: 'rgb(55, 220, 0)',
                     data: [<?php echo htmlspecialchars($sagesse);?>, <?php echo htmlspecialchars($potentiel);?>, <?php echo htmlspecialchars($initiative);?>, <?php echo htmlspecialchars($chance);?>, <?php echo htmlspecialchars($froid);?>, <?php echo htmlspecialchars($chaleur);?>],
                 }]
@@ -2350,6 +2352,7 @@
                 labels: ["Maladie", "Boisson", "Charme", "Peur", "Sommeil", "Douleur"],
                 datasets: [{
                     backgroundColor: 'rgba(0, 164, 219, 0.2)',
+                    pointBackgroundColor: 'rgb(14, 70, 78)',
                     borderColor: 'rgb(0, 164, 219)',
                     data: [<?php echo htmlspecialchars($maladie);?>, <?php echo htmlspecialchars($boisson);?>, <?php echo htmlspecialchars($charme);?>, <?php echo htmlspecialchars($peur);?>, <?php echo htmlspecialchars($sommeil);?>, <?php echo htmlspecialchars($douleur);?>],
                 }]
