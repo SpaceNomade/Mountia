@@ -46,7 +46,7 @@
         $pdsBonus = -11;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 0;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est la force.<br>Cette irrégularité à une valeur de $force";
 
@@ -99,7 +99,7 @@
         $pdsBonus = -11;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 0;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est l'agilité.<br>Cette irrégularité à une valeur de $force";
 
@@ -151,7 +151,7 @@
         $pdsBonus = 13;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 0;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $pdm = $pdm - $pdm;
 
@@ -186,11 +186,11 @@
         $charisme = 19;
         $force = 9;
         $endurance = 14;
-        $dexterité = 11+3;
+        $dexterité = 11+4;
         $agilité = 7;
         $intelligence = 17;
         $sagesse = 19+1;
-        $potentiel = 19+1;
+        $potentiel = 20+1;
         $initiative = 13;
         $chance = 11;
         $froid = 7;
@@ -207,7 +207,7 @@
         $pdsBonus = 0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 24;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $pds = $pds - $pds;
 
@@ -263,7 +263,7 @@
         $pdsBonus = 4;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 0;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est la dextérité.<br>Cette irrégularité à une valeur de $dexterité";
 
@@ -316,7 +316,7 @@
         $pdsBonus = 2;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 3;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel.<br>Cette irrégularité à une valeur de $potentiel ";
 
@@ -370,7 +370,7 @@
         $pdsBonus = 0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = -12;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 
         $irrégularité = "L'irrégularité de $nomInvocateur est le potentiel.<br>Cette irrégularité à une valeur de $potentiel ";
 
@@ -422,6 +422,6 @@
         $pdsBonus = 0;
         $pds = $intelligence + $sagesse + $pdsBonus;
         $pdmBonus = 0;
-        $pdm = $pds + $potentiel + $pdmBonus - $pdsBonus;
+        $pdm = $intelligence + $sagesse + $potentiel + $pdmBonus;
 }
 ?>

@@ -124,7 +124,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon" ) {
     $voie3DescriptionNiveau1 = "";
     $voie3Niveau2 = '<img src="../img/voies/architect/rang_2.png" alt="" title="Niveau 2" width="50px">';
     $voie3DescriptionNiveau2 = "";
-    $voie3Niveau3 = ""/*'<img src="../img/voies/architect/rang_3.png" alt="" title="Niveau 1" width="50px">';*/;
+    $voie3Niveau3 = '<img src="../img/voies/architect/rang_3.png" alt="" title="Niveau 1" width="50px">';
     $voie3DescriptionNiveau3 = "";
 
     $voie4Nom = "";

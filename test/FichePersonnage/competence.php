@@ -93,15 +93,14 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     $survie = 2;
     $sprint = $initiative;
 
-    $traque = 2+6;
-    $traque = 2;
+    $traque = 2+7;
     $bonus1Nom = "Espadon";
     $bonus1Valeur = 9+9;
     $bonus2Nom = "Corps a corps";
     $bonus2Valeur = 7;
     $bonus3Nom = "Dague";
     $bonus3Valeur = 7;
-    $bonus4Nom = "Epee a deux mains";
+    $bonus4Nom = "Marteau de guerre";
     $bonus4Valeur = 2;
     $bonus5Nom = "X";
     $bonus5Valeur = "X";

@@ -142,13 +142,13 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-4 text-center">
-                        <canvas id="myFirstStat" height="450px"></canvas>
+                        <canvas id="myFirstStat" height="400px"></canvas>
                     </div>
                     <div class="col-md-4 text-center">
-                        <canvas id="mySecondStat" height="450px"></canvas>
+                        <canvas id="mySecondStat" height="400px"></canvas>
                     </div>
                     <div class="col-md-4 text-center">
-                        <canvas id="myThirdStat" height="450px"></canvas>
+                        <canvas id="myThirdStat" height="400px"></canvas>
                     </div>
                 </div>
                 <p class="text-center">
@@ -2214,24 +2214,6 @@
                 </div>
             </div>
         </section>
-        
-        <section id="statetoile">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-4 text-center">
-                        <canvas id="myFirstStat" height="450px"></canvas>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <canvas id="mySecondStat" height="450px"></canvas>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <canvas id="myThirdStat" height="450px"></canvas>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
 
     </main>
 
