@@ -125,13 +125,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8 text-center">
-                        <div class="progress font-weight-bold" style="height: 80px;">
-                            <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pdv);?>%" aria-valuenow="<?php echo htmlspecialchars($pdv);?>" aria-valuemin="0" aria-valuemax="100">Point <br>de Vie :<br> <?php echo htmlspecialchars($pdv);?></div>
-                            <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pds);?>%" aria-valuenow="<?php echo htmlspecialchars($pds);?>" aria-valuemin="0" aria-valuemax="100">Point <br>Spirituel :<br> <?php echo htmlspecialchars($pds);?></div>
-                            <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: <?php echo htmlspecialchars($pdm);?>%" aria-valuenow="<?php echo htmlspecialchars($pdm);?>" aria-valuemin="0" aria-valuemax="100">Point <br>de Mana :<br> <?php echo htmlspecialchars($pdm);?></div>
-                        </div>
+                    <div class="col-md-6 text-center">
+                        <canvas id="myBarChart" height="300px"></canvas>
                     </div>
+                    <div class="col-md-6">
+                        <canvas id="myStatTotal" height="300px"></canvas>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-4 text-center">
                         <p>
                             <i class="fas fa-coins " style="color:#FFD700"> <?php echo $florinOr;?></i> Florin d'or<br>
@@ -140,7 +141,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-md-4 text-center">
                         <canvas id="myFirstStat" height="400px"></canvas>
                     </div>
@@ -2276,7 +2277,34 @@
     <!-- Chart.js -->
     <script src="../js/Chart.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
-     <script>
+    <script>
+        var ctx = document.getElementById("myStatTotal").getContext('2d');
+        var myStatTotal = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'radar',
+            // The data for our dataset
+            data: {
+                labels: ["Charisme", "Force", "Endurance", "Dextérité", "Agilité", "Intelligence", "Sagesse", "Potentiel", "Initiative", "Chance", "Froid", "Chaleur", "Maladie", "Boisson", "Charme", "Peur", "Sommeil", "Douleur"],
+                datasets: [{
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    pointBackgroundColor:'rgba(128, 21, 21)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [<?php echo htmlspecialchars($charisme);?>, <?php echo htmlspecialchars($force);?>, <?php echo htmlspecialchars($endurance);?>, <?php echo htmlspecialchars($dexterité);?>, <?php echo htmlspecialchars($agilité);?>, <?php echo htmlspecialchars($intelligence);?>, <?php echo htmlspecialchars($sagesse);?>, <?php echo htmlspecialchars($potentiel);?>, <?php echo htmlspecialchars($initiative);?>, <?php echo htmlspecialchars($chance);?>, <?php echo htmlspecialchars($froid);?>, <?php echo htmlspecialchars($chaleur);?>, <?php echo htmlspecialchars($maladie);?>, <?php echo htmlspecialchars($boisson);?>, <?php echo htmlspecialchars($charme);?>, <?php echo htmlspecialchars($peur);?>, <?php echo htmlspecialchars($sommeil);?>, <?php echo htmlspecialchars($douleur);?>],
+                }]
+            },
+            // Configuration options go here
+            options: {
+                legend: {
+                    display: false,
+                },
+                scale: {
+                    ticks: {
+                    min: 0,
+                }
+            }
+            }
+        });
+
         var ctx = document.getElementById("myFirstStat").getContext('2d');
         var myFirstStat = new Chart(ctx, {
             // The type of chart we want to create
@@ -2351,6 +2379,41 @@
             }
         }
     });
+        var ctx = document.getElementById("myBarChart").getContext('2d');
+        var myBarChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                datasets: [{
+			    	label: 'Vie',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+			    	data: [<?php echo htmlspecialchars($pdv);?>],
+			    },{
+			    	label: 'Spiritualité',
+                    backgroundColor: 'rgba(55, 220, 0, 0.2)',
+                    borderColor: 'rgb(55, 220, 0)',
+			    	data: [<?php echo htmlspecialchars($pds);?>],
+			    },{
+                    label: 'Mana',
+                    backgroundColor: 'rgba(0, 164, 219, 0.2)',
+                    borderColor: 'rgb(0, 164, 219)',
+                    data:[<?php echo htmlspecialchars($pdm);?>]
+                }]
+            },
+        // Configuration options go here
+        options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+        });
     </script>
 </body>
 
