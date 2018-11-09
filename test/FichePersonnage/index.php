@@ -77,7 +77,7 @@
                         <h2 class="section-heading">Veuillez choisir votre âme !</h2>
                         <hr class="my-4">
                         <p class="mb-5">Choisissez votre âme et partez en quêtes ! </p>
-                        <form method="POST" action="perso.php">
+                        <form method="POST" action="perso.min.php">
                             <div class="form-group">
                                 <select class="form-control" id="FormControlSelectPlayer" name="nomPersonnage">
                                     <option value="orochi">Orochi / l'Exilé</option>
