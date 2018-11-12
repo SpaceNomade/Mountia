@@ -77,23 +77,23 @@
                         <h2 class="section-heading">Veuillez choisir votre âme !</h2>
                         <hr class="my-4">
                         <p class="mb-5">Choisissez votre âme et partez en quêtes ! </p>
-                        <form method="POST" action="perso.min.php">
-                            <div class="form-group">
+                        <form method="POST" action="perso.php">
+                            <div class="form-group col-md-6 mx-auto text-center">
                                 <select class="form-control" id="FormControlSelectPlayer" name="nomPersonnage">
-                                    <option value="orochi">Orochi / l'Exilé</option>
-                                    <option value="orochiDragon">Orochi / l'Exilé (Dragon)</option>
-                                    <option value="rackham">Rackham / Basarab Pourfendeur de vent</option>
-                                    <option value="barfero">Barfero / Astronome Erudit</option>
-                                    <option value="barferoPossedé">Barfero / Astronome Erudit (Possedé)</option>
-                                    <option value="xanther">Xanther / Eventreur de l'ombre</option>
-                                    <option value="exyu">Exyu / le lutin de l'echec</option>
+                                    <option disabled selected> Veuillez choisir votre personnage</option>
+                                    <option value="orochi">Orochi</option>
+                                    <option value="orochiDragon">Orochi (Dragon)</option>
+                                    <option value="rackham">Rackham</option>
+                                    <option value="barfero">Barfero</option>
+                                    <!-- <option value="barferoPossedé">Barfero / Astronome Erudit (Possedé)</option> -->
+                                    <option value="xanther">Xanther</option>
+                                    <option value="exyu">Exyu</option>
                                     <option value="exyuGargouille">Exyu (Gargouille)</option>
                                     <option value="erreur">???</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-primary">Invoquer l'ame</button>
+                            <button type="submit" class="btn btn-primary">Invoquer</button>
                         </form>
-                        
                     </div>
                 </div>
             </div>

@@ -106,10 +106,10 @@
 </div>
 <div class=row>
 <div class="col-md-6 text-center">
-<canvas id=myBarChart height=300px></canvas>
+<canvas id=myBarChart height=400px></canvas>
 </div>
 <div class=col-md-6>
-<canvas id=myStatTotal height=300px></canvas>
+<canvas id=myStatTotal height=400px></canvas>
 </div>
 </div>
 <div class=row>
