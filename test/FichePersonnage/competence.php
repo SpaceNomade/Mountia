@@ -124,6 +124,41 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Competence de Barfero importer');</script>";
 
+    $users = [
+        [
+            "name" => "Art De La Rue",
+            "job" => "2",
+
+        ],
+        [
+            "name" => "bernard",
+            "job" => "robotpsycologue",
+           
+        ],
+        [
+            "name" => "robert",
+            "job" => "directeur",
+
+        ],
+        [
+            "name" => "maeve",
+            "job" => "maquerelle",
+
+        ],
+        [
+            "name" => "teddy",
+            "job" => "inconnu",
+        ],
+        [
+            "name" => "william",
+            "job" => "actionnaire",
+        ],
+        [
+            "name" => "Elsie",
+            "job" => "programmeur",
+        ]
+    ];
+
     $artDeLaRue = 2;
     $athletisme = 6;
     $bibliotheque = 4;

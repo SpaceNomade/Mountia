@@ -284,29 +284,134 @@ if ($nomPersonnage == "orochi") {
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Equipement de Barfero importer');</script>";
 
-    $armureTeteNom = "Calotte";
-    $armureEpaulesNom = "X";
-    $armureTorseNom = "Broigne";
-    $armureBrasNom = "Brassard";
-    $armureTassetteNom = "X";
-    $armureJambesNom = "Jambes Boissées";
-    $armurePiedsNom = "Bottes Renforcées";
+    $listeArmure = [
+        [
+            "Partie" => "Tete",
+            "Nom" => "Calotte",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "13",
+            "Magique" => "12",
+            "Bonus" => "",
+            "Enchantement" => "",
 
-    $armureTeteRang = "A";
-    $armureEpaulesRang = "X";
-    $armureTorseRang = "A";
-    $armureBrasRang = "A";
-    $armureTassetteRang = "X";
-    $armureJambesRang = "A";
-    $armurePiedsRang = "A";
+        ],
+        [
+            "Partie" => "Epaules",
+            "Nom" => "",
+            "Rang" => "",
+            "Matériaux" => "",
+            "Physique" => "",
+            "Magique" => "",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ],
+        [
+            "Partie" => "Torse",
+            "Nom" => "Calotte",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "13",
+            "Magique" => "12",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ],
+        [
+            "Partie" => "Bras",
+            "Nom" => "Calotte",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "13",
+            "Magique" => "12",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ],
+        [
+            "Partie" => "Tassette",
+            "Nom" => "",
+            "Rang" => "",
+            "Matériaux" => "",
+            "Physique" => "",
+            "Magique" => "",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ],
+        [
+            "Partie" => "Jambes",
+            "Nom" => "Calotte",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "13",
+            "Magique" => "12",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ],
+        [
+            "Partie" => "Pieds",
+            "Nom" => "Calotte",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "13",
+            "Magique" => "12",
+            "Bonus" => "",
+            "Enchantement" => "",
+        ]
+    ];
 
-    $armureTeteMatiere = "Acier des Cieux";
-    $armureEpaulesMatiere = "X";
-    $armureTorseMatiere = "Acier des Cieux";
-    $armureBrasMatiere = "Acier des Cieux";
-    $armureTassetteMatiere = "X";
-    $armureJambesMatiere = "Acier des Cieux";
-    $armurePiedsMatiere = "Acier des Cieux";
+    $listeArme = [
+        [
+            "Nom" => "Dague (Gauche)",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "24",
+            "Magique" => "24",
+            "Over Time" => "",
+            "Portee" => "CàC",
+            "Bonus" => "",
+            "Enchantement" => "",
+            "Description" => "",
+
+        ],
+        [
+            "Nom" => "Dague (Droite)",
+            "Rang" => "A",
+            "Matériaux" => "Acier des cieux",
+            "Physique" => "24",
+            "Magique" => "24",
+            "Over Time" => "",
+            "Portee" => "CàC",
+            "Bonus" => "",
+            "Enchantement" => "",
+            "Description" => "",
+
+        ],
+        [
+            "Nom" => "Arc De Foudre",
+            "Rang" => "B",
+            "Matériaux" => "Acier Blanc",
+            "Physique" => "22",
+            "Magique" => "28",
+            "Over Time" => "",
+            "Portee" => "150",
+            "Bonus" => "",
+            "Enchantement" => "",
+            "Description" => "",
+
+        ],
+        [
+            "Nom" => "Arbalete",
+            "Rang" => "A",
+            "Matériaux" => "Argent",
+            "Physique" => "22",
+            "Magique" => "22",
+            "Over Time" => "",
+            "Portee" => "20",
+            "Bonus" => "",
+            "Enchantement" => "",
+            "Description" => "",
+
+        ],
+    ];
 
 
     $armureTetePhysique = 13;
@@ -324,62 +429,6 @@ if ($nomPersonnage == "orochi") {
     $armureTassetteMagique = 0;
     $armureJambesMagique = 12;
     $armurePiedsMagique = 12;
-
-    $armureTeteBonus = "X";
-    $armureEpaulesBonus = "X";
-    $armureTorseBonus = "X";
-    $armureBrasBonus = "X";
-    $armureTassetteBonus = "X";
-    $armureJambesBonus = "X";
-    $armurePiedsBonus = "X";
-
-    $armureTeteEnchantement = "X";
-    $armureEpaulesEnchantement = "X";
-    $armureTorseEnchantement = "X";
-    $armureBrasEnchantement = "X";
-    $armureTassetteEnchantement = "X";
-    $armureJambesEnchantement = "X";
-    $armurePiedsEnchantement = "X";
-
-    $arme1Nom = "Dague (gauche)";
-    $arme1Rang = "A";
-    $arme1Materiaux = "Acier des cieux";
-    $arme1DegatPhysique = 24;
-    $arme1DegatMagique = 24;
-    $arme1DegatOverTime = "X";
-    $arme1Portee = "CaC";
-    $arme1Enchantement = "X";
-    $arme1Description = "X";
-
-    $arme2Nom = "Dague (droite)";
-    $arme2Rang = "A";
-    $arme2Materiaux = "Acier des cieux";
-    $arme2DegatPhysique = 24;
-    $arme2DegatMagique = 24;
-    $arme2DegatOverTime = "X";
-    $arme2Portee = "CaC";
-    $arme2Enchantement = "X";
-    $arme2Description = "X";
-
-    $arme3Nom = "Arc Magique de foudre";
-    $arme3Rang = "B";
-    $arme3Materiaux = "Acier Blanc";
-    $arme3DegatPhysique = 22;
-    $arme3DegatMagique = 28;
-    $arme3DegatOverTime = "X";
-    $arme3Portee = 150;
-    $arme3Enchantement = "X";
-    $arme3Description = "X";
-
-    $arme4Nom = "Arbalete";
-    $arme4Rang = "A";
-    $arme4Materiaux = "Argent";
-    $arme4DegatPhysique = 22;
-    $arme4DegatMagique = 22;
-    $arme4DegatOverTime = "X";
-    $arme4Portee = 20;
-    $arme4Enchantement = "X";
-    $arme4Description = "X";
 
     $armurePhysiqueComplete = (($armureTetePhysique + $armureEpaulesPhysique + $armureTorsePhysique + $armureBrasPhysique + $armureTassettePhysique + $armureJambesPhysique + $armurePiedsPhysique)/ 5) * 1.5;
 

@@ -1,515 +1,146 @@
 <?php
-if ($nomPersonnage == "orochi") {
+if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Inventaire de Orochi importer');</script>";
 
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
-
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
-
-} elseif ($nomPersonnage == "orochiDragon"){
-    echo "<script>console.log('Inventaire de Orochi le dragon importer');</script>";
-
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
-
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
+    $listeInventaire = [
+        [
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+        ],
+        [
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+        ]
+    ];
+    
 
 } elseif ($nomPersonnage == "rackham"){
     echo "<script>console.log('Inventaire de Rackham importer');</script>";
     
 
-    $item1Nom = "Potion de soin";
-    $item1Quantité = "14";
-    $item1Prix = "1";
-    $item1PrixRevente = "X";
-    $item1Type = "Potion";
-
-    $item2Nom = "Potion de Mana";
-    $item2Quantité = "4";
-    $item2Prix = "1";
-    $item2PrixRevente = "X";
-    $item2Type = "Potion";
-
-    $item3Nom = "Cape";
-    $item3Quantité = "1";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "Burin en Fer (A)";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "Outil";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
+    $listeInventaire = [
+        [
+            "Nom" => "Potion de Soin",
+            "Quantité" => "14",
+            "Prix" => "1",
+            "Prix Revente" => "X",
+            "Type" => "Potion",
+        ],
+        [
+            "Nom" => "Potion de Mana",
+            "Quantité" => "4",
+            "Prix" => "1",
+            "Prix Revente" => "X",
+            "Type" => "X",
+        ],
+        [
+            "Nom" => "Cape",
+            "Quantité" => "1",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+        ],
+        [
+            "Nom" => "Burin en Fer (A)",
+            "Quantité" => "1",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "Outil",
+        ],
+        [
+            "Nom" => "Potion de Mana",
+            "Quantité" => "4",
+            "Prix" => "1",
+            "Prix Revente" => "X",
+            "Type" => "X",
+        ],
+    ];
 
 } elseif ($nomPersonnage == "barfero" || $nomPersonnage == "barferoPossedé"){
     echo "<script>console.log('Inventaire de Barfero importer');</script>";
 
-    $item1Nom = "Potion de soin";
-    $item1Quantité = "11";
-    $item1Prix = "1";
-    $item1PrixRevente = "X";
-    $item1Type = "Potion";
-
-    $item2Nom = "Potion de mana";
-    $item2Quantité = "1";
-    $item2Prix = "1";
-    $item2PrixRevente = "X";
-    $item2Type = "Potion";
-
-    $item3Nom = "Plantes";
-    $item3Quantité = "400 Gramme";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "Craft";
-
-    $item4Nom = "Longue Vue";
-    $item4Quantité = "1";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "Outils";
-
-    $item5Nom = "Ration de viande";
-    $item5Quantité = "15";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "Viande";
-
-    $item6Nom = "Potion Hallucinogène";
-    $item6Quantité = "10";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "Potion";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
+    $listeInventaire = [
+        [
+            "Nom" => "Potion de soin",
+            "Quantité" => "11",
+            "Prix" => "1",
+            "Prix Revente" => "X",
+            "Type" => "Potion",
+        ],
+        [
+            "Nom" => "Potion de mana",
+            "Quantité" => "1",
+            "Prix" => "1",
+            "Prix Revente" => "X",
+            "Type" => "Potion",
+        ],
+        [
+            "Nom" => "Plantes",
+            "Quantité" => "400 Gramme",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "Craft",
+        ],
+        [
+            "Nom" => "Longue Vue",
+            "Quantité" => "1",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "Outils",
+        ],
+        [
+            "Nom" => "Ration de viande",
+            "Quantité" => "15",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "Viande",
+        ],
+        [
+            "Nom" => "Potion Hallucinogène",
+            "Quantité" => "10",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "Potion",
+        ]
+    ];
 
 } elseif ($nomPersonnage == "xanther"){
     echo "<script>console.log('Inventaire de Xanther importer');</script>";
     
+    $listeInventaire = [
+        [
 
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
+        ],
+    ];
+    
 
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
-
-} elseif ($nomPersonnage == "exyu"){
+} elseif ($nomPersonnage == "exyu" || $nomPersonnage == "exuyGargouille"){
     echo "<script>console.log('Inventaire de Exyu importer');</script>";
 
+    $listeInventaire = [
+        [
 
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
-
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
+        ],
+    ];
 
     
-} elseif ($nomPersonnage == "exyuGargouille"){
-    echo "<script>console.log('Inventaire de Exyu la Gargouille importer');</script>";
-   
-
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
-
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
 
     
 } else {
     echo "<script>console.log('Erreur lors de la selection du personnage');</script>";
 
 
-    $item1Nom = "X";
-    $item1Quantité = "X";
-    $item1Prix = "X";
-    $item1PrixRevente = "X";
-    $item1Type = "X";
+    $listeInventaire = [
+        [
 
-    $item2Nom = "X";
-    $item2Quantité = "X";
-    $item2Prix = "X";
-    $item2PrixRevente = "X";
-    $item2Type = "X";
-
-    $item3Nom = "X";
-    $item3Quantité = "X";
-    $item3Prix = "X";
-    $item3PrixRevente = "X";
-    $item3Type = "X";
-
-    $item4Nom = "X";
-    $item4Quantité = "X";
-    $item4Prix = "X";
-    $item4PrixRevente = "X";
-    $item4Type = "X";
-
-    $item5Nom = "X";
-    $item5Quantité = "X";
-    $item5Prix = "X";
-    $item5PrixRevente = "X";
-    $item5Type = "X";
-
-    $item6Nom = "X";
-    $item6Quantité = "X";
-    $item6Prix = "X";
-    $item6PrixRevente = "X";
-    $item6Type = "X";
-
-    $item7Nom = "X";
-    $item7Quantité = "X";
-    $item7Prix = "X";
-    $item7PrixRevente = "X";
-    $item7Type = "X";
-
-    $item8Nom = "X";
-    $item8Quantité = "X";
-    $item8Prix = "X";
-    $item8PrixRevente = "X";
-    $item8Type = "X";
-
-    $item9Nom = "X";
-    $item9Quantité = "X";
-    $item9Prix = "X";
-    $item9PrixRevente = "X";
-    $item9Type = "X";
-
-    $item10Nom = "X";
-    $item10Quantité = "X";
-    $item10Prix = "X";
-    $item10PrixRevente = "X";
-    $item10Type = "X";
-    
+        ],
+    ];
 }
 
 ?>
