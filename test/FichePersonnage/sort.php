@@ -1,4 +1,6 @@
 <?php
+$compteurSort = 0;
+
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Sort de Orochi importer');</script>";
 

@@ -1,4 +1,6 @@
 <?php
+$compteurTatouage = 0;
+
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Inventaire de Orochi importer');</script>";
 

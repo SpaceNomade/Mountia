@@ -1,4 +1,6 @@
 <?php
+$compteurInventaire = 0;
+
 if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     echo "<script>console.log('Inventaire de Orochi importer');</script>";
 
@@ -9,6 +11,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "X",
+            "Description" => "X",
         ],
         [
             "Nom" => "X",
@@ -16,6 +19,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "X",
+            "Description" => "X",
         ]
     ];
     
@@ -31,6 +35,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "1",
             "Prix Revente" => "X",
             "Type" => "Potion",
+            "Description" => "X",
         ],
         [
             "Nom" => "Potion de Mana",
@@ -38,6 +43,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "1",
             "Prix Revente" => "X",
             "Type" => "X",
+            "Description" => "X",
         ],
         [
             "Nom" => "Cape",
@@ -45,6 +51,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "X",
+            "Description" => "X",
         ],
         [
             "Nom" => "Burin en Fer (A)",
@@ -52,6 +59,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "Outil",
+            "Description" => "X",
         ],
         [
             "Nom" => "Potion de Mana",
@@ -59,6 +67,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "1",
             "Prix Revente" => "X",
             "Type" => "X",
+            "Description" => "X",
         ],
     ];
 
@@ -72,6 +81,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "1",
             "Prix Revente" => "X",
             "Type" => "Potion",
+            "Description" => "X",
         ],
         [
             "Nom" => "Potion de mana",
@@ -79,6 +89,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "1",
             "Prix Revente" => "X",
             "Type" => "Potion",
+            "Description" => "X",
         ],
         [
             "Nom" => "Plantes",
@@ -86,6 +97,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "Craft",
+            "Description" => "X",
         ],
         [
             "Nom" => "Longue Vue",
@@ -93,6 +105,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "Outils",
+            "Description" => "X",
         ],
         [
             "Nom" => "Ration de viande",
@@ -100,6 +113,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "Viande",
+            "Description" => "X",
         ],
         [
             "Nom" => "Potion Hallucinogène",
@@ -107,6 +121,7 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
             "Prix" => "X",
             "Prix Revente" => "X",
             "Type" => "Potion",
+            "Description" => "X",
         ]
     ];
 
@@ -115,8 +130,21 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
     
     $listeInventaire = [
         [
-
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
         ],
+        [
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
+        ]
     ];
     
 
@@ -125,8 +153,21 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
     $listeInventaire = [
         [
-
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
         ],
+        [
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
+        ]
     ];
 
     
@@ -138,8 +179,21 @@ if ($nomPersonnage == "orochi" || $nomPersonnage == "orochiDragon") {
 
     $listeInventaire = [
         [
-
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
         ],
+        [
+            "Nom" => "X",
+            "Quantité" => "X",
+            "Prix" => "X",
+            "Prix Revente" => "X",
+            "Type" => "X",
+            "Description" => "X",
+        ]
     ];
 }
 

@@ -1,4 +1,7 @@
 <?php
+$compteurArmure = 0;
+$compteurArme = 0;
+
 if ($nomPersonnage == "orochi") {
     echo "<script>console.log('Equipement de Orochi importer');</script>";
 
